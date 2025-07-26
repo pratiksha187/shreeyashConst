@@ -59,18 +59,20 @@
     </style>
 </head>
 
-<body class="bg-gray-100 text-gray-800">
+{{-- <body class="bg-gray-100 text-gray-800"> --}}
 
     {{-- Header --}}
     @include('layouts.header')
 
     {{-- Main Content --}}
-    <main class="container">
+    {{-- <main class="container"> --}}
+        <main class="container ">
+
         @yield('content')
     </main>
 
     {{-- Footer --}}
     @include('layouts.footer')
 
-</body>
+{{-- </body> --}}
 </html>
