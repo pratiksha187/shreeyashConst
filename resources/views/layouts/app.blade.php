@@ -105,6 +105,7 @@
         </div>
       </div>
     </div>
+    
     <div class="border-t border-gray-700 mt-8 pt-6 text-gray-400 text-sm text-center">
       &copy; 2025 Shreeyash Construction. All rights reserved.
     </div>
