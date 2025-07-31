@@ -1,4 +1,7 @@
 <footer class="bg-gray-800 text-white py-16">
+    <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-dYF0dVtAv2tOaMJ0qKi...your-version..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid md:grid-cols-4 gap-8">
             <!-- Company Info -->
@@ -27,7 +30,6 @@
                 </div>
             </div>
 
-            <!-- Quick Links -->
             <div>
                 <h4 class="text-lg font-bold mb-6">Quick Links</h4>
                 <ul class="space-y-3">

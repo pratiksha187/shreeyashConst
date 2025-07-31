@@ -7,9 +7,9 @@ Route::get('/', [HomeController::class, 'home'])->name('home');
 
 Route::get('/about', [HomeController::class, 'about'])->name('about');
 
-Route::get('/asphalt-paving', [HomeController::class, 'asphalt_paving'])->name('asphalt_paving');
+Route::get('/asphalt-bitumen-road-construction', [HomeController::class, 'asphalt_paving'])->name('asphalt_paving');
 Route::get('/asphalt-compaction', [HomeController::class, 'asphalt_compaction'])->name('asphalt_compaction');
-Route::get('/Inset-Concrete-Paving', [HomeController::class, 'inset_concrete_paving'])->name('inset_concrete_paving');
+Route::get('/cement-concrete-road', [HomeController::class, 'inset_concrete_paving'])->name('inset_concrete_paving');
 Route::get('/road-construction', [HomeController::class, 'road_construction'])->name('road_construction');
 Route::get('/gsb-wmm-laying', [HomeController::class, 'gsb_wmm_laying'])->name('gsb_wmm_laying');
 

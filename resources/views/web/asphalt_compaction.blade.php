@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Home')
+@section('title', 'Asphalt & Bitumen Road Construction Services - Shreeyash Construction')
 
 @section('content')
 
