@@ -24,9 +24,9 @@ Route::get('/land-development', [HomeController::class, 'land_development'])->na
 Route::get('/water-drainage', [HomeController::class, 'water_drainage'])->name('water_drainage');
 
 
-Route::get('/factory_building_civil_work', [HomeController::class, 'factory_building_civil_work'])->name('factory_building_civil_work');
+Route::get('/factory-building', [HomeController::class, 'factory_building_civil_work'])->name('factory_building_civil_work');
 
-Route::get('/plot_leveling_grading_road_access', [HomeController::class, 'plot_leveling_grading_road_access'])->name('plot_leveling_grading_road_access');
+Route::get('/plot-leveling', [HomeController::class, 'plot_leveling_grading_road_access'])->name('plot_leveling_grading_road_access');
 
 Route::get('/earth_cutting_filling_compaction', [HomeController::class, 'earth_cutting_filling_compaction'])->name('earth_cutting_filling_compaction');
 Route::get('/storm_water_drainage', [HomeController::class, 'storm_water_drainage'])->name('storm_water_drainage');
@@ -34,11 +34,10 @@ Route::get('/underground_water_supply', [HomeController::class, 'underground_wat
 
 Route::get('/drainage_line_sewer_work', [HomeController::class, 'drainage_line_sewer_work'])->name('drainage_line_sewer_work');
 
-Route::get('/rcc_chamber_installation', [HomeController::class, 'rcc_chamber_installation'])->name('rcc_chamber_installation');
+Route::get('/precast_U_Drain_Installation_Services', [HomeController::class, 'rcc_chamber_installation'])->name('rcc_chamber_installation');
 Route::get('/precast_u_drain', [HomeController::class, 'precast_u_drain'])->name('precast_u_drain');
 
-
-Route::get('/ucr_masonry_compound_walls', [HomeController::class, 'ucr_masonry_compound_walls'])->name('ucr_masonry_compound_walls');
+Route::get('/masonry-compound-walls-construction', [HomeController::class, 'ucr_masonry_compound_walls'])->name('ucr_masonry_compound_walls');
 
 Route::get('/precast_compound_walls', [HomeController::class, 'precast_compound_walls'])->name('precast_compound_walls');
 Route::get('/fencing_work', [HomeController::class, 'fencing_work'])->name('fencing_work');
