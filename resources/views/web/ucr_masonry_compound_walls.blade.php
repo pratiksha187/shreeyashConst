@@ -194,9 +194,6 @@
       </ul>
     </div>
   </section>
-
- 
-
   <script>
     // Optional: mobile menu toggle if your layout uses it
     (function(){
