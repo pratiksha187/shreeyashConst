@@ -1,7 +1,8 @@
 @extends('layouts.app')
 
 @section('title', 'Home')
-
+<meta name="title" content="Residential & Commercial Civil Works – Shreeyash Construction">
+    <meta name="description" content="High-quality civil work for residential & commercial projects across Maharashtra, delivered with precision by Shreeyash Construction.">
 @section('content')
 
 <!-- Hero Section -->

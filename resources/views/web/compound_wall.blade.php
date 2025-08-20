@@ -1,7 +1,8 @@
 @extends('layouts.app')
 
 @section('title', 'Home')
-
+<meta name="title" content="Compound Wall Construction – Shreeyash Construction">
+    <meta name="description" content="Durable and secure compound wall construction in Maharashtra, designed and built by Shreeyash Construction for lasting protection.">
 @section('content')
 
 <!-- Hero Section -->

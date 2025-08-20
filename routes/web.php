@@ -49,8 +49,8 @@ Route::get('/bungalow_construction', [HomeController::class, 'bungalow_construct
 Route::get('/commercial_unit_civil_work', [HomeController::class, 'commercial_unit_civil_work'])->name('commercial_unit_civil_work');
 Route::get('/retrofiting_demolition', [HomeController::class, 'retrofiting_demolition'])->name('retrofiting_demolition');
 
-Route::get('/structural_modification', [HomeController::class, 'structural_modification'])->name('structural_modification');
-Route::get('/repair_strengthening_reinforcement', [HomeController::class, 'repair_strengthening_reinforcement'])->name('repair_strengthening_reinforcement');
+Route::get('/structural_retrofitting', [HomeController::class, 'structural_modification'])->name('structural_modification');
+Route::get('/structural-repair', [HomeController::class, 'repair_strengthening_reinforcement'])->name('repair_strengthening_reinforcement');
 Route::get('/demolition_work', [HomeController::class, 'demolition_work'])->name('demolition_work');
 
 Route::get('/project', [HomeController::class, 'project'])->name('project');

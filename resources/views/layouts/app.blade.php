@@ -2,8 +2,10 @@
 <html lang="en" x-data>
 <head>
   <meta charset="UTF-8" />
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>@yield('title', 'Shreeyash Construction')</title>
+  
   <meta name="description" content="Leading civil contractor in Maharashtra..." />
   <meta name="keywords" content="asphalt contractor Maharashtra, ..."/>
   <script src="https://cdn.tailwindcss.com"></script>
@@ -172,7 +174,7 @@
         </div>
       </nav>
   </header>
-
+ @yield('meta')
   <!-- Main content -->
   <main class="flex-grow">
     @yield('content')
