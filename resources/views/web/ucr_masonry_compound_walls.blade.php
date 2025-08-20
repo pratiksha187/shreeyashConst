@@ -178,9 +178,6 @@
     </div>
   </section>
 
-  <!-- Why Choose -->
-
-  
   <section class="py-16 bg-white">
     <div class="container mx-auto px-4 md:px-6 lg:px-8">
       <div class="text-center mb-10">
