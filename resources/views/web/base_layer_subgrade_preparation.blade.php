@@ -1,51 +1,156 @@
 @extends('layouts.app')
 
-@section('title', 'Home')
+@section('title', 'Base Layer & Subgrade Preparation | Road Construction – Shreeyash Construction')
+
+@push('meta')
+  <meta name="description" content="Shreeyash Construction offers professional base layer and subgrade preparation for roads, highways & industrial pavements. Expert GSB & WMM laying with technical precision.">
+  <link rel="canonical" href="{{ url('/base_layer_subgrade') }}">
+
+  <!-- JSON-LD: Service -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Service",
+    "name":"Base Layer & Subgrade Preparation",
+    "provider":{"@type":"Organization","name":"Shreeyash Construction"},
+    "areaServed":"Maharashtra, India",
+    "serviceType":"Base layer preparation, subgrade compaction, GSB, WMM laying, pavement foundation",
+    "url":"{{ url('/base_layer_subgrade') }}",
+    "description":"Expert subgrade and base layer preparation services for durable roads and pavements, following IRC and MORTH specifications with advanced equipment."
+  }
+  </script>
+@endpush
 
 @section('content')
+  @once
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      body{font-family:'Poppins',sans-serif;background:#f8f9fa}
+      :root{ --brand:#1c2c3e; --accent:#f25c05; }
+      .hero-pattern{
+        background-color:#1f2937;
+        background-image:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      }
+      .card{background:#fff;border-radius:.75rem;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.08);transition:transform .2s, box-shadow .2s}
+      .card:hover{transform:translateY(-5px);box-shadow:0 10px 20px rgba(0,0,0,.1)}
+      .spec-row:nth-child(odd){background:rgba(28,44,62,.05)}
+    </style>
+  @endonce
 
-<style>
-.fade-in {
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInUp 0.6s ease forwards;
-}
-@keyframes fadeInUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-</style>
-
-<div class="max-w-8xl">
-  <div class="bg-white rounded-xl shadow-lg p-8">
-    
-    @php
-    $methods = [
-      [
-        'title' => 'Base Layer & Subgrade Preparation',
-        'desc' => 'Shreeyash Construction provides expert solutions for <strong>road subgrade work in India,</strong> ensuring a strong and stable foundation for all types of pavements. We carry out precise<strong> earthwork, soil stabilization, and compacted subbase works</strong> to meet the demands of high-traffic roads and infrastructure projects. Our skilled team uses advanced machinery to achieve optimal compaction, grading, and drainage for long-lasting performance',
-        'img' => asset('storage/img/roadconst.jpg'),
-      ],
-    ];
-    @endphp
-
-    @foreach($methods as $index => $method)
-    <div class="flex flex-col md:flex-row items-center gap-6 my-10 fade-in {{ $index % 2 == 1 ? 'md:flex-row-reverse' : '' }}" style="animation-delay: {{ $index * 0.2 }}s">
-      <div class="md:w-1/2 flex justify-center">
-        <img src="{{ $method['img'] }}"
-             alt="{{ $method['title'] }}"
-             class="w-full max-w-[400px] h-[240px] object-cover rounded-xl shadow-lg">
-      </div>
-      <div class="md:w-1/2">
-        <h3 class="text-2xl font-semibold text-yellow-600 mb-3">{{ $method['title'] }}</h3>
-        <p class="text-gray-700 leading-relaxed">{!! $method['desc'] !!}</p>
+  <!-- Hero -->
+  <section class="hero-pattern text-white py-20">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+      <div class="max-w-4xl mx-auto text-center">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Base Layer & Subgrade Preparation</h1>
+        <p class="text-lg md:text-xl mb-8 opacity-90">Strong Foundations for Durable Roads and Pavements</p>
+        <div class="bg-white/10 rounded-lg p-6 inline-block text-left">
+          <p class="opacity-90">
+            Shreeyash Construction provides expert services in base layer and subgrade preparation, an essential step in road building, industrial flooring, and pavement construction. A properly prepared subgrade and base layer ensure uniform load distribution, long-term durability, and resistance to settlement or cracking. Our team uses advanced equipment and adheres to MORTH guidelines for precise grading, compaction, and stabilization.
+          </p>
+        </div>
       </div>
     </div>
-    @endforeach
+  </section>
 
-  </div>
-</div>
+  <!-- What is Subgrade -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-bold text-gray-800">What is Subgrade Preparation?</h2>
+        <div class="w-20 h-1 bg-[color:var(--accent)] mx-auto mt-4"></div>
+      </div>
+      <ul class="list-disc list-inside text-gray-700 space-y-3 max-w-3xl mx-auto">
+        <li>Clearing & Grubbing – Removal of vegetation, roots, and debris</li>
+        <li>Soil Excavation & Filling – Achieving required levels and uniformity</li>
+        <li>Moisture Conditioning – Adjusting soil to optimum moisture content</li>
+        <li>Compaction – Ensuring proper density and CBR for durability</li>
+      </ul>
+    </div>
+  </section>
 
+  <!-- Base Layer Preparation -->
+  <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-bold text-gray-800">Base Layer Preparation</h2>
+        <div class="w-20 h-1 bg-[color:var(--accent)] mx-auto mt-4"></div>
+      </div>
+      <p class="text-center max-w-3xl mx-auto text-gray-700 mb-6">
+        On top of the subgrade, a base layer is laid to provide added strength and support for asphalt or concrete surfacing. This typically includes GSB or WMM layers placed with precision.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+        <div class="card p-6">
+          <h3 class="text-lg font-semibold mb-3">Granular Sub-Base (GSB)</h3>
+          <p class="text-gray-700">Crushed stone, gravel, or quarry dust providing a stable base.</p>
+        </div>
+        <div class="card p-6">
+          <h3 class="text-lg font-semibold mb-3">Wet Mix Macadam (WMM)</h3>
+          <p class="text-gray-700">Graded aggregates mixed with water and compacted for uniform support.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Specs -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-bold text-gray-800">Technical Specifications – Subgrade & Base Layer</h2>
+        <div class="w-20 h-1 bg-[color:var(--accent)] mx-auto mt-4"></div>
+      </div>
+      <div class="overflow-x-auto bg-gray-50 rounded-lg shadow-md">
+        <table class="min-w-full">
+          <thead>
+            <tr class="bg-[color:var(--brand)] text-white">
+              <th class="py-3 px-4 text-left">Layer</th>
+              <th class="py-3 px-4 text-left">Material</th>
+              <th class="py-3 px-4 text-left">Thickness</th>
+              <th class="py-3 px-4 text-left">Compaction Standard</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="spec-row"><td class="py-3 px-4">Subgrade</td><td class="py-3 px-4">Natural soil / compacted fill</td><td class="py-3 px-4">As per design level</td><td class="py-3 px-4">97% of MDD (Modified Proctor)</td></tr>
+            <tr class="spec-row"><td class="py-3 px-4">GSB</td><td class="py-3 px-4">Crushed aggregates (63mm to fines)</td><td class="py-3 px-4">150mm – 200mm per layer</td><td class="py-3 px-4">98% of MDD</td></tr>
+            <tr class="spec-row"><td class="py-3 px-4">WMM</td><td class="py-3 px-4">Graded aggregates (20mm down to fines)</td><td class="py-3 px-4">100mm – 250mm per layer</td><td class="py-3 px-4">98% density with vibratory compaction</td></tr>
+            <tr class="spec-row"><td class="py-3 px-4">Tolerances</td><td class="py-3 px-4">Level ±10mm</td><td class="py-3 px-4">Thickness ±8mm</td><td class="py-3 px-4">Surface evenness ≤12mm</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Applications -->
+  <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-bold text-gray-800">Applications</h2>
+        <div class="w-20 h-1 bg-[color:var(--accent)] mx-auto mt-4"></div>
+      </div>
+      <div class="bg-white rounded-xl p-8 shadow grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
+        <span class="inline-block px-3 py-2 rounded-lg bg-gray-100 text-[color:var(--brand)] text-center">National & State Highways</span>
+        <span class="inline-block px-3 py-2 rounded-lg bg-gray-100 text-[color:var(--brand)] text-center">Industrial & Factory Roads</span>
+        <span class="inline-block px-3 py-2 rounded-lg bg-gray-100 text-[color:var(--brand)] text-center">Township & Residential Layouts</span>
+        <span class="inline-block px-3 py-2 rounded-lg bg-gray-100 text-[color:var(--brand)] text-center">Airport Runways & Aprons</span>
+        <span class="inline-block px-3 py-2 rounded-lg bg-gray-100 text-[color:var(--brand)] text-center">Concrete & Asphalt Pavements</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-bold text-gray-800">Why Shreeyash Construction?</h2>
+        <div class="w-20 h-1 bg-[color:var(--accent)] mx-auto mt-4"></div>
+      </div>
+      <ul class="list-disc list-inside text-gray-700 space-y-2 max-w-4xl mx-auto">
+        <li>Expertise in GSB & WMM laying with strict quality control</li>
+        <li>Modern equipment: graders, paver finishers, vibratory rollers</li>
+        <li>Compliance with IRC & MORTH specifications</li>
+        <li>Proven track record in road and infrastructure projects</li>
+        <li>Timely project execution with durable results</li>
+      </ul>
+    </div>
+  </section>
 @endsection
