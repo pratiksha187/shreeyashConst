@@ -2,9 +2,12 @@
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\SitemapUploadController;
 
 Route::get('/', [HomeController::class, 'home'])->name('home');
-
+ Route::get('/admin/sitemap',  [SitemapUploadController::class, 'create'])->name('sitemap.create');
+      Route::post('/admin/sitemap', [SitemapUploadController::class, 'store'])->name('sitemap.store');
+Route::get('/sitemap.xml', [SitemapUploadController::class, 'show'])->name('sitemap.show');
 Route::get('/about', [HomeController::class, 'about'])->name('about');
 
 Route::get('/asphalt-bitumen-road-construction', [HomeController::class, 'asphalt_paving'])->name('asphalt_paving');
