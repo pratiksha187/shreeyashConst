@@ -22,21 +22,41 @@
     </style>
 
     <!-- Hero -->
-    <section class="hero-pattern text-white py-20">
-        <div class="container mx-auto px-4 md:px-6 lg:px-8">
-            <div class="max-w-4xl mx-auto text-center">
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">RCC & Precast Chamber Installation</h1>
-                <p class="text-lg md:text-xl mb-8 opacity-90">
-                    Expert Construction of Inspection, Valve, and Utility Chambers
-                </p>
-                <div class="bg-white/10 rounded-lg p-6 inline-block">
-                    <p class="opacity-90">
-                        Shreeyash Construction provides specialized services in RCC and precast chamber installation for various infrastructure, utility, and drainage projects across Maharashtra. Whether it’s for sewerage, water supply, electrical ducts, or telecom lines, our chambers are built to meet structural standards, offer long-term durability, and allow safe access for inspection and maintenance.
-                        We handle everything from site excavation and base preparation to final placement and finishing—ensuring precise alignment, watertight sealing, and surface reinstatement.
-                    </p>
-                </div>
-            </div>
+    {{-- Page Header Section --}}
+    <section class="hero-pattern text-white py-16 shadow-lg">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+        <div class="max-w-5xl mx-auto text-center">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">
+            RCC & Precast Chamber Installation
+        </h1>
         </div>
+    </div>
+    </section>
+
+    {{-- Content Section --}}
+    <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto text-center">
+        <p class="text-xl text-gray-800 font-semibold mb-6">
+            Expert Construction of Inspection, Valve, and Utility Chambers
+        </p>
+
+        <div class="bg-white shadow-lg rounded-lg p-6 md:p-10 text-gray-700 leading-relaxed text-left inline-block">
+            <p class="mb-4">
+            Shreeyash Construction delivers specialized services in <strong>RCC</strong> and
+            <strong>precast chamber installation</strong> for a range of <strong>infrastructure and utility</strong>
+            projects across Maharashtra. Applications include <strong>sewerage networks, water supply lines,
+            electrical ducts, and telecom corridors</strong>.
+            </p>
+            <p class="mb-0">
+            We handle the complete workflow—from <strong>site excavation and base preparation</strong> to
+            <strong>placement, alignment, watertight sealing, finishing,</strong> and <strong>surface reinstatement</strong>.
+            Our chambers are built for <strong>structural integrity, long-term durability,</strong> and
+            <strong>safe maintenance access</strong>.
+            </p>
+        </div>
+        </div>
+    </div>
     </section>
 
     <!-- Types of Chambers -->

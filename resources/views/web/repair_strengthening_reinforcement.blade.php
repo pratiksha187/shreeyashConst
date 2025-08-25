@@ -41,21 +41,49 @@
     </style>
   @endonce
 
-  <!-- Hero -->
-  <section class="hero-pattern text-white py-20">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-      <div class="max-w-4xl mx-auto text-center">
-        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Structural Repair</h1>
-        <p class="text-lg md:text-xl mb-8 opacity-90">
-          Shreeyash Construction is a trusted leader in <strong>Structural Repair</strong>, offering expert solutions to restore the safety, strength, and longevity of your building. From <strong>house foundation repair</strong> to <strong>retaining wall repair</strong>, we handle structural restoration for residential, commercial, and industrial properties across Maharashtra.
+{{-- Page Header Section --}}
+<section class="hero-pattern text-white py-16 shadow-lg">
+  <div class="container mx-auto px-4 md:px-6 lg:px-8">
+    <div class="max-w-5xl mx-auto text-center">
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">
+        Structural Repair
+      </h1>
+    </div>
+  </div>
+</section>
+
+{{-- Content Section --}}
+<section class="py-16 bg-gray-50">
+  <div class="container mx-auto px-4 md:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto text-center">
+      <p class="text-xl text-gray-800 font-semibold mb-6">
+        Restoring safety, strength, and service life of your building
+      </p>
+
+      <div class="bg-white shadow-lg rounded-lg p-6 md:p-10 text-gray-700 leading-relaxed text-left">
+        <p class="mb-4">
+          Shreeyash Construction is a trusted leader in <strong>structural repair</strong>, delivering
+          expert solutions to restore the <strong>safety</strong>, <strong>strength</strong>, and
+          <strong>longevity</strong> of residential, commercial, and industrial structures across Maharashtra.
+          From <strong>house foundation repair</strong> to <strong>retaining wall repair</strong>, we provide
+          diagnosis-driven, code-compliant restoration.
         </p>
-        <div class="mt-12 bg-white bg-opacity-10 rounded-lg p-6 backdrop-filter backdrop-blur-sm">
-          <p class="text-lg font-medium">Searching for “structural repair near me” or “structural repair contractors near me”?</p>
-          <p class="mt-2">Our skilled team provides on-site inspections, detailed repair plans, and high-quality workmanship to keep your property safe and durable.</p>
+
+        <div class="mt-6 p-5 rounded-lg bg-gray-50 border border-gray-200">
+          <p class="text-base md:text-lg font-medium text-gray-900">
+            Need “structural repair contractors near me” you can trust?
+          </p>
+          <p class="mt-2 text-gray-700">
+            Our team conducts on-site inspections, prepares detailed repair plans, and executes with high-quality
+            workmanship—covering crack injection, corrosion treatment, member jacketing/strengthening,
+            waterproofing interfaces, and durable reinstatement.
+          </p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- What is Structural Repair -->
   <section class="py-16 bg-white">

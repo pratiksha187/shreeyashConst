@@ -21,21 +21,42 @@
     .spec-row:nth-child(odd){ background:rgba(15,76,129,0.05); }
 </style>
 
-<!-- Hero -->
-<section class="hero-pattern text-white py-20">
+{{-- Page Header Section --}}
+<section class="hero-pattern text-white py-16 shadow-lg">
     <div class="container mx-auto px-4 md:px-6 lg:px-8">
         <div class="max-w-5xl mx-auto text-center">
-            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Industrial Shed Work</h1>
-            <p class="text-lg md:text-xl mb-8 opacity-90">Trusted Industrial Shed Contractors in Maharashtra</p>
-            <div class="bg-white/10 rounded-lg p-6 inline-block text-left">
-                <p class="opacity-90">
-                    Shreeyash Construction is a leading name in industrial shed work across Maharashtra, delivering reliable, durable, and custom-built steel structures for manufacturing, warehousing, workshops, and commercial units. As experienced industrial shed contractors, we specialize in end-to-end services from design and fabrication to erection and finishing.
-                    Whether you're planning an industrial workshop shed, commercial workshop shed, or exploring working shed ideas, we offer versatile, cost-effective, and long-lasting solutions tailored to your industry needs.
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">
+                Industrial Shed Work
+            </h1>
+        </div>
+    </div>
+</section>
+
+{{-- Content Section --}}
+<section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto text-center">
+            <p class="text-xl text-gray-800 font-semibold mb-6">
+                Trusted Industrial Shed Contractors in Maharashtra
+            </p>
+            
+            <div class="bg-white shadow-lg rounded-lg p-6 md:p-10 text-gray-700 leading-relaxed text-left inline-block">
+                <p class="mb-4">
+                    Shreeyash Construction is a leading name in <strong>industrial shed construction</strong> across
+                    Maharashtra, delivering reliable, durable, and custom-built steel structures for
+                    <strong>manufacturing units, warehouses, workshops, and commercial facilities</strong>.
+                </p>
+                <p>
+                    As experienced industrial shed contractors, we provide <strong>end-to-end services</strong>—from design and fabrication
+                    to erection and finishing. Whether you’re planning an <strong>industrial workshop shed</strong>, a
+                    <strong>commercial unit</strong>, or exploring innovative <strong>working shed designs</strong>,
+                    we deliver versatile, cost-effective, and long-lasting solutions tailored to your industry needs.
                 </p>
             </div>
         </div>
     </div>
 </section>
+
 
 <!-- Types of Industrial Sheds -->
 <section class="py-16 bg-white">

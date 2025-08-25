@@ -21,24 +21,43 @@
     .spec-row:nth-child(odd){ background:rgba(15,76,129,0.05); }
 </style>
 
-<!-- Hero -->
-<section class="hero-pattern text-white py-20">
+{{-- Page Header Section --}}
+<section class="hero-pattern text-white py-16 shadow-lg">
     <div class="container mx-auto px-4 md:px-6 lg:px-8">
         <div class="max-w-5xl mx-auto text-center">
-            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Plot Leveling Services</h1>
-            <p class="text-lg md:text-xl mb-8 opacity-90">
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">
+                Plot Leveling Services
+            </h1>
+        </div>
+    </div>
+</section>
+
+{{-- Content Section --}}
+<section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto text-center">
+            <p class="text-xl text-gray-800 font-semibold mb-6">
                 Expert Site Grading and Road Access Contractors in Maharashtra
             </p>
-            <div class="bg-white/10 rounded-lg p-6 inline-block text-left">
-                <p class="opacity-90">
-                    Shreeyash Construction offers professional plot leveling services for industrial, commercial, and residential developments. 
-                    With extensive experience in land development and infrastructure works, we ensure every plot is properly graded, compacted, and ready for construction. 
-                    Our services include detailed contour mapping, soil cutting & filling, slope stabilization, and access road development — tailored to the site's geography and project specifications.
+
+            <div class="bg-white shadow-lg rounded-lg p-6 md:p-10 text-gray-700 leading-relaxed text-left inline-block">
+                <p class="mb-4">
+                    Shreeyash Construction offers professional <strong>plot leveling services</strong> for
+                    <strong>industrial, commercial, and residential</strong> developments. With years of expertise in
+                    <strong>land development and infrastructure works</strong>, we ensure every plot is accurately
+                    graded, compacted, and construction-ready.
+                </p>
+                <p>
+                    Our services include <strong>contour mapping</strong>, <strong>soil cutting and filling</strong>,
+                    <strong>slope stabilization</strong>, and <strong>access road development</strong> — all
+                    meticulously tailored to the site’s geography and your project specifications for durability
+                    and precision.
                 </p>
             </div>
         </div>
     </div>
 </section>
+
 
 <!-- Services -->
 <section class="py-16 bg-white">

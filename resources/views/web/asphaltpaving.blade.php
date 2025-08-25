@@ -23,7 +23,7 @@
    left: 0;
    width: 100%;
    height: 100%;
-   background: linear-gradient(to bottom right, transparent 49.5%, #ffffff 50%);
+   /* background: linear-gradient(to bottom right, transparent 49.5%, #ffffff 50%); */
    }
    .road-pattern {
    background-color: #2d3748;

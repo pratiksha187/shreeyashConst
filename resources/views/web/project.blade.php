@@ -1,20 +1,34 @@
 @extends('layouts.app')
 
-@section('title', 'Projects')
+@section('title', 'Our Projects | Shreeyash Construction – Real Estate & Construction Company')
+
+@push('meta')
+    <meta name="description" content="Explore completed and ongoing projects by Shreeyash Construction, a trusted real estate builders & construction company in Maharashtra delivering residential, commercial & industrial developments">
+    <meta name="keywords" content="Shreeyash Construction Projects, road construction Maharashtra, industrial projects, residential construction, civil engineering works, infrastructure projects">
+    <meta property="og:title" content="Our Projects | Shreeyash Construction – Real Estate & Construction Company">
+    <meta property="og:description" content="Explore our diverse portfolio of projects, from road construction to residential and industrial infrastructure across Maharashtra.">
+    <meta property="og:image" content="{{ asset('images/project-banner.jpg') }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Our Projects | Shreeyash Construction – Real Estate & Construction Company">
+    <meta name="twitter:description" content="Explore completed and ongoing projects by Shreeyash Construction, a trusted real estate builders & construction company in Maharashtra delivering residential, commercial & industrial developments.">
+    <meta name="twitter:image" content="{{ asset('images/project-banner.jpg') }}">
+@endpush
 
 @section('content')
 <section class="py-12 bg-white">
     <div class="max-w-7xl mx-auto px-4">
         <h1 class="text-3xl font-bold text-center text-gray-800 mb-8">Our Projects</h1>
 
-        {{-- Filter Buttons (optional) --}}
+        {{-- Optional Filter Buttons --}}
         {{-- 
         <div class="flex justify-center gap-4 mb-10">
             <a href="{{ route('project') }}" class="bg-yellow-400 text-gray-800 px-4 py-2 rounded-lg font-medium">All</a>
             <a href="{{ route('project.byType', 'roads') }}" class="bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded-lg font-medium">Roads</a>
             <a href="{{ route('project.byType', 'residential') }}" class="bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded-lg font-medium">Residential</a>
             <a href="{{ route('project.byType', 'industrial') }}" class="bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded-lg font-medium">Industrial</a>
-        </div> 
+        </div>
         --}}
 
         @php
@@ -23,32 +37,32 @@
         @endphp
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-    {{-- Projects with images --}}
+            {{-- Projects with images --}}
             @foreach($projectsWithImages as $project)
                 <div class="bg-white border border-gray-200 rounded-xl overflow-hidden shadow hover:shadow-lg transition-all">
                     <img src="{{ asset('storage/' . $project->images->first()->image_path) }}"
-                        alt="{{ $project->title }}"
-                        class="w-full h-64 object-cover">
+                         alt="{{ $project->title }}"
+                         class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="text-lg font-semibold text-gray-800 mb-1">{{ $project->title }}</h3>
                         <p class="text-gray-600 text-sm mb-2">{{ Str::limit($project->description, 80) }}</p>
                         <a href="{{ route('projects.show', $project->slug) }}"
-                        class="text-yellow-600 hover:text-yellow-700 text-sm font-medium">View Details →</a>
+                           class="text-yellow-600 hover:text-yellow-700 text-sm font-medium">View Details →</a>
                     </div>
                 </div>
             @endforeach
 
-    {{-- Projects without images (placeholder) --}}
+            {{-- Projects without images (placeholder) --}}
             @foreach($projectsWithoutImages as $project)
                 <div class="bg-white border border-gray-200 rounded-xl overflow-hidden shadow hover:shadow-lg transition-all">
                     <img src="{{ asset('images/placeholder.jpg') }}"
-                        alt="Placeholder"
-                        class="w-full h-64 object-cover">
+                         alt="Placeholder"
+                         class="w-full h-64 object-cover">
                     <div class="p-4">
                         <h3 class="text-lg font-semibold text-gray-800 mb-1">{{ $project->title }}</h3>
                         <p class="text-gray-600 text-sm mb-2">{{ Str::limit($project->description, 80) }}</p>
                         <a href="{{ route('projects.show', $project->slug) }}"
-                        class="text-yellow-600 hover:text-yellow-700 text-sm font-medium">View Details →</a>
+                           class="text-yellow-600 hover:text-yellow-700 text-sm font-medium">View Details →</a>
                     </div>
                 </div>
             @endforeach
@@ -56,8 +70,7 @@
             @if($projects->isEmpty())
                 <p class="text-center col-span-3">No projects found.</p>
             @endif
-</div>
-
+        </div>
     </div>
 </section>
 @endsection

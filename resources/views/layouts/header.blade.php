@@ -1,7 +1,6 @@
 <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 
-{{-- <header class="bg-white shadow sticky top-0 z-50"> --}}
   <header x-data="{ navOpen: false }" class="bg-white shadow sticky top-0 z-50">
 
   <nav class="bg-white shadow" x-data="{ servicesOpen: false, roadOpen: false, infraOpen: false, landOpen: false, waterOpen: false, compoundOpen: false, residentialOpen: false, retrofitOpen: false }">

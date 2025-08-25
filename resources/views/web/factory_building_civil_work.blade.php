@@ -22,18 +22,42 @@
 </style>
 
 <!-- Hero Section -->
-<section class="hero-pattern text-white py-20">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8 text-center">
-        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Factory Building</h1>
-        <p class="text-lg md:text-xl mb-8 opacity-90">Turnkey Civil Work for Factory Buildings in Maharashtra</p>
-        <div class="bg-white/10 rounded-lg p-6 max-w-5xl mx-auto text-left">
-            <p class="opacity-90">
-                Shreeyash Construction is a trusted name in civil work building projects across Maharashtra, with specialized expertise in constructing durable and efficient factory buildings. We provide complete solutions from planning and structural design to execution and final finishing — all in compliance with industrial norms and local development authority regulations.
-                Whether you're building a new industrial unit, expanding operations, or relocating, we handle every phase from plan approval to custom layouts and precision execution.
-            </p>
+{{-- Page Header Section --}}
+<section class="hero-pattern text-white py-16 shadow-lg">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+        <div class="max-w-5xl mx-auto text-center">
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">
+                Factory Building
+            </h1>
         </div>
     </div>
 </section>
+
+{{-- Content Section --}}
+<section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto text-center">
+            <p class="text-xl text-gray-800 font-semibold mb-6">
+                Turnkey Civil Work for Factory Buildings in Maharashtra
+            </p>
+            
+            <div class="bg-white shadow-lg rounded-lg p-6 md:p-10 text-gray-700 leading-relaxed text-left inline-block">
+                <p class="mb-4">
+                    Shreeyash Construction is a trusted name in <strong>factory building civil works</strong> across
+                    Maharashtra, with specialized expertise in constructing <strong>durable, efficient, and regulation-compliant factory structures</strong>.
+                    Our team delivers <strong>comprehensive solutions</strong> — from planning and structural design to
+                    execution and finishing — while strictly adhering to industrial standards and local development authority guidelines.
+                </p>
+                <p>
+                    Whether you're setting up a new industrial unit, expanding existing operations, or relocating to a
+                    new site, we manage every phase of the project, including <strong>plan approvals, custom layouts,
+                    and precision execution</strong> to ensure long-lasting, high-performance facilities.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!-- Types of Factory Buildings -->
 <section class="py-16 bg-white">

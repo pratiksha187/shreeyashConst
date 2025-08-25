@@ -22,20 +22,37 @@
 </style>
 
 <!-- Hero -->
-<section class="hero-pattern text-white py-20">
+{{-- Page Header Section --}}
+<section class="hero-pattern text-white py-16 shadow-lg">
     <div class="container mx-auto px-4 md:px-6 lg:px-8">
         <div class="max-w-5xl mx-auto text-center">
-            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">GSB & WMM Laying Services</h1>
-            <p class="text-lg md:text-xl mb-8 opacity-90">Reliable GSB and Wet Mix Macadam Laying Contractors in Maharashtra</p>
-            <div class="bg-white/10 rounded-lg p-6 inline-block text-left">
-                <p class="opacity-90">
-                    Shreeyash Construction is a top road building company in Maharashtra specializing in GSB (Granular Sub Base) and WMM (Wet Mix Macadam) laying. 
-                    We deliver road foundation works with precision, using modern equipment and adhering to MoRTH & IRC standards for durability and performance.
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">
+                GSB & WMM Laying Services
+            </h1>
+        </div>
+    </div>
+</section>
+
+{{-- Content Section --}}
+<section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto text-center">
+            <p class="text-xl text-gray-800 font-semibold mb-6">
+                Reliable GSB and Wet Mix Macadam Laying Contractors in Maharashtra
+            </p>
+            <div class="bg-white shadow-lg rounded-lg p-6 md:p-10 text-gray-700 leading-relaxed">
+                <p>
+                    Shreeyash Construction is a top road building company in Maharashtra specializing in 
+                    <strong>GSB (Granular Sub Base)</strong> and 
+                    <strong>WMM (Wet Mix Macadam)</strong> laying. 
+                    We deliver road foundation works with precision, using modern equipment and adhering to 
+                    <strong>MoRTH & IRC standards</strong> for durability and performance.
                 </p>
             </div>
         </div>
     </div>
 </section>
+
 
 <!-- GSB Explanation -->
 <section class="py-16 bg-white">

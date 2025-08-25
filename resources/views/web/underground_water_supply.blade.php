@@ -22,22 +22,42 @@
     </style>
 
     <!-- Hero -->
-    <section class="hero-pattern text-white py-20">
-        <div class="container mx-auto px-4 md:px-6 lg:px-8">
-            <div class="max-w-4xl mx-auto text-center">
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Underground Water Supply Pipeline</h1>
-                <p class="text-lg md:text-xl mb-8 opacity-90">
-                    Reliable Underground Water Supply Network Contractors in Maharashtra
-                </p>
-                <div class="bg-white/10 rounded-lg p-6 inline-block">
-                    <p class="opacity-90">
-                        Shreeyash Construction offers end-to-end solutions for the design, laying, and commissioning of underground water supply pipeline for residential layouts, industrial zones, townships, and infrastructure projects across Maharashtra. We ensure durable, leak-proof, and pressure-tested water pipeline systems that conform to IS standards, municipal bylaws, and CPHEEO guidelines.
-                        Our expertise covers everything from water source integration to final distribution networks — delivering seamless water flow with minimal maintenance.
-                    </p>
-                </div>
-            </div>
+   {{-- Page Header Section --}}
+    <section class="hero-pattern text-white py-16 shadow-lg">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+        <div class="max-w-5xl mx-auto text-center">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">
+            Underground Water Supply Pipeline
+        </h1>
         </div>
+    </div>
     </section>
+
+    {{-- Content Section --}}
+    <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto text-center">
+        <p class="text-xl text-gray-800 font-semibold mb-6">
+            Reliable Underground Water Supply Network Contractors in Maharashtra
+        </p>
+
+        <div class="bg-white shadow-lg rounded-lg p-6 md:p-10 text-gray-700 leading-relaxed text-left inline-block">
+            <p class="mb-4">
+            Shreeyash Construction provides end-to-end solutions for the <strong>design, laying, and commissioning</strong> 
+            of <strong>underground water supply pipelines</strong> for <strong>residential layouts, industrial zones, townships, 
+            and infrastructure projects</strong> across Maharashtra. Our systems are engineered for <strong>durability, leak-proof performance, 
+            and consistent water flow</strong>.
+            </p>
+            <p>
+            Every project complies with <strong>IS standards</strong>, <strong>municipal regulations</strong>, and 
+            <strong>CPHEEO guidelines</strong>, ensuring reliable, pressure-tested pipelines from water source integration 
+            to final distribution — delivering efficiency with minimal maintenance.
+            </p>
+        </div>
+        </div>
+    </div>
+    </section>
+
 
     <!-- Scope of Work -->
     <section class="py-16 bg-white">

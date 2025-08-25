@@ -41,20 +41,49 @@
   @endonce
 
   <!-- Hero -->
-  <section class="hero-pattern text-white py-20">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-      <div class="max-w-4xl mx-auto text-center">
-        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Structural Retrofitting</h1>
-        <p class="text-lg md:text-xl mb-8 opacity-90">
-          At Shreeyash Construction, we specialize in <strong>Structural Retrofitting</strong>—strengthening and upgrading existing buildings so they meet modern safety, durability, and performance standards. From aging residential complexes to commercial towers and industrial facilities, we deliver cost-effective, technically sound retrofitting solutions across Maharashtra.
+ {{-- Page Header Section --}}
+<section class="hero-pattern text-white py-16 shadow-lg">
+  <div class="container mx-auto px-4 md:px-6 lg:px-8">
+    <div class="max-w-5xl mx-auto text-center">
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">
+        Structural Retrofitting
+      </h1>
+    </div>
+  </div>
+</section>
+
+{{-- Content Section --}}
+<section class="py-16 bg-gray-50">
+  <div class="container mx-auto px-4 md:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto text-center">
+      <p class="text-xl text-gray-800 font-semibold mb-6">
+        Strengthening and upgrading existing buildings to modern safety and performance standards
+      </p>
+
+      <div class="bg-white shadow-lg rounded-lg p-6 md:p-10 text-gray-700 leading-relaxed text-left">
+        <p class="mb-4">
+          At Shreeyash Construction, we specialize in <strong>structural retrofitting</strong>—enhancing the safety,
+          durability, and functional performance of existing <strong>residential, commercial, and industrial</strong>
+          structures across Maharashtra. Our solutions are engineered to be <strong>cost-effective</strong> and to
+          minimize <strong>operational downtime</strong>, while addressing issues such as capacity upgrade, material
+          deterioration, and seismic resilience.
         </p>
-        <div class="mt-12 bg-white bg-opacity-10 rounded-lg p-6 backdrop-filter backdrop-blur-sm">
-          <p class="text-lg font-medium">Looking for “retrofit companies near me” you can trust?</p>
-          <p class="mt-2">We’re a Maharashtra-trusted contractor following IS codes, NBC, and seismic design guidelines—backed by structural consultants and certified QA/QC processes.</p>
+
+        <div class="mt-6 p-5 rounded-lg bg-gray-50 border border-gray-200">
+          <p class="text-base md:text-lg font-medium text-gray-900">
+            Looking for a trusted retrofit partner?
+          </p>
+          <p class="mt-2 text-gray-700">
+            We execute works in line with relevant <strong>IS codes</strong>, the <strong>National Building Code (NBC)</strong>,
+            and applicable <strong>seismic design guidelines</strong>, working closely with structural consultants and
+            following certified QA/QC processes.
+          </p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- What is Structural Retrofitting -->
   <section class="py-16 bg-white">

@@ -21,23 +21,42 @@
         .spec-row:nth-child(odd){ background:rgba(15,76,129,0.05); }
     </style>
 
-    <!-- Hero -->
-    <section class="hero-pattern text-white py-20">
-        <div class="container mx-auto px-4 md:px-6 lg:px-8">
-            <div class="max-w-5xl mx-auto text-center">
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Earth Cutting, Filling Soil & Compaction by Shreeyash Construction</h1>
-                <p class="text-lg md:text-xl mb-8 opacity-90">
-                    Reliable Earthwork & Soil Compaction Contractors in Maharashtra
-                </p>
-                <div class="bg-white/10 rounded-lg p-6 inline-block text-left">
-                    <p class="opacity-90">
-                        Shreeyash Construction is a specialist in earth cutting, filling soil, and compaction for infrastructure, industrial, and real estate development projects across Maharashtra. With over two decades of expertise, modern equipment, and skilled teams, we deliver precision earthwork solutions that meet structural and geotechnical requirements.
-                        Whether it’s land development, roadbed preparation, or site leveling, our earthwork services ensure strong, stable ground for any construction activity.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+ {{-- Page Header Section --}}
+<section class="hero-pattern text-white py-16 shadow-lg">
+  <div class="container mx-auto px-4 md:px-6 lg:px-8">
+    <div class="max-w-5xl mx-auto text-center">
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">
+        Earth Cutting, Filling & Compaction
+      </h1>
+    </div>
+  </div>
+</section>
+
+{{-- Content Section --}}
+<section class="py-16 bg-gray-50">
+  <div class="container mx-auto px-4 md:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto text-center">
+      <p class="text-xl text-gray-800 font-semibold mb-6">
+        Reliable Earthwork & Soil Compaction Contractors in Maharashtra
+      </p>
+
+      <div class="bg-white shadow-lg rounded-lg p-6 md:p-10 text-gray-700 leading-relaxed text-left inline-block">
+        <p class="mb-4">
+          Shreeyash Construction specializes in <strong>earth cutting</strong>, <strong>filling</strong>, and
+          <strong>soil compaction</strong> for infrastructure, industrial, and real-estate projects across Maharashtra.
+          With 20+ years of experience, modern equipment, and skilled teams, we deliver precise earthwork that meets
+          structural and geotechnical requirements.
+        </p>
+        <p>
+          Whether it’s <strong>land development</strong>, <strong>roadbed preparation</strong>, or
+          <strong>site leveling</strong>, our earthwork services ensure a strong, stable formation ready for
+          safe and durable construction.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <!-- Core Earthwork Services -->
     <section class="py-16 bg-white">

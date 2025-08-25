@@ -41,20 +41,48 @@
   @endonce
 
   <!-- Hero -->
-  <section class="hero-pattern text-white py-20">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-      <div class="max-w-4xl mx-auto text-center">
-        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Demolition Work</h1>
-        <p class="text-lg md:text-xl mb-8 opacity-90">
-          Shreeyash Construction provides <strong>safe, efficient, professionally managed demolition services</strong> for residential, commercial, and industrial projects across Maharashtra—building demolition, interior demolition, and demolition with excavation.
+{{-- Page Header Section --}}
+<section class="hero-pattern text-white py-16 shadow-lg">
+  <div class="container mx-auto px-4 md:px-6 lg:px-8">
+    <div class="max-w-5xl mx-auto text-center">
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">
+        Demolition Work
+      </h1>
+    </div>
+  </div>
+</section>
+
+{{-- Content Section --}}
+<section class="py-16 bg-gray-50">
+  <div class="container mx-auto px-4 md:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto text-center">
+      <p class="text-xl text-gray-800 font-semibold mb-6">
+        Safe, efficient, and professionally managed demolition services across Maharashtra
+      </p>
+
+      <div class="bg-white shadow-lg rounded-lg p-6 md:p-10 text-gray-700 leading-relaxed text-left">
+        <p class="mb-4">
+          Shreeyash Construction provides <strong>building demolition</strong>, <strong>interior strip-outs</strong>, and
+          <strong>demolition with excavation</strong> for <strong>residential, commercial,</strong> and
+          <strong>industrial</strong> projects. We plan and execute with method statements, equipment readiness,
+          and strict on-site controls to ensure safety, speed, and minimal disturbance to surroundings.
         </p>
-        <div class="mt-12 bg-white bg-opacity-10 rounded-lg p-6 backdrop-filter backdrop-blur-sm">
-          <p class="text-lg font-medium">Looking for “demolition work near me” or a reliable general contractor?</p>
-          <p class="mt-2">We tailor methods to your site and timeline with strict safety adherence and minimal disturbance.</p>
+
+        <div class="mt-6 p-5 rounded-lg bg-gray-50 border border-gray-200">
+          <p class="text-base md:text-lg font-medium text-gray-900">
+            Looking for “demolition work near me” or a reliable general contractor?
+          </p>
+          <p class="mt-2 text-gray-700">
+            We tailor demolition methods to your site and timeline—covering permits, utilities isolation,
+            debris segregation & disposal, dust/noise control, and post-demolition grading—delivered with
+            compliant safety practices.
+          </p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- Expertise -->
   <section class="py-16 bg-white">

@@ -33,7 +33,6 @@
         <div class="container mx-auto px-4 md:px-6 lg:px-8">
             <div class="max-w-4xl mx-auto text-center">
                 <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Drainage Line & Sewer Work Contractors in Maharashtra</h1>
-                <p class="text-lg md:text-xl mb-8 opacity-90">Shreeyash Construction provides expert drainage line and sewer work services including pipe laying, manhole construction, and testing for municipalities, industries, and townships.</p>
                
                 <!-- <div class="mt-12 bg-white bg-opacity-10 rounded-lg p-6 backdrop-filter backdrop-blur-sm">
                     <p class="text-lg font-medium">Looking for concrete road contractors near me you can trust?</p>

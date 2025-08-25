@@ -22,26 +22,44 @@
     </style>
 
     <!-- Hero -->
-    <section class="hero-pattern text-white py-20">
-        <div class="container mx-auto px-4 md:px-6 lg:px-8">
-            <div class="max-w-4xl mx-auto text-center">
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Precast U Drain Installation Services</h1>
-                <p class="text-lg md:text-xl mb-8 opacity-90">
-                    Efficient Surface Drainage with Durable Precast U Drains
-                </p>
-                <div class="bg-white/10 rounded-lg p-6 inline-block">
-                    <p class="opacity-90">
-                        Shreeyash Construction is a leading contractor for precast U drain installation in Maharashtra,
-                        offering reliable surface drainage solutions for industrial parks, highways, residential layouts,
-                        and urban infrastructure. We provide end-to-end services — from trenching and bedding to placing,
-                        joint sealing, and finishing — ensuring long-lasting and maintenance-friendly drainage systems.
-                        Our precast U drains are manufactured with precision and installed with proper alignment and slope
-                        control for fast, efficient stormwater discharge.
-                    </p>
-                </div>
-            </div>
+   {{-- Page Header Section --}}
+    <section class="hero-pattern text-white py-16 shadow-lg">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+        <div class="max-w-5xl mx-auto text-center">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">
+            Precast U Drain Installation Services
+        </h1>
         </div>
+    </div>
     </section>
+
+    {{-- Content Section --}}
+    <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto text-center">
+        <p class="text-xl text-gray-800 font-semibold mb-6">
+            Efficient Surface Drainage with Durable Precast U Drains
+        </p>
+
+        <div class="bg-white shadow-lg rounded-lg p-6 md:p-10 text-gray-700 leading-relaxed text-left inline-block">
+            <p class="mb-4">
+            Shreeyash Construction is a leading contractor for <strong>precast U drain installation</strong> in Maharashtra,
+            delivering reliable surface drainage for <strong>industrial parks, highways, residential layouts,</strong>
+            and <strong>urban infrastructure</strong>.
+            </p>
+            <p class="mb-4">
+            We provide <strong>end-to-end execution</strong>—from trenching and bedding to placing, joint sealing,
+            and finishing—ensuring <strong>long-lasting, maintenance-friendly</strong> drainage systems.
+            </p>
+            <p>
+            Our precast U drains are manufactured with precision and installed with correct <strong>alignment, slope control,</strong>
+            and <strong>hydraulic considerations</strong> for fast, efficient stormwater discharge.
+            </p>
+        </div>
+        </div>
+    </div>
+    </section>
+
 
     <!-- Advantages -->
     <section class="py-16 bg-white">

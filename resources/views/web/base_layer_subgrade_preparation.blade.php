@@ -39,19 +39,41 @@
   @endonce
 
   <!-- Hero -->
-  <section class="hero-pattern text-white py-20">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-      <div class="max-w-4xl mx-auto text-center">
-        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Base Layer & Subgrade Preparation</h1>
-        <p class="text-lg md:text-xl mb-8 opacity-90">Strong Foundations for Durable Roads and Pavements</p>
-        <div class="bg-white/10 rounded-lg p-6 inline-block text-left">
-          <p class="opacity-90">
-            Shreeyash Construction provides expert services in base layer and subgrade preparation, an essential step in road building, industrial flooring, and pavement construction. A properly prepared subgrade and base layer ensure uniform load distribution, long-term durability, and resistance to settlement or cracking. Our team uses advanced equipment and adheres to MORTH guidelines for precise grading, compaction, and stabilization.
-          </p>
-        </div>
+
+<section class="hero-pattern text-white py-16 shadow-lg">
+  <div class="container mx-auto px-4 md:px-6 lg:px-8">
+    <div class="max-w-5xl mx-auto text-center">
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">
+        Base Layer & Subgrade Preparation
+      </h1>
+    </div>
+  </div>
+</section>
+
+{{-- Content Section --}}
+<section class="py-16 bg-gray-50">
+  <div class="container mx-auto px-4 md:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto text-center">
+      <p class="text-xl text-gray-800 font-semibold mb-6">
+        Strong Foundations for Durable Roads and Pavements
+      </p>
+
+      <div class="bg-white shadow-lg rounded-lg p-6 md:p-10 text-gray-700 leading-relaxed text-left inline-block">
+        <p class="mb-4">
+          Shreeyash Construction provides expert services in <strong>base layer</strong> and
+          <strong>subgrade preparation</strong>—critical steps in road building, industrial flooring,
+          and pavement construction. Properly prepared subgrade and base layers ensure uniform load distribution,
+          long-term durability, and resistance to settlement or cracking.
+        </p>
+        <p>
+          Our team uses advanced equipment and adheres to <strong>MoRTH</strong> guidelines for precise grading,
+          compaction, and stabilization.
+        </p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- What is Subgrade -->
   <section class="py-16 bg-white">

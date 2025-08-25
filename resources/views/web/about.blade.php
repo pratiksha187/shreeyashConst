@@ -1,6 +1,11 @@
 @extends('layouts.app')
 
-@section('title', 'Home')
+@section('title', 'About Us | Shreeyash Construction – Real Estate Builders & Construction Company')
+
+@push('meta')
+<meta name="description" content="Learn about Shreeyash Construction, a leading real estate builders & construction company in Maharashtra since 2000. Trusted for quality, timely, and sustainable projects.">
+<meta name="keywords" content="Shreeyash Construction, real estate builders, construction company, road construction, industrial projects, Maharashtra construction">
+@endpush
 
 @section('content')
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
@@ -11,17 +16,11 @@
     background-color: #f9fafb;
     color: #333;
     margin: 0;
-    /* padding: 20px; */
   }
-
   h1, h2, h3 {
     color: #1f2937;
   }
-
-  .section {
-    margin-bottom: 50px;
-  }
-
+  .section { margin-bottom: 50px; }
   .section h2 {
     font-size: 1.75rem;
     padding-left: 12px;
@@ -29,13 +28,11 @@
     font-weight: 600;
     margin-bottom: 20px;
   }
-
   .cards {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
   }
-
   .card {
     background: #ffffff;
     border-radius: 16px;
@@ -45,31 +42,25 @@
     padding: 20px;
     transition: all 0.3s ease;
   }
-
   .card:hover {
     transform: translateY(-4px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
   }
-
   .card-title {
     font-size: 1.15rem;
     color: #00a8ff;
     font-weight: 600;
     margin-bottom: 8px;
   }
-
   .card-desc {
     font-size: 0.95rem;
     color: #4b5563;
   }
-
-  /* Zone coloring */
   .residential { border-left: 4px solid #00b894; }
   .industrial  { border-left: 4px solid #6c5ce7; }
   .smartcity   { border-left: 4px solid #fd79a8; }
   .port        { border-left: 4px solid #0984e3; }
   .tourism     { border-left: 4px solid #e17055; }
-
   .info-box {
     background: #f8fafc;
     border-left: 5px solid #00a8ff;
@@ -77,7 +68,6 @@
     padding: 20px;
     margin-bottom: 20px;
   }
-
   .icon-box {
     height: 6rem;
     display: flex;
@@ -87,14 +77,10 @@
     font-size: 2rem;
     color: #1f2937;
   }
-
   .bg-yellow { background-color: #facc15; }
   .bg-gray   { background-color: #e5e7eb; }
-
   @media (max-width: 768px) {
-    .cards {
-      justify-content: center;
-    }
+    .cards { justify-content: center; }
   }
 </style>
 

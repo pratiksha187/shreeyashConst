@@ -1,10 +1,12 @@
 @extends('layouts.app')
-
-@section('title', 'Home')
+   
+@section('title', 'Best Real Estate Builders & Construction Company | Shreeyash Construction')
 
 @section('content')
+
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+ <meta name="description" content="Shreeyash Construction is one of the best real estate builders & construction companies in Maharashtra, delivering quality residential, commercial & industrial projects since 2000.">
 
       <!-- Home Page -->
     <div id="home-page" class="active">

@@ -39,21 +39,47 @@
     </style>
   @endonce
 
-  <!-- Hero -->
-  <section class="hero-pattern text-white py-20">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-      <div class="max-w-4xl mx-auto text-center">
-        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Bungalow Construction Services</h1>
-        <p class="text-lg md:text-xl mb-8 opacity-90">
-          Shreeyash Construction is one of Maharashtra’s most trusted names in <strong>bungalow construction</strong>, delivering premium, durable, and aesthetically appealing homes. Our architects, engineers, and craftsmen specialize in <strong>new construction bungalows</strong>, <strong>pre-construction bungalows</strong>, and complete <strong>bungalow house construction</strong> that fits your vision and lifestyle.
+ {{-- Page Header Section --}}
+<section class="hero-pattern text-white py-16 shadow-lg">
+  <div class="container mx-auto px-4 md:px-6 lg:px-8">
+    <div class="max-w-5xl mx-auto text-center">
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">
+        Bungalow Construction Services
+      </h1>
+    </div>
+  </div>
+</section>
+
+{{-- Content Section --}}
+<section class="py-16 bg-gray-50">
+  <div class="container mx-auto px-4 md:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto text-center">
+      <p class="text-xl text-gray-800 font-semibold mb-6">
+        Premium, durable, and aesthetically designed homes by a trusted Maharashtra contractor
+      </p>
+
+      <div class="bg-white shadow-lg rounded-lg p-6 md:p-10 text-gray-700 leading-relaxed text-left">
+        <p class="mb-4">
+          Shreeyash Construction is one of Maharashtra’s most trusted names in
+          <strong>bungalow construction</strong>, delivering premium, long-lasting, and
+          architecturally refined homes. Our architects, engineers, and craftsmen specialize in
+          <strong>new construction bungalows</strong>, <strong>pre-construction planning</strong>, and
+          complete <strong>bungalow house construction</strong> tailored to your vision and lifestyle.
         </p>
-        <div class="mt-12 bg-white bg-opacity-10 rounded-lg p-6 backdrop-filter backdrop-blur-sm">
-          <p class="text-lg font-medium">Building in Raigad, the hills, or a private estate?</p>
-          <p class="mt-2">We manage every detail—from concept to completion—with transparent pricing and code-compliant engineering.</p>
+
+        <div class="mt-6 p-5 rounded-lg bg-gray-50 border border-gray-200">
+          <p class="text-base md:text-lg font-medium text-gray-900">
+            Building in Raigad, hill plots, or private estates?
+          </p>
+          <p class="mt-2 text-gray-700">
+            We manage every detail — from concept to completion — with transparent pricing,
+            code-compliant engineering, and meticulous site execution.
+          </p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- Why Choose -->
   <section class="py-16 bg-white">

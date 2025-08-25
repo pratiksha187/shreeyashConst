@@ -22,22 +22,42 @@
     </style>
 
     <!-- Hero -->
-    <section class="hero-pattern text-white py-20">
-        <div class="container mx-auto px-4 md:px-6 lg:px-8">
-            <div class="max-w-4xl mx-auto text-center">
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Storm Water Drainage Solutions</h1>
-                <p class="text-lg md:text-xl mb-8 opacity-90">
-                    Efficient and Sustainable Drainage Systems for Urban and Industrial Projects
-                </p>
-                <div class="bg-white/10 rounded-lg p-6 inline-block">
-                    <p class="opacity-90">
-                        Shreeyash Construction is a leading civil engineering company in Maharashtra specializing in the design and construction of storm water drainage systems. We provide reliable drainage infrastructure for roads, industrial parks, residential layouts, and commercial campuses to ensure proper management of rainwater runoff, prevent waterlogging, and maintain structural integrity of surrounding developments.
-                        Our drainage systems are designed in compliance with MoRTH, IRC, and local municipal norms, with a focus on sustainability, hydraulic performance, and long-term durability.
-                    </p>
-                </div>
-            </div>
+        {{-- Page Header Section --}}
+    <section class="hero-pattern text-white py-16 shadow-lg">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+        <div class="max-w-5xl mx-auto text-center">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">
+            Storm Water Drainage Solutions
+        </h1>
         </div>
+    </div>
     </section>
+
+    {{-- Content Section --}}
+    <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto text-center">
+        <p class="text-xl text-gray-800 font-semibold mb-6">
+            Efficient and Sustainable Drainage Systems for Urban and Industrial Projects
+        </p>
+
+        <div class="bg-white shadow-lg rounded-lg p-6 md:p-10 text-gray-700 leading-relaxed text-left inline-block">
+            <p class="mb-4">
+            Shreeyash Construction is a leading <strong>civil engineering company</strong> in Maharashtra, 
+            specializing in the <strong>design and construction of storm water drainage systems</strong>. 
+            We deliver reliable infrastructure solutions for <strong>roads, industrial parks, residential layouts, and commercial campuses</strong>, 
+            ensuring proper rainwater management, reduced waterlogging, and enhanced structural safety of the surrounding developments.
+            </p>
+            <p>
+            Our drainage systems are meticulously designed in compliance with <strong>MoRTH</strong>, 
+            <strong>IRC</strong>, and <strong>local municipal regulations</strong>, with a strong emphasis 
+            on sustainability, hydraulic efficiency, and long-term durability for modern urban and industrial needs.
+            </p>
+        </div>
+        </div>
+    </div>
+    </section>
+
 
     <!-- Services Include -->
     <section class="py-16 bg-white">

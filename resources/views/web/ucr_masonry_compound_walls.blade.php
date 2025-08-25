@@ -37,21 +37,41 @@
       .spec-row:nth-child(odd){background:rgba(28,44,62,.05)}
     </style>
   @endonce
+{{-- Page Header Section --}}
+<section class="hero-pattern text-white py-16 shadow-lg">
+  <div class="container mx-auto px-4 md:px-6 lg:px-8">
+    <div class="max-w-5xl mx-auto text-center">
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">
+        Masonry Compound Walls
+      </h1>
+    </div>
+  </div>
+</section>
 
-  <!-- Hero -->
-  <section class="hero-pattern text-white py-20">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-      <div class="max-w-4xl mx-auto text-center">
-        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Masonry Compound Walls</h1>
-        <p class="text-lg md:text-xl mb-8 opacity-90">Durable and Custom-Built Compound Walls for Industrial, Residential & Commercial Projects</p>
-        <div class="bg-white/10 rounded-lg p-6 inline-block text-left">
-          <p class="opacity-90">
-            Shreeyash Construction is a trusted civil contractor in Maharashtra for constructing masonry compound walls that provide safety, boundary definition, and aesthetic appeal. Our compound walls are built using high-quality materials such as cement bricks, fly ash bricks, red bricks, or stone masonry as per client requirements and site conditions. We undertake end-to-end execution from foundation to plastering, ensuring long-lasting structural integrity with proper reinforcement and waterproofing treatments.
-          </p>
-        </div>
+{{-- Content Section --}}
+<section class="py-16 bg-gray-50">
+  <div class="container mx-auto px-4 md:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto text-center">
+      <p class="text-xl text-gray-800 font-semibold mb-6">
+        Durable, custom-built compound walls for industrial, residential & commercial projects
+      </p>
+
+      <div class="bg-white shadow-lg rounded-lg p-6 md:p-10 text-gray-700 leading-relaxed text-left">
+        <p class="mb-4">
+          Shreeyash Construction is a trusted civil contractor in Maharashtra for
+          <strong>masonry compound wall construction</strong> that provides security, clear boundaries,
+          and aesthetic appeal. We build with high-quality materials—<strong>cement bricks, fly-ash bricks,
+          red bricks, or stone masonry</strong>—as per site conditions and client requirements.
+        </p>
+        <p class="mb-0">
+          We execute <strong>end-to-end</strong>, from <strong>foundation</strong> to <strong>plastering/finishes</strong>,
+          ensuring long-lasting structural integrity with proper <strong>reinforcement</strong>,
+          <strong>waterproofing</strong>, and workmanship aligned to best practices.
+        </p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- Types -->
   <section class="py-16 bg-white">

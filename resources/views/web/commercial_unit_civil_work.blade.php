@@ -40,20 +40,47 @@
   @endonce
 
   <!-- Hero -->
-  <section class="hero-pattern text-white py-20">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-      <div class="max-w-4xl mx-auto text-center">
-        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Commercial Unit Civil Work</h1>
-        <p class="text-lg md:text-xl mb-8 opacity-90">
-          Shreeyash Construction is a trusted leader in commercial unit civil work, delivering end-to-end services for offices, retail spaces, showrooms, warehouses, and industrial facilities—with quality, precision, and on-time delivery.
+ {{-- Page Header Section --}}
+<section class="hero-pattern text-white py-16 shadow-lg">
+  <div class="container mx-auto px-4 md:px-6 lg:px-8">
+    <div class="max-w-5xl mx-auto text-center">
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">
+        Commercial Unit Civil Work
+      </h1>
+    </div>
+  </div>
+</section>
+
+{{-- Content Section --}}
+<section class="py-16 bg-gray-50">
+  <div class="container mx-auto px-4 md:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto text-center">
+      <p class="text-xl text-gray-800 font-semibold mb-6">
+        End-to-end civil solutions for offices, retail, showrooms, warehouses, and industrial facilities
+      </p>
+
+      <div class="bg-white shadow-lg rounded-lg p-6 md:p-10 text-gray-700 leading-relaxed text-left">
+        <p class="mb-4">
+          Shreeyash Construction is a trusted leader in
+          <strong>commercial unit civil work</strong>, delivering <strong>design-to-handover</strong> services
+          for <strong>offices, retail spaces, showrooms, warehouses,</strong> and <strong>industrial facilities</strong>
+          with quality, precision, and on-time delivery.
         </p>
-        <div class="mt-12 bg-white bg-opacity-10 rounded-lg p-6 backdrop-filter backdrop-blur-sm">
-          <p class="text-lg font-medium">One partner for build, retrofit, and fit-out.</p>
-          <p class="mt-2">We ensure functional performance, safety compliance, and the right aesthetics for your brand.</p>
+
+        <div class="mt-6 p-5 rounded-lg bg-gray-50 border border-gray-200">
+          <p class="text-base md:text-lg font-medium text-gray-900">
+            One partner for build, retrofit, and fit-out.
+          </p>
+          <p class="mt-2 text-gray-700">
+            We ensure functional performance, safety compliance, and brand-right aesthetics—backed by
+            coordinated execution and rigorous quality control.
+          </p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- Why Choose -->
   <section class="py-16 bg-white">
