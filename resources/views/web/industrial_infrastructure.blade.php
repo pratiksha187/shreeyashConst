@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
-@section('title', 'Home')
+@section('title', 'Industrial Infrastructure Experts – Shreeyash Construction')
 @section('meta')
     <meta name="title" content="Industrial Infrastructure Experts – Shreeyash Construction">
-    <meta name="description" content="Expert road construction services across Maharashtra. Shreeyash Construction delivers quality roads with durability and precision.">
+    <meta name="description" content="Leading industrial infrastructure projects in Maharashtra with modern designs, durability, and timely execution by Shreeyash Construction.">
 @endsection
 @section('content')
 

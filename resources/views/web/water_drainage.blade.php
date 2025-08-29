@@ -1,8 +1,16 @@
 @extends('layouts.app')
 
-@section('title', 'Home')
-<meta name="title" content="Water & Drainage Systems – Shreeyash Construction">
-    <meta name="description" content="Reliable water and drainage system construction in Maharashtra with expert planning and execution by Shreeyash Construction.">
+@section('title', 'Water & Drainage Systems – Shreeyash Construction')
+
+@push('meta')
+  <meta name="description" content="Reliable water and drainage system construction in Maharashtra with expert planning and execution by Shreeyash Construction.">
+  <link rel="canonical" href="{{ url()->current() }}">
+  <!-- Optional: social cards -->
+  <meta property="og:title" content="Water & Drainage Systems – Shreeyash Construction">
+  <meta property="og:description" content="Reliable water and drainage system construction in Maharashtra...">
+  <meta property="og:url" content="{{ url()->current() }}">
+  <meta property="og:type" content="website">
+@endpush
 @section('content')
 
 <!-- Hero Section -->

@@ -19,38 +19,24 @@
   .spec-row:nth-child(odd){ background:rgba(15,76,129,0.05); }
 </style>
 
-{{-- ============ HERO ============ --}}
-<!-- <section class="hero-pattern text-white py-20">
-  <div class="container mx-auto px-4 md:px-6 lg:px-8">
-    <div class="max-w-5xl mx-auto text-center">
-      <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-        Cement Concrete Road Construction Contractor in Maharashtra
-      </h1>
-      <p class="text-lg md:text-xl mb-8 opacity-90">
-        Shreeyash Construction is a trusted <strong>concrete road construction company in India</strong>, delivering high-performance
-        <strong>RCC roads across Maharashtra</strong> for townships, industrial parks, and highways. We execute
-        <strong>rigid pavement construction (inset/offset)</strong> strictly as per <strong>MoRTH & IRC standards</strong>.
-      </p>
-      <div class="bg-white/10 rounded-lg p-6 inline-block text-left">
-        <p class="opacity-90">
-          Looking for “concrete road contractors near me” you can trust?
-          As a Government-registered firm, every kilometre we pave follows state-level QA/QC benchmarks.
-        </p>
+
+ <section class="relative h-[430px] overflow-hidden">
+    {{-- Image fills the header, crops gracefully like CSS background-cover --}}
+    <img src="/storage/logo/header/Cement.png"
+         alt="Precast Compound Walls"
+         class="absolute inset-0 w-full h-full object-cover object-center">
+    {{-- Dark overlay for text readability --}}
+    <div class="absolute inset-0 bg-black/30"></div>
+
+    <div class="relative container mx-auto px-4 md:px-6 lg:px-8 h-full flex items-center justify-center">
+      <div class="max-w-5xl mx-auto text-center bg-black/50 p-6 rounded-lg">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
+          Cement Concrete Road Construction Contractor in Maharashtra
+        </h1>
+        
       </div>
     </div>
-  </div>
-</section> -->
-{{-- HERO (only the page title) --}}
-<section class="hero-pattern text-white py-20">
-  <div class="container mx-auto px-4 md:px-6 lg:px-8">
-    <div class="max-w-5xl mx-auto text-center">
-      <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-0">
-        Cement Concrete Road Construction Contractor in Maharashtra
-      </h1>
-    </div>
-  </div>
-</section>
-
+  </section>
 {{-- OVERVIEW (moved content from old hero) --}}
 <section id="overview" class="py-12 bg-white">
   <div class="container mx-auto px-4 md:px-6 lg:px-8">

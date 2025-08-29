@@ -37,14 +37,25 @@
       .service-card:hover{transform:translateY(-5px);box-shadow:0 10px 20px rgba(0,0,0,0.1)}
       .spec-row:nth-child(odd){background-color:rgba(28,44,62,0.04)}
       :root{ --brand:#1c2c3e; --accent:#f25c05; }
+
+      @media (min-width: 768px) {
+  section.hero-pattern {
+    background-size: 60% auto;
+  }
+}
+@media (min-width: 1024px) {
+  section.hero-pattern {
+    background-size: 40% auto;
+  }
+}
     </style>
+    
   @endonce
 
-  <!-- Hero -->
- {{-- Page Header Section --}}
-<section class="hero-pattern text-white py-16 shadow-lg">
-  <div class="container mx-auto px-4 md:px-6 lg:px-8">
-    <div class="max-w-5xl mx-auto text-center">
+<section class="hero-pattern text-white shadow-lg bg-center bg-no-repeat h-[430px]"
+         style="background-image: url('/storage/logo/header/Structural.png'); background-size: 100% auto;">
+  <div class="container mx-auto px-4 md:px-6 lg:px-8 h-full flex items-center justify-center">
+    <div class="max-w-5xl mx-auto text-center bg-black/50 p-6 rounded-lg">
       <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">
         Structural Retrofitting
       </h1>

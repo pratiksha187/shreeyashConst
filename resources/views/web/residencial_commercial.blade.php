@@ -1,8 +1,15 @@
 @extends('layouts.app')
 
-@section('title', 'Home')
-<meta name="title" content="Residential & Commercial Civil Works – Shreeyash Construction">
-    <meta name="description" content="High-quality civil work for residential & commercial projects across Maharashtra, delivered with precision by Shreeyash Construction.">
+@section('title', 'Residential & Commercial Civil Works – Shreeyash Construction')
+@push('meta')
+  <meta name="description" content="High-quality civil work for residential & commercial projects across Maharashtra, delivered with precision by Shreeyash Construction.">
+  <link rel="canonical" href="{{ url()->current() }}">
+  <!-- Optional: social cards -->
+  <meta property="og:title" content="Residential & Commercial Civil Works – Shreeyash Construction">
+  <meta property="og:description" content="High-quality civil work for residential & commercial projects across Maharashtra, delivered with precision by Shreeyash Construction.">
+  <meta property="og:url" content="{{ url()->current() }}">
+  <meta property="og:type" content="website">
+@endpush
 @section('content')
 
 <!-- Hero Section -->

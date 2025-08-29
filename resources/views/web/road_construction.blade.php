@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Home')
+@section('title', 'Top Road Contractors in Maharashtra – Shreeyash Construction')
 @section('meta')
     <meta name="title" content="Top Road Contractors in Maharashtra – Shreeyash Construction">
     <meta name="description" content="Expert road construction services across Maharashtra. Shreeyash Construction delivers quality roads with durability and precision.">

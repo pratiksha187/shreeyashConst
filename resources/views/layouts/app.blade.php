@@ -27,22 +27,25 @@
     <meta name="description" content="Shreeyash Construction delivers roads, civil & industrial infrastructure projects across Maharashtra with quality and on-time execution.">
   @endif
 
-  {{-- extra head assets (fonts, page CSS, OG tags, canonicals, etc.) --}}
   @stack('head')
 
-  {{-- global styles/scripts --}}
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
 
   <!-- Google tag (gtag.js) -->
+   <meta name="google-site-verification" content="GfMVjFuS2NSpl5t-LirQJ4EIorI5NQEia_3qmeGr-U4" />
+
+  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-VQKZ0NE0RS"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
+
     gtag('config', 'G-VQKZ0NE0RS');
   </script>
+
 </head>
 
 <body class="bg-gray-100 text-gray-800 flex flex-col min-h-screen">

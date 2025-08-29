@@ -66,7 +66,6 @@ Route::get('/projects/{slug}', [HomeController::class, 'show'])->name('projects.
 Route::get('/project/type/{type}', [HomeController::class, 'byType'])->name('project.byType');
 
 
-
 Route::get('contact_us', [HomeController::class, 'contact_us'])->name('contact_us');
 
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Home')
+@section('title', 'Land Development Specialists – Shreeyash Construction')
   <meta name="title" content="Land Development Specialists – Shreeyash Construction">
   <meta name="description" content="End-to-end land development solutions in Maharashtra. Shreeyash Construction ensures quality planning, design, and execution.">
 @section('content')

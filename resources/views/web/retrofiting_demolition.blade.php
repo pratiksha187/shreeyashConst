@@ -1,8 +1,15 @@
 @extends('layouts.app')
 
-@section('title', 'Home')
-<meta name="title" content="Retrofitting & Demolition Experts – Shreeyash Construction">
-    <meta name="description" content="Professional retrofitting and demolition services in Maharashtra, ensuring safety, speed, and quality by Shreeyash Construction.">
+@section('title', 'Retrofitting & Demolition Experts – Shreeyash Construction')
+@push('meta')
+  <meta name="description" content="Professional retrofitting and demolition services in Maharashtra, ensuring safety, speed, and quality by Shreeyash Construction.">
+  <link rel="canonical" href="{{ url()->current() }}">
+  <!-- Optional: social cards -->
+  <meta property="og:title" content="Retrofitting & Demolition Experts – Shreeyash Construction">
+  <meta property="og:description" content="Professional retrofitting and demolition services in Maharashtra, ensuring safety, speed, and quality by Shreeyash Construction.">
+  <meta property="og:url" content="{{ url()->current() }}">
+  <meta property="og:type" content="website">
+@endpush
 @section('content')
 
 <!-- Hero Section -->

@@ -30,18 +30,24 @@
   .spec-row:nth-child(odd){background:rgba(15,76,129,.05)}
 </style>
 
-<!-- HERO (same design as Asphalt page) -->
-<header class="hero-pattern text-white">
-  <div class="container mx-auto px-4 py-20 md:py-28">
-    <div class="max-w-3xl">
-      <h1 class="text-4xl md:text-5xl font-bold mb-6">Asphalt Compaction Services</h1>
-      <p class="text-lg md:text-xl opacity-90">Expert Asphalt Compaction Contractors in Maharashtra</p>
-    </div>
-  </div>
-  <div class="section-transition"></div>
-</header>
+ <section class="relative h-[430px] overflow-hidden">
+    {{-- Image fills the header, crops gracefully like CSS background-cover --}}
+    <img src="/storage/logo/header/Compaction.png"
+         alt="Precast Compound Walls"
+         class="absolute inset-0 w-full h-full object-cover object-center">
+    {{-- Dark overlay for text readability --}}
+    <div class="absolute inset-0 bg-black/30"></div>
 
-<div class="road-pattern"></div>
+    <div class="relative container mx-auto px-4 md:px-6 lg:px-8 h-full flex items-center justify-center">
+      <div class="max-w-5xl mx-auto text-center bg-black/50 p-6 rounded-lg">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
+         Asphalt Compaction Services
+        </h1>
+        
+      </div>
+    </div>
+  </section>
+<!-- <div class="road-pattern"></div> -->
 
 <!-- OVERVIEW STYLE CARD (content unchanged) -->
 <section class="py-14 bg-white">

@@ -41,16 +41,16 @@
 
   <!-- Hero -->
  {{-- Page Header Section --}}
-<section class="hero-pattern text-white py-16 shadow-lg">
-  <div class="container mx-auto px-4 md:px-6 lg:px-8">
-    <div class="max-w-5xl mx-auto text-center">
+<section class="hero-pattern text-white shadow-lg bg-cover bg-center"
+         style="background-image: url('/storage/logo/header/Commercial.png');height: 430px;width: 1521px;">
+  <div class="container mx-auto px-4 md:px-6 lg:px-8 h-full flex items-center justify-center">
+    <div class="max-w-5xl mx-auto text-center bg-black/50 p-6 rounded-lg">
       <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">
         Commercial Unit Civil Work
       </h1>
     </div>
   </div>
 </section>
-
 {{-- Content Section --}}
 <section class="py-16 bg-gray-50">
   <div class="container mx-auto px-4 md:px-6 lg:px-8">

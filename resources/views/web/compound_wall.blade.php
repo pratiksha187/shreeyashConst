@@ -1,8 +1,15 @@
 @extends('layouts.app')
 
-@section('title', 'Home')
-<meta name="title" content="Compound Wall Construction – Shreeyash Construction">
-    <meta name="description" content="Durable and secure compound wall construction in Maharashtra, designed and built by Shreeyash Construction for lasting protection.">
+@section('title', 'Compound Wall Construction – Shreeyash Construction')
+@push('meta')
+  <meta name="description" content="Durable and secure compound wall construction in Maharashtra, designed and built by Shreeyash Construction for lasting protection.">
+  <link rel="canonical" href="{{ url()->current() }}">
+  <!-- Optional: social cards -->
+  <meta property="og:title" content="Compound Wall Construction – Shreeyash Construction">
+  <meta property="og:description" content="Durable and secure compound wall construction in Maharashtra, designed and built by Shreeyash Construction for lasting protection.">
+  <meta property="og:url" content="{{ url()->current() }}">
+  <meta property="og:type" content="website">
+@endpush
 @section('content')
 
 <!-- Hero Section -->

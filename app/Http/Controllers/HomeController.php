@@ -182,14 +182,11 @@ class HomeController extends Controller
 
     }
 
-    
 
-    
     public function testimonials(){
         return view('web.testimonials');
     }
     
-    
-    
+   
     
 }

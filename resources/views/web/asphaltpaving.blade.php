@@ -45,23 +45,24 @@
    transform: translateY(-5px);
    }
 </style>
-<!-- Hero Section -->
-<header class="hero-pattern text-white">
-   <div class="container mx-auto px-4 py-20 md:py-32">
-      <div class="max-w-3xl">
-         <h1 class="text-4xl md:text-5xl font-bold mb-6">Asphalt / Bitumen Road Construction</h1>
-         <p class="text-lg md:text-xl mb-8">Reliable, durable, and cost-effective solutions for modern infrastructure development</p>
-         <a href="#overview" class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-6 rounded-lg transition inline-flex items-center">
-            Learn More
-            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-            </svg>
-         </a>
-      </div>
-   </div>
-   <div class="section-transition"></div>
-</header>
 
+ <section class="relative h-[430px] overflow-hidden">
+    {{-- Image fills the header, crops gracefully like CSS background-cover --}}
+    <img src="/storage/logo/header/Asphalt.png"
+         alt="Precast Compound Walls"
+         class="absolute inset-0 w-full h-full object-cover object-center">
+    {{-- Dark overlay for text readability --}}
+    <div class="absolute inset-0 bg-black/30"></div>
+
+    <div class="relative container mx-auto px-4 md:px-6 lg:px-8 h-full flex items-center justify-center">
+      <div class="max-w-5xl mx-auto text-center bg-black/50 p-6 rounded-lg">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
+         Asphalt / Bitumen Road Construction
+        </h1>
+        
+      </div>
+    </div>
+  </section>
 <section id="overview" class="py-16 bg-white">
    <div class="container mx-auto px-4">
       <div class="flex flex-col md:flex-row items-center">

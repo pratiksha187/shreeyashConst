@@ -33,11 +33,7 @@
         <div class="container mx-auto px-4 md:px-6 lg:px-8">
             <div class="max-w-4xl mx-auto text-center">
                 <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Drainage Line & Sewer Work Contractors in Maharashtra</h1>
-               
-                <!-- <div class="mt-12 bg-white bg-opacity-10 rounded-lg p-6 backdrop-filter backdrop-blur-sm">
-                    <p class="text-lg font-medium">Looking for concrete road contractors near me you can trust?</p>
-                    <p class="mt-2">As a Government‑registered firm, we follow IRC and MORTH standards to ensure every kilometre we pave meets the state's strictest quality and safety benchmarks.</p>
-                </div> -->
+           
             </div>
         </div>
     </section>
