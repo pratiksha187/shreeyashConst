@@ -26,8 +26,8 @@
       "url": "https://shreeyash.co.in/storage/logo/logor.png"
     }
   },
-  "datePublished": "2025-10-09",
-  "dateModified": "2025-10-09"
+  "datePublished": "2025-10-09T10:00:00+05:30",
+  "dateModified": "2025-10-09T10:00:00+05:30"
 }
 </script>
 <style>
