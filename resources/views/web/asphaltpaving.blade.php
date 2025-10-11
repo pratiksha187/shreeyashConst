@@ -1,6 +1,35 @@
 @extends('layouts.app')
 @section('title', 'Asphalt & Bitumen Road Construction Services - Shreeyash Construction')
 @section('content')
+<!-- ✅ JSON-LD Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://shreeyash.co.in/asphalt-bitumen-road-construction"
+  },
+  "headline": "Asphalt & Bitumen Road Construction Services - Shreeyash Construction",
+  "description": "Shreeyash Construction delivers roads, civil industrial infrastructure projects across Maharashtra with quality and on time execution",
+  "image": "https://shreeyash.co.in/storage/logo/main/roadconst.jpg",  
+  "author": {
+    "@type": "Organization",
+    "name": "Shreeyash Construction",
+    "url": "https://shreeyash.co.in/"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Shreeyash Construction",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://shreeyash.co.in/storage/logo/logor.png"
+    }
+  },
+  "datePublished": "2025-10-09",
+  "dateModified": "2025-10-09"
+}
+</script>
 <style>
    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
    body {
@@ -681,6 +710,32 @@
       </div>
    </div>
 </section>
+<script>
+   // Smooth scrolling for anchor links
+   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+       anchor.addEventListener('click', function(e) {
+           e.preventDefault();
+           const targetId = this.getAttribute('href');
+           const targetElement = document.querySelector(targetId);
+           if (targetElement) {
+               window.scrollTo({
+                   top: targetElement.offsetTop - 70,
+                   behavior: 'smooth'
+               });
+           }
+       });
+   });
+
+   // Navbar shadow on scroll
+   window.addEventListener('scroll', function() {
+       const nav = document.querySelector('nav');
+       if (window.scrollY > 10) {
+           nav.classList.add('shadow-lg');
+       } else {
+           nav.classList.remove('shadow-lg');
+       }
+   });
+</script>
 <script>
    // Mobile menu toggle
    document.getElementById('menu-toggle').addEventListener('click', function() {
