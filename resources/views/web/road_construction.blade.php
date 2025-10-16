@@ -64,16 +64,17 @@
 </style>
 
 <!-- ================= HERO SECTION ================= -->
-<header class="gradient-bg text-white py-16">
-  <div class="max-w-6xl mx-auto px-6">
-    <div class="text-center">
-      <h1 class="text-4xl md:text-5xl font-bold mb-4">Road Construction</h1>
-      <p class="text-xl mb-2">Road Construction Experts in Maharashtra</p>
-      <p class="text-lg opacity-90 mb-8">Building Strong Roads. Delivering Trusted Quality.</p>
-      <a href="#contact-bottom" class="btn-primary inline-flex items-center px-8 py-4 rounded-lg text-lg font-semibold">
-        📩 Get a Free Project Estimate
-      </a>
-    </div>
+
+<header class="relative text-white py-24 bg-center bg-cover" style="background-image: url('{{ asset('storage/logo/main/roadconst.jpg') }}');">
+  <div class="absolute inset-0 bg-gradient-to-r from-[rgba(184,153,76,0.85)] to-[rgba(51,51,51,0.85)]"></div>
+
+  <div class="relative max-w-6xl mx-auto px-6 text-center">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">Road Construction</h1>
+    <p class="text-xl mb-2">Road Construction Experts in Maharashtra</p>
+    <p class="text-lg opacity-90 mb-8">Building Strong Roads. Delivering Trusted Quality.</p>
+    <a href="#contact-bottom" class="btn-primary inline-flex items-center px-8 py-4 rounded-lg text-lg font-semibold">
+      📩 Get a Free Project Estimate
+    </a>
   </div>
 </header>
 
