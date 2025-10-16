@@ -38,10 +38,6 @@ class SitemapUploadController extends Controller
         // Always save as sitemap.xml (replace old)
         $disk->putFileAs($dir, $request->file('sitemap'), 'sitemap.xml');
 
-        // (Option A) ALSO copy to public root so it’s available at https://domain.com/sitemap.xml
-        // Uncomment if you prefer writing to public/ directly:
-        // $request->file('sitemap')->move(public_path(), 'sitemap.xml');
-
         return back()->with('status', 'Sitemap uploaded successfully!');
     }
 
