@@ -67,7 +67,7 @@
 <header class="gradient-bg text-white py-16">
   <div class="max-w-6xl mx-auto px-6">
     <div class="text-center">
-      <h1 class="text-4xl md:text-5xl font-bold mb-4">Shreeyash Construction</h1>
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Road Construction</h1>
       <p class="text-xl mb-2">Road Construction Experts in Maharashtra</p>
       <p class="text-lg opacity-90 mb-8">Building Strong Roads. Delivering Trusted Quality.</p>
       <a href="#contact-bottom" class="btn-primary inline-flex items-center px-8 py-4 rounded-lg text-lg font-semibold">
