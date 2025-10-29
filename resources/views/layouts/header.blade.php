@@ -80,7 +80,7 @@
             <!-- Water & Drainage -->
             <div class="relative">
               <div class="flex justify-between items-center px-4 py-2 hover:bg-yellow-100 text-gray-700 cursor-pointer" @click="waterOpen = !waterOpen">
-                {{-- <span class="flex-1">Water & Drainage</span> --}}
+                
                 <a href="{{ route('water_drainage') }}" class="flex items-center space-x-2 hover:text-orange-600">
                     <span class="flex-1">Water & Drainage</span>
                 </a>

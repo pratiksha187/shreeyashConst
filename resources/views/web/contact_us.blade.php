@@ -26,7 +26,7 @@
                         </div>
                         <div>
                             <label class="block text-gray-700 font-medium mb-2">Mobile Number *</label>
-                            <input type="tel" name="mobile" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent" placeholder="+91 98765 43210">
+                            <input type="tel" name="mobile" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent" placeholder="+91 XXXXX-XXXXX">
                         </div>
                     </div>
 

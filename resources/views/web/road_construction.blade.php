@@ -238,8 +238,8 @@
   <div class="max-w-6xl mx-auto px-6 text-center">
     <h2 class="text-2xl font-bold mb-4 text-[var(--primary)]">📞 Contact Us Today</h2>
     <p class="mb-6">Ready to start your next road project? Reach out for a free consultation and cost estimate.</p>
-    <p class="text-lg">📲 <strong>+91 8446115797</strong></p>
-    <p class="text-lg">📧 info@shreeyashconstruction.in</p>
+    <p class="text-lg">📲 <strong>+91 9326216153</strong></p>
+    <p class="text-lg">📧 sc@shreeyashconstruction.co.in</p>
     <p class="mt-8 text-sm text-gray-400">© 2025 Shreeyash Construction. All rights reserved.</p>
   </div>
 </footer>

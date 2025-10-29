@@ -176,8 +176,8 @@
                   <svg class="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M6 6l6 4-6 4V6z"/></svg>
                 </div>
                 <div x-show="retrofitOpen" x-transition x-cloak class="absolute left-full top-0 bg-white shadow-lg rounded w-56 z-50">
-                  <a href="{{ route('structural_modification') }}" class="block px-4 py-2 hover:bg-yellow-100">Structural Modification</a>
-                  <a href="{{ route('repair_strengthening_reinforcement') }}" class="block px-4 py-2 hover:bg-yellow-100">Reinforcement & Repairs</a>
+                  <a href="{{ route('structural_modification') }}" class="block px-4 py-2 hover:bg-yellow-100">Structural Retrofitting</a>
+                  <a href="{{ route('repair_strengthening_reinforcement') }}" class="block px-4 py-2 hover:bg-yellow-100">structural-repair</a>
                   <a href="{{ route('demolition_work') }}" class="block px-4 py-2 hover:bg-yellow-100">Demolition Work</a>
                 </div>
               </div>
