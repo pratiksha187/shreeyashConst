@@ -1,7 +1,5 @@
 @extends('layouts.app')
-
 @section('title', 'Contact')
-
 @section('content')
 <!-- Contact Page -->
 <section class="py-20 bg-white">
@@ -17,62 +15,69 @@
             <!-- Contact Form -->
             <div class="bg-gray-50 p-8 rounded-xl">
                 <h3 class="text-2xl font-bold text-gray-800 mb-6">Get a Free Quote</h3>
+               
                 <form id="contact-form" action="{{ route('contact.store') }}" method="POST" class="space-y-6">
                     @csrf
                     <div class="grid md:grid-cols-2 gap-6">
                         <div>
                             <label class="block text-gray-700 font-medium mb-2">Full Name *</label>
-                            <input type="text" name="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent" placeholder="Enter your full name">
+                            <input type="text" name="name" id="name" required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
+                                placeholder="Enter your full name">
                         </div>
                         <div>
                             <label class="block text-gray-700 font-medium mb-2">Mobile Number *</label>
-                            <input type="tel" name="mobile" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent" placeholder="+91 XXXXX-XXXXX">
+                            <input type="tel" name="mobile" id="mobile" required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
+                                placeholder="+91 XXXXX-XXXXX">
                         </div>
                     </div>
 
                     <div class="grid md:grid-cols-2 gap-6">
                         <div>
                             <label class="block text-gray-700 font-medium mb-2">Project Type *</label>
-                            <select name="project_type" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent">
+                            <select name="project_type" id="project_type" required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent">
                                 <option value="">Select Project Type</option>
-                                <option value="asphalt-road">Asphalt Road Construction</option>
-                                <option value="concrete-road">Concrete Road Construction</option>
-                                <option value="gsb-wmm">GSB and WMM Laying</option>
-                                <option value="industrial-shed">Industrial Shed Construction</option>
-                                <option value="compound-wall">Compound Wall Construction</option>
-                                <option value="land-development">Land Development</option>
-                                <option value="drainage">Drainage & Sewer Work</option>
-                                <option value="water-supply">Underground Water Supply</option>
-                                <option value="residential">Residential Construction</option>
-                                <option value="commercial">Commercial Construction</option>
-                                <option value="earthwork">Transportation & Earthwork</option>
-                                <option value="renovation">Retrofitting & Renovation</option>
+                                <option value="Asphalt Road Construction">Asphalt Road Construction</option>
+                                <option value="Concrete Road Construction">Concrete Road Construction</option>
+                                <option value="Residential Construction">Residential Construction</option>
+                                <option value="Commercial Construction">Commercial Construction</option>
+                                <option value="Industrial Shed">Industrial Shed</option>
+                                <option value="Land Development">Land Development</option>
+                                <option value="Compound Wall">Compound Wall</option>
+                                <option value="Drainage & Sewer">Drainage & Sewer</option>
+                                <option value="Water Supply">Underground Water Supply</option>
+                                <option value="Renovation">Retrofitting & Renovation</option>
                             </select>
                         </div>
                         <div>
                             <label class="block text-gray-700 font-medium mb-2">Location *</label>
-                            <select name="location" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent">
+                            <select name="location" id="location" required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent">
                                 <option value="">Select Location</option>
-                                <option value="mumbai">Mumbai</option>
-                                <option value="pune">Pune</option>
-                                <option value="raigad">Raigad</option>
-                                <option value="khopoli">Khopoli</option>
-                                <option value="nagothane">Nagothane</option>
-                                <option value="other">Other Maharashtra Location</option>
+                                <option value="Mumbai">Mumbai</option>
+                                <option value="Pune">Pune</option>
+                                <option value="Raigad">Raigad</option>
+                                <option value="Khopoli">Khopoli</option>
+                                <option value="Nagothane">Nagothane</option>
+                                <option value="Other Maharashtra Location">Other Maharashtra Location</option>
                             </select>
                         </div>
                     </div>
 
                     <div>
                         <label class="block text-gray-700 font-medium mb-2">Project Details</label>
-                        <textarea name="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent" placeholder="Please describe your project requirements, timeline, and any specific details..."></textarea>
+                        <textarea name="message" id="message" rows="4"
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
+                            placeholder="Please describe your project requirements, timeline, and any specific details..."></textarea>
                     </div>
 
-                    <button type="submit" class="w-full bg-yellow-400 hover:bg-yellow-500 text-gray-800 py-4 rounded-lg text-lg font-semibold transition-colors">
+                    <button type="submit"
+                        class="w-full bg-yellow-400 hover:bg-yellow-500 text-gray-800 py-4 rounded-lg text-lg font-semibold transition-colors">
                         <i class="fas fa-paper-plane mr-2"></i>Send Quote Request
                     </button>
                 </form>
-
                 <div class="mt-8 pt-8 border-t border-gray-200">
                     <h4 class="font-bold text-gray-800 mb-4">Quick Contact Options</h4>
                     <div class="flex flex-col sm:flex-row gap-4">
@@ -160,4 +165,48 @@
         </div>
     </div>
 </section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$('#contact-form').on('submit', function(e) {
+    e.preventDefault();
+
+    let form = $(this);
+    let formData = form.serialize();
+
+    $.ajax({
+        url: form.attr('action'),
+        method: 'POST',
+        data: formData,
+        success: function(response) {
+            // ✅ After saving successfully, open WhatsApp
+            const name = $('#name').val();
+            const mobile = $('#mobile').val();
+            const projectType = $('#project_type').val();
+            const location = $('#location').val();
+            const message = $('#message').val();
+
+            const whatsappMessage = `New Inquiry from Shreeyash Construction 🏗️
+Name: ${name}
+Mobile: ${mobile}
+Project Type: ${projectType}
+Location: ${location}
+Details: ${message}`;
+
+            const whatsappNumber = "919326216153"; // Your WhatsApp number
+            const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+
+            window.open(url, '_blank'); // Open WhatsApp
+
+            // Optional: reset the form
+            form.trigger('reset');
+
+            alert('Your inquiry has been submitted successfully!');
+        },
+        error: function(xhr) {
+            alert('Something went wrong. Please try again later.');
+        }
+    });
+});
+</script>
 @endsection
