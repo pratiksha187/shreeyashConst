@@ -224,47 +224,4 @@ $('#contact-form').on('submit', function(e) {
 });
 </script>
 
-<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-$('#contact-form').on('submit', function(e) {
-    e.preventDefault();
-
-    let form = $(this);
-    let formData = form.serialize();
-
-    $.ajax({
-        url: form.attr('action'),
-        method: 'POST',
-        data: formData,
-        success: function(response) {
-            // ✅ After saving successfully, open WhatsApp
-            const name = $('#name').val();
-            const mobile = $('#mobile').val();
-            const projectType = $('#project_type').val();
-            const location = $('#location').val();
-            const message = $('#message').val();
-
-            const whatsappMessage = `New Inquiry from Shreeyash Construction 🏗️
-                Name: ${name}
-                Mobile: ${mobile}
-                Project Type: ${projectType}
-                Location: ${location}
-                Details: ${message}`;
-
-            const whatsappNumber = "919326216153"; // Your WhatsApp number
-            const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
-
-            window.open(url, '_blank'); // Open WhatsApp
-
-            // Optional: reset the form
-            form.trigger('reset');
-
-            alert('Your inquiry has been submitted successfully!');
-        },
-        error: function(xhr) {
-            alert('Something went wrong. Please try again later.');
-        }
-    });
-});
-</script> -->
 @endsection
