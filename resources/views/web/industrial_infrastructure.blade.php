@@ -47,7 +47,7 @@
 
 <!-- ================= HERO SECTION ================= -->
 <header class="relative text-white py-24 bg-center bg-cover" 
-  style="background-image: url('{{ asset('storage/logo/main/industrial-bg.jpg') }}');">
+  style="background-image: url('{{ asset('storage/industrial-infrastructure.jpg') }}');">
   <div class="absolute inset-0 bg-gradient-to-r from-[rgba(184,153,76,0.85)] to-[rgba(51,51,51,0.85)]"></div>
 
   <div class="relative max-w-6xl mx-auto px-6 text-center">
@@ -59,6 +59,8 @@
     </a>
   </div>
 </header>
+
+
 
 <!-- ================= INTRO SECTION ================= -->
 <section class="py-16 bg-gray-50">

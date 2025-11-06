@@ -50,7 +50,7 @@
 
 <!-- ================= HERO SECTION ================= -->
 <header class="relative text-white py-24 bg-center bg-cover"
-  style="background-image: url('{{ asset('storage/logo/main/landdev-bg.jpg') }}');">
+  style="background-image: url('{{ asset('storage/land_dev.jpg') }}');">
   <div class="absolute inset-0 bg-gradient-to-r from-[rgba(184,153,76,0.85)] to-[rgba(51,51,51,0.85)]"></div>
 
   <div class="relative max-w-6xl mx-auto px-6 text-center">
@@ -96,14 +96,14 @@
             'title' => 'Plot Leveling, Grading, and Road Access',
             'desc' => 'We offer precise plot leveling and grading services to shape land for residential layouts, industrial projects, or commercial use. Our services also include the creation of temporary or permanent road access, ensuring smooth logistics and project readiness.',
             'icon' => '<svg class="h-6 w-6 text-yellow-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l2-2 6 6 6-6 2 2"/><path d="M3 6h18v6H3z"/></svg>',
-            'image' => asset('storage/logo/header/land-leveling.jpg'),
+            'image' => asset('storage/PlotLeveling.jpg'),
             'link' => route('industrial_shed_work'),
           ],
           [
             'title' => 'Earth Cutting, Filling & Compaction',
             'desc' => 'With a strong fleet of JCBs, tippers, and compactors, we handle bulk earth cutting and filling work with precision and efficiency. Our expert team ensures proper backfilling, soil compaction, and layer-wise leveling that meets structural and regulatory standards.',
             'icon' => '<svg class="h-6 w-6 text-yellow-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><path d="M3 9h18"/></svg>',
-            'image' => asset('storage/logo/header/earth-cutting.jpg'),
+            'image' => asset('storage/cut.jpg'),
             'link' => route('earth_cutting_filling_compaction'),
           ]
         ];

@@ -53,7 +53,7 @@
 
 <!-- ================= HERO SECTION ================= -->
 <header class="relative text-white py-24 bg-center bg-cover"
-  style="background-image: url('{{ asset('storage/logo/main/water-drainage-bg.jpg') }}');">
+  style="background-image: url('{{ asset('storage/Drain-Empty-scaled.jpeg') }}');">
   <div class="absolute inset-0 bg-gradient-to-r from-[rgba(184,153,76,0.85)] to-[rgba(51,51,51,0.85)]"></div>
 
   <div class="relative max-w-6xl mx-auto px-6 text-center">
@@ -112,21 +112,21 @@
             'title' => 'Drainage Line & Sewer Work',
             'desc' => 'We install RCC, PVC, and HDPE pipelines with proper slope, sealing, and manhole construction to ensure effective and long-lasting sewage systems in urban and industrial projects.',
             'icon' => '<svg class="h-6 w-6 text-yellow-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94"/><path d="M9.69 8h11.48"/></svg>',
-            'image' => asset('storage/logo/header/sewer-work.jpg'),
+            'image' => asset('storage/drain.jpg'),
             'link' => route('drainage_line_sewer_work'),
           ],
           [
             'title' => 'RCC & Precast Chamber Installation',
             'desc' => 'Shreeyash Construction installs strong, reliable RCC and precast chambers for inspection and maintenance access, ensuring system longevity and ease of service.',
             'icon' => '<svg class="h-6 w-6 text-yellow-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18"/><path d="M3 9h18"/></svg>',
-            'image' => asset('storage/logo/header/rcc-chamber.jpg'),
+            'image' => asset('storage/rccchember.jpg'),
             'link' => route('rcc_chamber_installation'),
           ],
           [
             'title' => 'Precast U Drain Installation',
             'desc' => 'We offer professional precast U drain installation for industrial areas, roadsides, and storm water discharge systems — with proper slope, bedding, and joint sealing.',
             'icon' => '<svg class="h-6 w-6 text-yellow-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18"/><path d="M3 6h18v6H3z"/></svg>',
-            'image' => asset('storage/logo/header/u-drain.jpg'),
+            'image' => asset('storage/UDrain.jpg'),
             'link' => route('precast_u_drain'),
           ]
         ];

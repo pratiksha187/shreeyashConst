@@ -55,7 +55,7 @@
 
 <!-- ================= HERO SECTION ================= -->
 <header class="relative text-white py-24 bg-center bg-cover"
-  style="background-image: url('{{ asset('storage/logo/main/retrofit-bg.jpg') }}');">
+  style="background-image: url('{{ asset('storage/retrofiting.jpg') }}');">
   <div class="absolute inset-0 bg-gradient-to-r from-[rgba(184,153,76,0.85)] to-[rgba(51,51,51,0.85)]"></div>
 
   <div class="relative max-w-6xl mx-auto px-6 text-center">
@@ -100,21 +100,21 @@
             'title' => 'Structural Modification (Retrofitting)',
             'desc' => 'We perform structural retrofitting and layout modification for factories, warehouses, and industrial buildings. Our solutions include jacketing, carbon fiber wrapping, and RCC strengthening — ensuring compliance and longevity.',
             'icon' => '<svg class="h-6 w-6 text-yellow-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l9-9 9 9"/><path d="M9 21V9h6v12"/></svg>',
-            'image' => asset('storage/logo/header/retrofit.jpg'),
+            'image' => asset('storage/Structuralretrofiting.jpg'),
             'link' => route('structural_modification'),
           ],
           [
             'title' => 'Repair, Strengthening & Reinforcement',
             'desc' => 'We offer professional repair and strengthening for aging or damaged RCC structures. Our services include epoxy injection, grouting, and steel anchoring for industrial buildings in Mahad, Dhatav, and Chakan.',
             'icon' => '<svg class="h-6 w-6 text-yellow-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18"/><path d="M3 9h18"/></svg>',
-            'image' => asset('storage/logo/header/strengthening.jpg'),
+            'image' => asset('storage/reinforced.jpg'),
             'link' => route('repair_strengthening_reinforcement'),
           ],
           [
             'title' => 'Demolition Work',
             'desc' => 'We handle safe and controlled demolition for RCC structures, tanks, and factory sheds using mechanical and manual techniques. Debris removal and site cleanup are managed end-to-end under safety guidelines.',
             'icon' => '<svg class="h-6 w-6 text-yellow-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18"/><path d="M3 6h18v6H3z"/></svg>',
-            'image' => asset('storage/logo/header/demolition.jpg'),
+            'image' => asset('storage/demolution.jpg'),
             'link' => route('demolition_work'),
           ]
         ];

@@ -55,7 +55,7 @@
 
 <!-- ================= HERO SECTION ================= -->
 <header class="relative text-white py-24 bg-center bg-cover"
-  style="background-image: url('{{ asset('storage/logo/main/compound-wall-bg.jpg') }}');">
+  style="background-image: url('{{ asset('storage/boundary.jpg') }}');">
   <div class="absolute inset-0 bg-gradient-to-r from-[rgba(184,153,76,0.85)] to-[rgba(51,51,51,0.85)]"></div>
 
   <div class="relative max-w-6xl mx-auto px-6 text-center">
@@ -99,21 +99,21 @@
             'title' => 'UCR Masonry Compound Walls',
             'desc' => 'We build strong, weather-resistant compound walls using uncoursed rubble (UCR) stone and cement mortar, ideal for farms, industries, and property boundaries.',
             'icon' => '<svg class="h-6 w-6 text-yellow-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/></svg>',
-            'image' => asset('storage/logo/header/ucr-wall.jpg'),
+            'image' => asset('storage/ucr.jpg'),
             'link' => route('ucr_masonry_compound_walls'),
           ],
           [
             'title' => 'Precast Compound Walls',
             'desc' => 'Our precast compound walls use modular concrete panels and columns for quick installation — a cost-effective, durable fencing solution with excellent aesthetics.',
             'icon' => '<svg class="h-6 w-6 text-yellow-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l2-2 6 6 6-6 2 2"/><path d="M3 6h18v6H3z"/></svg>',
-            'image' => asset('storage/logo/header/precast-wall.jpg'),
+            'image' => asset('storage/Precast.jpg'),
             'link' => route('precast_compound_walls'),
           ],
           [
             'title' => 'Fencing Work',
             'desc' => 'We offer fencing solutions including barbed wire, chain-link, and MS angle fencing — perfect for land marking and property protection across industrial and agricultural sites.',
             'icon' => '<svg class="h-6 w-6 text-yellow-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18"/><path d="M3 6h18v6H3z"/></svg>',
-            'image' => asset('storage/logo/header/fencing-work.jpg'),
+            'image' => asset('storage/Fencing.jpg'),
             'link' => route('fencing_work'),
           ]
         ];

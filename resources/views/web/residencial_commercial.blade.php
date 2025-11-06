@@ -55,7 +55,7 @@
 
 <!-- ================= HERO SECTION ================= -->
 <header class="relative text-white py-24 bg-center bg-cover"
-  style="background-image: url('{{ asset('storage/logo/main/civilworks-bg.jpg') }}');">
+  style="background-image: url('{{ asset('storage/residencial.jpg') }}');">
   <div class="absolute inset-0 bg-gradient-to-r from-[rgba(184,153,76,0.85)] to-[rgba(51,51,51,0.85)]"></div>
 
   <div class="relative max-w-6xl mx-auto px-6 text-center">
@@ -102,14 +102,14 @@
             'title' => 'Bungalow Construction',
             'desc' => 'We build custom-designed bungalows and villas in Khopoli and Karjat, following Vastu principles with a strong RCC structure and premium finishes. From design to completion — your dream home, delivered.',
             'icon' => '<svg class="h-6 w-6 text-yellow-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l9-9 9 9"/><path d="M9 21V9h6v12"/></svg>',
-            'image' => asset('storage/logo/header/bungalow.jpg'),
+            'image' => asset('storage/bungalow.jpeg'),
             'link' => route('bungalow_construction'),
           ],
           [
             'title' => 'Commercial Unit Civil Work',
             'desc' => 'We execute civil construction for showrooms, offices, retail units, and shops across Patalganga MIDC, Khalapur, and Raigad. Our designs ensure safety, usability, and modern aesthetics.',
             'icon' => '<svg class="h-6 w-6 text-yellow-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18"/><path d="M3 9h18"/></svg>',
-            'image' => asset('storage/logo/header/commercial.jpg'),
+            'image' => asset('storage/industrial.jpg'),
             'link' => route('commercial_unit_civil_work'),
           ],
         ];
