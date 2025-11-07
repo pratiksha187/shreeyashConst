@@ -215,7 +215,7 @@ html {
 
 <!-- ================= HERO SECTION ================= -->
 <header class="relative text-white py-24 bg-center bg-cover" 
-  style="background-image: url('{{ asset('storage/industrial-infrastructure.jpg') }}');">
+  style="background-image: url('{{ asset('storage/SHED.jpeg') }}');">
   <div class="absolute inset-0 bg-gradient-to-r from-[rgba(184,153,76,0.85)] to-[rgba(51,51,51,0.85)]"></div>
 
   <div class="relative max-w-6xl mx-auto px-6 text-center">
@@ -350,7 +350,7 @@ html {
       
       <!-- Project 1 -->
       <div class="bg-white rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
-        <img src="/images/projects/taloja.jpg" alt="Industrial shed at Taloja MIDC" 
+        <img src="{{ asset('storage/SHED.jpeg') }}" alt="Industrial shed at Taloja MIDC" 
              class="w-full h-56 object-cover">
         <div class="p-6">
           <h3 class="font-semibold text-lg text-gray-900 mb-1">
@@ -364,7 +364,7 @@ html {
 
       <!-- Project 2 -->
       <div class="bg-white rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
-        <img src="/images/projects/khopoli.jpg" alt="Factory civil work at Khopoli" 
+        <img src="{{ asset('storage/factry.jpg') }}" alt="Factory civil work at Khopoli" 
              class="w-full h-56 object-cover">
         <div class="p-6">
           <h3 class="font-semibold text-lg text-gray-900 mb-1">
@@ -378,7 +378,7 @@ html {
 
       <!-- Project 3 -->
       <div class="bg-white rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
-        <img src="/images/projects/panvel.jpg" alt="Warehouse Panvel" 
+        <img src="{{ asset('storage/warehouse.jpg') }}" alt="Warehouse Panvel" 
              class="w-full h-56 object-cover">
         <div class="p-6">
           <h3 class="font-semibold text-lg text-gray-900 mb-1">
