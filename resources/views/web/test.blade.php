@@ -1,959 +1,559 @@
-@extends('layouts.app')
 
-@section('title', 'Asphalt & Bitumen Road Construction Services - Shreeyash Construction')
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Industrial Infrastructure | Industrial Shed Work & Factory Civil Work | Shreeyash Construction</title>
+  <meta name="description" content="Shreeyash Construction delivers turnkey industrial infrastructure: industrial shed construction, factory building civil work, foundations, roads & drainage across Maharashtra. Call +91 93262 16153." />
+  <meta name="keywords" content="industrial infrastructure, industrial shed construction, factory building civil work, RCC, PEB, Maharashtra, Khopoli, Raigad, Taloja MIDC, Panvel, Chakan" />
+  <meta name="author" content="Shreeyash Construction" />
+ 
+  <!-- Open Graph -->
+  <meta property="og:title" content="Industrial Infrastructure | Shreeyash Construction" />
+  <meta property="og:description" content="Turnkey industrial sheds and factory civil work across Maharashtra. Get a fast quote today." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example.com/industrial-infrastructure" />
+  <meta property="og:image" content="https://picsum.photos/1200/630?random=4" />
 
-@section('content')
- <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
-        
-        body {
-            font-family: 'Montserrat', sans-serif;
-            scroll-behavior: smooth;
+  <!-- Favicon (replace with real path) -->
+  <link rel="icon" href="/favicon.ico" />
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <style>
+    :root{
+      --brand-navy:#1c2c3e; /* dark navy */
+      --brand-orange:#f25c05; /* orange */
+      --text-dark:#0f172a;
+      --text-muted:#6b7280;
+      --bg-soft:#f8fafc;
+    }
+    body{ font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; color:var(--text-dark); }
+    .btn-brand{ background:var(--brand-orange); color:#fff; border:none; }
+    .btn-brand:hover{ background:#cf4f04; color:#fff; }
+    .btn-outline-brand{ border:2px solid var(--brand-orange); color:var(--brand-orange); background:transparent; }
+    .btn-outline-brand:hover{ background:var(--brand-orange); color:#fff; }
+    .text-brand{ color:var(--brand-orange); }
+    .bg-brand{ background:var(--brand-navy); }
+    .nav-link{ color:#e5e7eb; }
+    .nav-link:hover{ color:#fff; }
+    .section-pad{ padding: 80px 0; }
+    .hero{
+      background: linear-gradient(180deg, rgba(28,44,62,0.90) 0%, rgba(28,44,62,0.75) 100%),
+                  url('https://images.unsplash.com/photo-1494415859740-21e878dd929d?q=80&w=2069&auto=format&fit=crop');
+      background-size: cover; background-position: center; color:#fff;
+    }
+    .shadow-soft{ box-shadow: 0 10px 30px rgba(0,0,0,.08); }
+    .icon-badge{ width:54px; height:54px; border-radius:12px; display:flex; align-items:center; justify-content:center; background:#fff; color:var(--brand-orange); }
+    .card-service:hover{ transform: translateY(-4px); transition: .25s ease; }
+    .project-card img{ aspect-ratio: 4/3; object-fit: cover; }
+    .check{ width:18px; height:18px; border:2px solid var(--brand-orange); display:inline-block; margin-right:10px; border-radius:3px; position:relative; }
+    .check::after{ content:""; position:absolute; left:3px; top:0px; width:8px; height:14px; border-right:3px solid var(--brand-orange); border-bottom:3px solid var(--brand-orange); transform: rotate(45deg); }
+    .floating-cta{ position:fixed; right:16px; bottom:16px; z-index:1030; }
+    .required::after{ content:" *"; color:var(--brand-orange); }
+    .mini{ font-size:.95rem; color:var(--text-muted); }
+    .badge-soft{ background: #fff; border:1px solid #e5e7eb; color:#111827; }
+    .form-control:focus, .form-select:focus{ border-color: var(--brand-orange); box-shadow: 0 0 0 .2rem rgba(242,92,5,.15); }
+    .list-unstyled li{ margin-bottom: .5rem; }
+  </style>
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Shreeyash Construction",
+    "image": "https://picsum.photos/800/600?random=2",
+    "telephone": "+91 93262 16153",
+    "email": "sc@shreeyashconstruction.co.in",
+    "url": "https://example.com/industrial-infrastructure",
+    "address": {"@type":"PostalAddress","addressRegion":"Maharashtra","addressCountry":"IN"},
+    "areaServed": ["Raigad","Khopoli","Pen","Panvel","Taloja MIDC","Chakan MIDC","Pune","Navi Mumbai"],
+    "priceRange": "₹₹₹",
+    "description": "Industrial infrastructure contractor for industrial shed construction and factory building civil work."
+  }
+  </script>
+
+  <!-- (Optional) Google Tag/Analytics goes here -->
+  <!-- <script>/* GTM or GA4 */</script> -->
+</head>
+<body>
+  <!-- Top Bar -->
+  <div class="bg-brand text-white py-2">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
+      <div class="mini">Industrial Infrastructure • Industrial Sheds • Factory Civil Work</div>
+      <div class="mini">
+        <a href="tel:+919326216153" class="text-white text-decoration-none me-3">Call: +91 93262 16153</a>
+        <a href="mailto:sc@shreeyashconstruction.co.in" class="text-white text-decoration-none">sc@shreeyashconstruction.co.in</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-brand sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Shreeyash Construction</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Recent Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#whyus">Why Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#locations">Locations</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Get Quote</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero section-pad">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <h1 class="display-5 fw-bold mb-3">Industrial Infrastructure Experts: Industrial Sheds & Factory Civil Work</h1>
+          <p class="lead mb-4">Turnkey execution across Maharashtra with quality, compliance, and on‑time delivery. From foundations and RCC to PEB erection, roads, drainage, and utilities.</p>
+          <div class="d-flex gap-3 flex-wrap">
+            <a href="#contact" class="btn btn-brand btn-lg">Get a Fast Quote</a>
+            <a href="tel:+919326216153" class="btn btn-outline-brand btn-lg">Call +91 93262 16153</a>
+            <a class="btn btn-outline-light btn-lg" href="https://wa.me/919326216153?text=I%20need%20a%20quote%20for%20Industrial%20Infrastructure" target="_blank" rel="noreferrer">WhatsApp</a>
+          </div>
+          <div class="d-flex gap-3 mt-4 flex-wrap">
+            <span class="badge rounded-pill badge-soft">MIDC Compliant</span>
+            <span class="badge rounded-pill badge-soft">IS Codes</span>
+            <span class="badge rounded-pill badge-soft">PEB & RCC</span>
+            <span class="badge rounded-pill badge-soft">End‑to‑End</span>
+          </div>
+        </div>
+        <div class="col-lg-5 mt-5 mt-lg-0">
+          <div class="card shadow-soft border-0">
+            <div class="card-body p-4">
+              <h3 class="h4 fw-bold mb-1">Request a Free Consultation</h3>
+              <p class="mini mb-4">Share your requirements for an industrial shed or factory building. Our team will respond quickly.</p>
+              <form id="leadForm" class="needs-validation" novalidate>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label class="form-label required">Full Name</label>
+                    <input type="text" class="form-control" name="name" required>
+                    <div class="invalid-feedback">Please enter your name.</div>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label required">Mobile Number</label>
+                    <input type="tel" class="form-control" name="phone" pattern="^[6-9][0-9]{9}$" placeholder="10-digit mobile" required>
+                    <div class="invalid-feedback">Enter a valid 10‑digit mobile (starts 6‑9).</div>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" name="email" placeholder="you@company.com">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label">Location</label>
+                    <input type="text" class="form-control" name="location" placeholder="Khopoli / Taloja / Chakan">
+                  </div>
+                  <div class="col-md-12">
+                    <label class="form-label">Service</label>
+                    <select class="form-select" name="service">
+                      <option value="Industrial Shed Construction">Industrial Shed Construction</option>
+                      <option value="Factory Building Civil Work">Factory Building Civil Work</option>
+                      <option value="Foundations & Piling">Foundations & Piling</option>
+                      <option value="Roads, Drainage & Utilities">Roads, Drainage & Utilities</option>
+                    </select>
+                  </div>
+                  <div class="col-md-12">
+                    <label class="form-label">Brief Requirements</label>
+                    <textarea class="form-control" name="message" rows="3" placeholder="Shed size, span, height, flooring, loadings, timeline..."></textarea>
+                  </div>
+                  <div class="col-12 d-grid">
+                    <button class="btn btn-brand btn-lg" type="submit">Get Quote</button>
+                  </div>
+                  <div class="col-12 mini">Or contact directly: <a href="tel:+919326216153" class="text-brand text-decoration-none">+91 93262 16153</a> · <a class="text-brand text-decoration-none" href="mailto:sc@shreeyashconstruction.co.in">sc@shreeyashconstruction.co.in</a></div>
+                </div>
+              </form>
+              <div id="formSuccess" class="alert alert-success d-none mt-3" role="alert">Thank you. Your request has been submitted. We will get back to you shortly.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section-pad bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Industrial Infrastructure Services</h2>
+        <p class="mini">From concept to commissioning, tailored for manufacturing, logistics, and process industries.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card shadow-soft border-0 h-100 card-service">
+            <div class="card-body p-4">
+              <div class="icon-badge mb-3"><span class="bi bi-building"></span></div>
+              <h3 class="h5">Industrial Shed Construction</h3>
+              <p class="mini">PEB/RCC sheds, large spans, mezzanines, crane beams, ventilation & fire compliance.</p>
+              <ul class="mini list-unstyled">
+                <li><span class="check"></span>Design‑Build</li>
+                <li><span class="check"></span>PEB Erection</li>
+                <li><span class="check"></span>Flooring & Drainage</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card shadow-soft border-0 h-100 card-service">
+            <div class="card-body p-4">
+              <div class="icon-badge mb-3"><span class="bi bi-hammer"></span></div>
+              <h3 class="h5">Factory Building Civil Work</h3>
+              <p class="mini">RCC, structural steel, foundations, retaining, plinth, walls, finishes and utilities.</p>
+              <ul class="mini list-unstyled">
+                <li><span class="check"></span>RCC & Steel</li>
+                <li><span class="check"></span>Finishes</li>
+                <li><span class="check"></span>Compliance Docs</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card shadow-soft border-0 h-100 card-service">
+            <div class="card-body p-4">
+              <div class="icon-badge mb-3"><span class="bi bi-bricks"></span></div>
+              <h3 class="h5">Foundations & Piling</h3>
+              <p class="mini">Machine foundations, pile caps, pedestals, heavy‑duty base slabs with precision.</p>
+              <ul class="mini list-unstyled">
+                <li><span class="check"></span>Dynamic Loads</li>
+                <li><span class="check"></span>Quality M30‑M40</li>
+                <li><span class="check"></span>QA/QC Lab</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card shadow-soft border-0 h-100 card-service">
+            <div class="card-body p-4">
+              <div class="icon-badge mb-3"><span class="bi bi-signpost"></span></div>
+              <h3 class="h5">Roads, Drainage & Utilities</h3>
+              <p class="mini">RCC roads, stormwater, trenches, water, fire lines, tanks, culverts, and chambers.</p>
+              <ul class="mini list-unstyled">
+                <li><span class="check"></span>Internal Roads</li>
+                <li><span class="check"></span>Stormwater</li>
+                <li><span class="check"></span>UG Utilities</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recent Projects -->
+  <section id="projects" class="section-pad">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-end justify-content-between mb-4 gap-3">
+        <div>
+          <h2 class="fw-bold mb-1">Recent Projects</h2>
+          <p class="mini mb-0">A snapshot of recent industrial sheds and factory works delivered on schedule.</p>
+        </div>
+        <a href="#contact" class="btn btn-outline-brand">Discuss Your Project</a>
+      </div>
+      <div class="row g-4">
+        <!-- Project 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card project-card border-0 shadow-soft h-100">
+            <img src="https://images.unsplash.com/photo-1581094794321-0f5d072172d6?q=80&w=1200&auto=format&fit=crop" class="card-img-top" alt="Industrial shed at Taloja MIDC" />
+            <div class="card-body">
+              <h3 class="h6 fw-bold mb-1">Industrial Shed – Taloja MIDC</h3>
+              <div class="mini">PEB structure, RCC flooring, stormwater, delivered in 5 months.</div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card project-card border-0 shadow-soft h-100">
+            <img src="https://images.unsplash.com/photo-1581093588401-16ec8a6b13c2?q=80&w=1200&auto=format&fit=crop" class="card-img-top" alt="Factory civil work at Khopoli" />
+            <div class="card-body">
+              <h3 class="h6 fw-bold mb-1">Factory Building – Khopoli</h3>
+              <div class="mini">RCC frame, structural steel mezzanine, internal roads & drainage.</div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card project-card border-0 shadow-soft h-100">
+            <img src="https://images.unsplash.com/photo-1581091215367-59ab6b4323d9?q=80&w=1200&auto=format&fit=crop" class="card-img-top" alt="Warehouse Panvel" />
+            <div class="card-body">
+              <h3 class="h6 fw-bold mb-1">Warehouse – Panvel</h3>
+              <div class="mini">High‑rise warehouse with utilities, roadwork, fire compliance.</div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 4 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card project-card border-0 shadow-soft h-100">
+            <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1200&auto=format&fit=crop" class="card-img-top" alt="Machine foundation Chakan" />
+            <div class="card-body">
+              <h3 class="h6 fw-bold mb-1">Machine Foundations – Chakan</h3>
+              <div class="mini">Dynamic load foundations, pedestals, precision alignment.</div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 5 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card project-card border-0 shadow-soft h-100">
+            <img src="https://images.unsplash.com/photo-1581094651181-3592d1b48833?q=80&w=1200&auto=format&fit=crop" class="card-img-top" alt="Precision Engineering Unit Pen" />
+            <div class="card-body">
+              <h3 class="h6 fw-bold mb-1">Precision Unit – Pen MIDC</h3>
+              <div class="mini">PEB shed, EOT crane beams, heavy‑duty floor.</div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 6 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card project-card border-0 shadow-soft h-100">
+            <img src="https://images.unsplash.com/photo-1554774853-b414d2a2fc3a?q=80&w=1200&auto=format&fit=crop" class="card-img-top" alt="Auto Components plant" />
+            <div class="card-body">
+              <h3 class="h6 fw-bold mb-1">Auto Components – Chakan</h3>
+              <div class="mini">Turnkey civil with utilities, finishes, compliance documentation.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us -->
+  <section id="whyus" class="section-pad bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Why Choose Shreeyash Construction</h2>
+        <p class="mini">Industrial specialists with rigorous QA/QC and milestone‑based delivery.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="p-4 bg-white h-100 shadow-soft rounded-3">
+            <h3 class="h6">Turnkey Capability</h3>
+            <p class="mini mb-0">Design, approvals, execution, handover — one team, one timeline.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="p-4 bg-white h-100 shadow-soft rounded-3">
+            <h3 class="h6">Quality & Compliance</h3>
+            <p class="mini mb-0">Built to IS codes and MIDC norms with documented QA/QC.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="p-4 bg-white h-100 shadow-soft rounded-3">
+            <h3 class="h6">Experienced Team</h3>
+            <p class="mini mb-0">Industrial projects expertise across sheds, factories, utilities & roads.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="p-4 bg-white h-100 shadow-soft rounded-3">
+            <h3 class="h6">On‑Time Delivery</h3>
+            <p class="mini mb-0">Milestone planning with cost‑ and time‑control at every stage.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section-pad">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <h2 class="fw-bold mb-3">How We Deliver</h2>
+          <ul class="mini list-unstyled">
+            <li><span class="check"></span>Consultation & Requirement Capture</li>
+            <li><span class="check"></span>Concept & Budgetary Proposal</li>
+            <li><span class="check"></span>Engineering, Approvals & Procurement</li>
+            <li><span class="check"></span>Execution: Civil, PEB/RCC, Utilities</li>
+            <li><span class="check"></span>QA/QC, Handover & Documentation</li>
+          </ul>
+          <a href="#contact" class="btn btn-brand mt-2">Start Your Project</a>
+        </div>
+        <div class="col-lg-6">
+          <div class="ratio ratio-16x9 shadow-soft rounded-3">
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Project Overview" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Locations -->
+  <section id="locations" class="section-pad bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Areas We Serve</h2>
+        <p class="mini">Strong on‑ground execution across key industrial zones.</p>
+      </div>
+      <div class="d-flex flex-wrap gap-2 justify-content-center">
+        <span class="badge rounded-pill badge-soft">Khopoli</span>
+        <span class="badge rounded-pill badge-soft">Raigad</span>
+        <span class="badge rounded-pill badge-soft">Pen</span>
+        <span class="badge rounded-pill badge-soft">Panvel</span>
+        <span class="badge rounded-pill badge-soft">Taloja MIDC</span>
+        <span class="badge rounded-pill badge-soft">Chakan MIDC</span>
+        <span class="badge rounded-pill badge-soft">Pune</span>
+        <span class="badge rounded-pill badge-soft">Navi Mumbai</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="py-5" style="background:linear-gradient(90deg, var(--brand-navy), #0f2231)">
+    <div class="container text-white d-flex flex-column flex-lg-row align-items-center justify-content-between gap-3">
+      <h3 class="mb-0">Ready to build your industrial shed or factory?</h3>
+      <div class="d-flex gap-3">
+        <a href="#contact" class="btn btn-light">Get a Quote</a>
+        <a href="tel:+919326216153" class="btn btn-outline-light">Call +91 93262 16153</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section-pad">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-6">
+          <h2 class="fw-bold mb-3">Get a Free Consultation</h2>
+          <p class="mini">Share drawings/specs if available. We respond quickly with estimates and timelines.</p>
+
+          <form id="contactForm" class="needs-validation" novalidate>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label required">Full Name</label>
+                <input type="text" class="form-control" name="name" required>
+                <div class="invalid-feedback">Please enter your name.</div>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label required">Mobile Number</label>
+                <input type="tel" class="form-control" name="phone" pattern="^[6-9][0-9]{9}$" placeholder="10-digit mobile" required>
+                <div class="invalid-feedback">Enter a valid 10‑digit mobile (starts 6‑9).</div>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" name="email" placeholder="you@company.com">
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Project Location</label>
+                <input type="text" class="form-control" name="location" placeholder="City / MIDC">
+              </div>
+              <div class="col-12">
+                <label class="form-label">Upload Drawings/BOQ (optional)</label>
+                <input type="file" class="form-control" name="attachment" accept=".pdf,.doc,.docx,.xls,.xlsx,.png,.jpg">
+              </div>
+              <div class="col-12">
+                <label class="form-label">Project Details</label>
+                <textarea class="form-control" name="message" rows="4" placeholder="Shed size, clear height, tonnage, flooring, utilities, timeline..."></textarea>
+              </div>
+              <div class="col-12 d-grid d-sm-flex gap-3">
+                <button class="btn btn-brand btn-lg" type="submit">Submit</button>
+                <a class="btn btn-outline-brand btn-lg" href="https://wa.me/919326216153?text=I%20have%20an%20industrial%20project%20enquiry" target="_blank" rel="noreferrer">Chat on WhatsApp</a>
+              </div>
+              <div class="col-12 mini">Direct contact: <a href="tel:+919326216153" class="text-brand text-decoration-none">+91 93262 16153</a> · <a href="mailto:sc@shreeyashconstruction.co.in" class="text-brand text-decoration-none">sc@shreeyashconstruction.co.in</a></div>
+              <div class="col-12">
+                <div id="contactSuccess" class="alert alert-success d-none" role="alert">Thanks. We have received your request.</div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-6">
+          <div class="p-4 bg-light rounded-3 shadow-soft h-100">
+            <h3 class="h5">What You Can Expect</h3>
+            <ul class="mini">
+              <li>Site‑specific solution with cost‑effective structure & foundations.</li>
+              <li>Compliance with IS codes, MIDC norms, and safety protocols.</li>
+              <li>Milestone‑based schedule and transparent reporting.</li>
+            </ul>
+            <hr />
+            <h3 class="h6">Company Details</h3>
+            <ul class="mini list-unstyled mb-0">
+              <li><strong>Company:</strong> Shreeyash Construction</li>
+              <li><strong>Phone:</strong> <a href="tel:+919326216153" class="text-decoration-none">+91 93262 16153</a></li>
+              <li><strong>Email:</strong> <a href="mailto:sc@shreeyashconstruction.co.in" class="text-decoration-none">sc@shreeyashconstruction.co.in</a></li>
+              <li><strong>Working Hours:</strong> Mon–Sat, 9:30 AM – 6:30 PM</li>
+              <li><strong>Service Areas:</strong> Raigad, Khopoli, Pen, Panvel, Taloja MIDC, Chakan MIDC, Pune, Navi Mumbai</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-brand text-white pt-5 pb-4">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <h5 class="fw-bold">Shreeyash Construction</h5>
+          <p class="mini">Industrial infrastructure contractor for sheds, factories, foundations, roads, and utilities across Maharashtra.</p>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <h6 class="fw-bold">Quick Links</h6>
+          <ul class="list-unstyled mini">
+            <li><a class="text-white text-decoration-none" href="#services">Services</a></li>
+            <li><a class="text-white text-decoration-none" href="#projects">Recent Projects</a></li>
+            <li><a class="text-white text-decoration-none" href="#whyus">Why Us</a></li>
+            <li><a class="text-white text-decoration-none" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <h6 class="fw-bold">Contact</h6>
+          <ul class="list-unstyled mini">
+            <li>Phone: <a class="text-white text-decoration-none" href="tel:+919326216153">+91 93262 16153</a></li>
+            <li>Email: <a class="text-white text-decoration-none" href="mailto:sc@shreeyashconstruction.co.in">sc@shreeyashconstruction.co.in</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="border-white-50" />
+      <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mini">
+        <div>© <span id="year"></span> Shreeyash Construction. All rights reserved.</div>
+        <div><a class="text-white text-decoration-none" href="#">Privacy Policy</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating CTA -->
+  <div class="floating-cta d-flex flex-column gap-2">
+    <a href="#contact" class="btn btn-brand shadow-soft">Get Quote</a>
+    <a href="tel:+919326216153" class="btn btn-outline-brand shadow-soft">Call</a>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script>
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Bootstrap form validation + demo submission handler
+    const handleForms = (id, successId) => {
+      const form = document.getElementById(id);
+      const success = document.getElementById(successId);
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        if (!form.checkValidity()) {
+          e.stopPropagation();
+          form.classList.add('was-validated');
+          return;
         }
-        
-        .hero-pattern {
-            background-color: #1a202c;
-            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%232d3748' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-        }
-        
-        .section-transition {
-            position: relative;
-            height: 100px;
-            overflow: hidden;
-        }
-        
-        .section-transition::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to bottom right, transparent 49.5%, #ffffff 50%);
-        }
-        
-        .road-pattern {
-            background-color: #2d3748;
-            background-image: linear-gradient(90deg, #f7fafc 0%, #f7fafc 10%, transparent 10%, transparent 90%, #f7fafc 90%, #f7fafc 100%);
-            height: 8px;
-            width: 100%;
-            margin: 20px 0;
-        }
-        
-        .tab-content {
-            display: none;
-        }
-        
-        .tab-content.active {
-            display: block;
-        }
-        
-        .process-step {
-            transition: all 0.3s ease;
-        }
-        
-        .process-step:hover {
-            transform: translateY(-5px);
-        }
-    </style>
-     <!-- Hero Section -->
-    <header class="hero-pattern text-white">
-        <div class="container mx-auto px-4 py-20 md:py-32">
-            <div class="max-w-3xl">
-                <h1 class="text-4xl md:text-5xl font-bold mb-6">Asphalt / Bitumen Road Construction</h1>
-                <p class="text-lg md:text-xl mb-8">Reliable, durable, and cost-effective solutions for modern infrastructure development</p>
-                <a href="#overview" class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-6 rounded-lg transition inline-flex items-center">
-                    Learn More
-                    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                    </svg>
-                </a>
-            </div>
-        </div>
-        <div class="section-transition"></div>
-    </header>
-  <!-- Overview Section -->
-    <section id="overview" class="py-16 bg-white">
-        <div class="container mx-auto px-4">
-            <div class="flex flex-col md:flex-row items-center">
-                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
-                    <h2 class="text-3xl font-bold mb-6 text-gray-800">Overview</h2>
-                    <p class="text-gray-700 mb-4">Asphalt (also known as bitumen) road construction is one of the most reliable and widely used methods for building durable and flexible pavement surfaces.</p>
-                    <p class="text-gray-700 mb-4">Renowned for its cost-effectiveness, fast installation, and long-term performance, asphalt roads are suitable for highways, urban streets, parking lots, and airport runways.</p>
-                    <div class="flex flex-wrap mt-8">
-                        <div class="w-1/2 md:w-1/3 mb-4">
-                            <div class="flex items-center">
-                                <div class="bg-yellow-500 p-2 rounded-full mr-3">
-                                    <i class="fas fa-dollar-sign text-gray-800"></i>
-                                </div>
-                                <span class="text-gray-800 font-medium">Cost-Effective</span>
-                            </div>
-                        </div>
-                        <div class="w-1/2 md:w-1/3 mb-4">
-                            <div class="flex items-center">
-                                <div class="bg-yellow-500 p-2 rounded-full mr-3">
-                                    <i class="fas fa-clock text-gray-800"></i>
-                                </div>
-                                <span class="text-gray-800 font-medium">Fast Installation</span>
-                            </div>
-                        </div>
-                        <div class="w-1/2 md:w-1/3 mb-4">
-                            <div class="flex items-center">
-                                <div class="bg-yellow-500 p-2 rounded-full mr-3">
-                                    <i class="fas fa-shield-alt text-gray-800"></i>
-                                </div>
-                                <span class="text-gray-800 font-medium">Durable</span>
-                            </div>
-                        </div>
-                        <div class="w-1/2 md:w-1/3 mb-4">
-                            <div class="flex items-center">
-                                <div class="bg-yellow-500 p-2 rounded-full mr-3">
-                                    <i class="fas fa-recycle text-gray-800"></i>
-                                </div>
-                                <span class="text-gray-800 font-medium">Recyclable</span>
-                            </div>
-                        </div>
-                        <div class="w-1/2 md:w-1/3 mb-4">
-                            <div class="flex items-center">
-                                <div class="bg-yellow-500 p-2 rounded-full mr-3">
-                                    <i class="fas fa-tools text-gray-800"></i>
-                                </div>
-                                <span class="text-gray-800 font-medium">Maintainable</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="md:w-1/2">
-                    <svg class="w-full" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="50" y="50" width="500" height="300" rx="10" fill="#2d3748"/>
-                        <rect x="70" y="70" width="460" height="260" rx="5" fill="#4a5568"/>
-                        <rect x="100" y="100" width="400" height="200" fill="#718096"/>
-                        <rect x="100" y="200" width="400" height="5" fill="#f7fafc"/>
-                        <rect x="100" y="150" width="400" height="5" fill="#f7fafc" stroke-dasharray="20,20"/>
-                        <rect x="100" y="250" width="400" height="5" fill="#f7fafc" stroke-dasharray="20,20"/>
-                        <circle cx="150" cy="125" r="20" fill="#f6ad55"/>
-                        <rect x="200" y="115" width="80" height="20" rx="5" fill="#f6ad55"/>
-                        <rect x="350" y="115" width="100" height="20" rx="5" fill="#f6ad55"/>
-                        <circle cx="500" cy="275" r="15" fill="#f6ad55"/>
-                        <circle cx="450" cy="275" r="15" fill="#f6ad55"/>
-                        <rect x="150" y="265" width="250" height="20" rx="5" fill="#f6ad55"/>
-                    </svg>
-                </div>
-            </div>
-        </div>
-    </section>
+        // TODO: Replace with real endpoint or form action
+        success.classList.remove('d-none');
+        form.reset();
+        form.classList.remove('was-validated');
+        setTimeout(()=> success.classList.add('d-none'), 4000);
+      });
+    };
+    handleForms('leadForm', 'formSuccess');
+    handleForms('contactForm', 'contactSuccess');
+  </script>
 
-    <div class="road-pattern"></div>
-
-    <!-- Pavement Types Section -->
-    <section id="pavement-types" class="py-16 bg-gray-100">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-12 text-center text-gray-800">Pavement Types</h2>
-            <div class="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8">
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden md:w-1/2 transform transition hover:scale-105">
-                    <div class="bg-yellow-500 h-2"></div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-4 text-gray-800">1. Flexible Pavements</h3>
-                        <ul class="space-y-3 text-gray-700">
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                </svg>
-                                Made up of layers of materials that distribute traffic loads to the subgrade
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                </svg>
-                                Deform when loaded but rebound after unloading
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                </svg>
-                                Typically made up of subgrade, sub-base, base course, binder course, and surface course
-                            </li>
-                        </ul>
-                        <div class="mt-6">
-                            <svg class="w-full" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="50" y="30" width="200" height="20" fill="#1a202c" />
-                                <text x="150" y="45" text-anchor="middle" fill="white" font-size="12">Surface Course</text>
-                                <rect x="50" y="50" width="200" height="25" fill="#2d3748" />
-                                <text x="150" y="67" text-anchor="middle" fill="white" font-size="12">Binder Course</text>
-                                <rect x="50" y="75" width="200" height="30" fill="#4a5568" />
-                                <text x="150" y="95" text-anchor="middle" fill="white" font-size="12">Base Course</text>
-                                <rect x="50" y="105" width="200" height="35" fill="#718096" />
-                                <text x="150" y="128" text-anchor="middle" fill="white" font-size="12">Sub-base</text>
-                                <rect x="50" y="140" width="200" height="40" fill="#a0aec0" />
-                                <text x="150" y="165" text-anchor="middle" fill="#2d3748" font-size="12">Subgrade</text>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden md:w-1/2 transform transition hover:scale-105">
-                    <div class="bg-yellow-500 h-2"></div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-4 text-gray-800">2. Rigid Pavements with Bituminous Overlay</h3>
-                        <ul class="space-y-3 text-gray-700">
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                </svg>
-                                Involves a rigid concrete slab base overlaid with a bituminous surface layer
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                </svg>
-                                Improves riding comfort and enhances surface friction
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                </svg>
-                                Protects the underlying structure from wear and environmental factors
-                            </li>
-                        </ul>
-                        <div class="mt-6">
-                            <svg class="w-full" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="50" y="30" width="200" height="25" fill="#1a202c" />
-                                <text x="150" y="47" text-anchor="middle" fill="white" font-size="12">Bituminous Overlay</text>
-                                <rect x="50" y="55" width="200" height="50" fill="#a0aec0" />
-                                <line x1="50" y1="65" x2="250" y2="65" stroke="#718096" stroke-width="2" />
-                                <line x1="50" y1="85" x2="250" y2="85" stroke="#718096" stroke-width="2" />
-                                <text x="150" y="85" text-anchor="middle" fill="#2d3748" font-size="12">Concrete Slab</text>
-                                <rect x="50" y="105" width="200" height="35" fill="#718096" />
-                                <text x="150" y="128" text-anchor="middle" fill="white" font-size="12">Sub-base</text>
-                                <rect x="50" y="140" width="200" height="40" fill="#a0aec0" />
-                                <text x="150" y="165" text-anchor="middle" fill="#2d3748" font-size="12">Subgrade</text>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
- <!-- Construction Methods Section -->
-    <section id="construction" class="py-16 bg-white">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-12 text-center text-gray-800">Construction Methods</h2>
-            
-            <!-- Tabs -->
-            <div class="mb-8 flex flex-wrap justify-center">
-                <button class="tab-button bg-gray-200 hover:bg-yellow-500 px-6 py-3 rounded-t-lg font-medium text-gray-800 focus:outline-none mr-1 mb-1 active" data-tab="hot-mix">Hot Mix Asphalt</button>
-                <button class="tab-button bg-gray-200 hover:bg-yellow-500 px-6 py-3 rounded-t-lg font-medium text-gray-800 focus:outline-none mr-1 mb-1" data-tab="cold-mix">Cold Mix Asphalt</button>
-                <button class="tab-button bg-gray-200 hover:bg-yellow-500 px-6 py-3 rounded-t-lg font-medium text-gray-800 focus:outline-none mr-1 mb-1" data-tab="warm-mix">Warm Mix Asphalt</button>
-                <button class="tab-button bg-gray-200 hover:bg-yellow-500 px-6 py-3 rounded-t-lg font-medium text-gray-800 focus:outline-none mr-1 mb-1" data-tab="bituminous">Bituminous Macadam</button>
-                <button class="tab-button bg-gray-200 hover:bg-yellow-500 px-6 py-3 rounded-t-lg font-medium text-gray-800 focus:outline-none mr-1 mb-1" data-tab="penetration">Penetration Macadam</button>
-            </div>
-            
-            <!-- Tab Content -->
-            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
-                <div id="hot-mix" class="tab-content active">
-                    <div class="flex flex-col md:flex-row">
-                        <div class="md:w-1/2 pr-0 md:pr-6">
-                            <h3 class="text-xl font-bold mb-4 text-gray-800">Hot Mix Asphalt (HMA)</h3>
-                            <p class="text-gray-700 mb-4">Hot Mix Asphalt is produced by heating the asphalt binder and mixing it with aggregates at temperatures between 150°C and 190°C.</p>
-                            <ul class="space-y-2 text-gray-700">
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    Suitable for high-traffic roads
-                                </li>
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    Requires high-quality control
-                                </li>
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    Needs rapid compaction after laying
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="md:w-1/2 mt-6 md:mt-0">
-                            <svg class="w-full" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="50" y="30" width="300" height="140" rx="5" fill="#4a5568"/>
-                                <circle cx="120" cy="100" r="40" fill="#2d3748"/>
-                                <circle cx="120" cy="100" r="30" fill="#1a202c"/>
-                                <path d="M120,70 Q150,85 120,100 Q90,115 120,130 Q150,145 120,160" stroke="#f6ad55" stroke-width="4" fill="none"/>
-                                <rect x="180" y="70" width="140" height="60" rx="5" fill="#2d3748"/>
-                                <rect x="190" y="80" width="120" height="40" rx="3" fill="#1a202c"/>
-                                <circle cx="210" cy="100" r="5" fill="#f6ad55"/>
-                                <circle cx="230" cy="100" r="5" fill="#f6ad55"/>
-                                <circle cx="250" cy="100" r="5" fill="#f6ad55"/>
-                                <circle cx="270" cy="100" r="5" fill="#f6ad55"/>
-                                <circle cx="290" cy="100" r="5" fill="#f6ad55"/>
-                                <text x="200" y="50" fill="#f7fafc" font-size="14">Heating Process (150-190°C)</text>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-                <div id="cold-mix" class="tab-content">
-                    <div class="flex flex-col md:flex-row">
-                        <div class="md:w-1/2 pr-0 md:pr-6">
-                            <h3 class="text-xl font-bold mb-4 text-gray-800">Cold Mix Asphalt</h3>
-                            <p class="text-gray-700 mb-4">Cold Mix Asphalt is produced without heating, using emulsified or cutback bitumen that can be applied at ambient temperatures.</p>
-                            <ul class="space-y-2 text-gray-700">
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    Ideal for remote or low-traffic areas
-                                </li>
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    Can be stockpiled for later use
-                                </li>
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    Lower energy consumption and emissions
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="md:w-1/2 mt-6 md:mt-0">
-                            <svg class="w-full" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="50" y="30" width="300" height="140" rx="5" fill="#4a5568"/>
-                                <rect x="70" y="50" width="120" height="100" rx="5" fill="#2d3748"/>
-                                <rect x="80" y="60" width="100" height="80" rx="3" fill="#1a202c"/>
-                                <circle cx="100" cy="80" r="5" fill="#a0aec0"/>
-                                <circle cx="120" cy="90" r="5" fill="#a0aec0"/>
-                                <circle cx="140" cy="70" r="5" fill="#a0aec0"/>
-                                <circle cx="110" cy="100" r="5" fill="#a0aec0"/>
-                                <circle cx="130" cy="110" r="5" fill="#a0aec0"/>
-                                <rect x="210" y="50" width="120" height="100" rx="5" fill="#2d3748"/>
-                                <path d="M230,80 Q270,60 310,80 Q270,100 230,120 Q270,140 310,120" stroke="#90cdf4" stroke-width="3" fill="none"/>
-                                <text x="200" y="50" fill="#f7fafc" font-size="14">Emulsified Bitumen Process</text>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-                <div id="warm-mix" class="tab-content">
-                    <div class="flex flex-col md:flex-row">
-                        <div class="md:w-1/2 pr-0 md:pr-6">
-                            <h3 class="text-xl font-bold mb-4 text-gray-800">Warm Mix Asphalt</h3>
-                            <p class="text-gray-700 mb-4">Warm Mix Asphalt is produced at lower temperatures (100–140°C) than traditional Hot Mix Asphalt, offering environmental and economic benefits.</p>
-                            <ul class="space-y-2 text-gray-700">
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    Reduced emissions and energy consumption
-                                </li>
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    Extended paving season
-                                </li>
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    Improved workability and compaction
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="md:w-1/2 mt-6 md:mt-0">
-                            <svg class="w-full" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="50" y="30" width="300" height="140" rx="5" fill="#4a5568"/>
-                                <circle cx="120" cy="100" r="40" fill="#2d3748"/>
-                                <circle cx="120" cy="100" r="30" fill="#1a202c"/>
-                                <path d="M120,70 Q150,85 120,100 Q90,115 120,130 Q150,145 120,160" stroke="#90cdf4" stroke-width="4" fill="none"/>
-                                <rect x="180" y="70" width="140" height="60" rx="5" fill="#2d3748"/>
-                                <rect x="190" y="80" width="120" height="40" rx="3" fill="#1a202c"/>
-                                <circle cx="210" cy="100" r="5" fill="#90cdf4"/>
-                                <circle cx="230" cy="100" r="5" fill="#90cdf4"/>
-                                <circle cx="250" cy="100" r="5" fill="#90cdf4"/>
-                                <circle cx="270" cy="100" r="5" fill="#90cdf4"/>
-                                <circle cx="290" cy="100" r="5" fill="#90cdf4"/>
-                                <text x="200" y="50" fill="#f7fafc" font-size="14">Lower Temperature (100-140°C)</text>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-                <div id="bituminous" class="tab-content">
-                    <div class="flex flex-col md:flex-row">
-                        <div class="md:w-1/2 pr-0 md:pr-6">
-                            <h3 class="text-xl font-bold mb-4 text-gray-800">Bituminous Macadam (BM)</h3>
-                            <p class="text-gray-700 mb-4">Bituminous Macadam is an open-graded bituminous base layer commonly used in rural and secondary roads.</p>
-                            <ul class="space-y-2 text-gray-700">
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    Uses larger aggregate sizes
-                                </li>
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    Provides good load distribution
-                                </li>
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    Often used as a base layer in multi-layer pavement systems
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="md:w-1/2 mt-6 md:mt-0">
-                            <svg class="w-full" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="50" y="30" width="300" height="140" rx="5" fill="#4a5568"/>
-                                <rect x="70" y="60" width="260" height="80" rx="3" fill="#2d3748"/>
-                                <circle cx="100" cy="80" r="10" fill="#a0aec0"/>
-                                <circle cx="130" cy="100" r="12" fill="#a0aec0"/>
-                                <circle cx="170" cy="90" r="15" fill="#a0aec0"/>
-                                <circle cx="210" cy="110" r="10" fill="#a0aec0"/>
-                                <circle cx="250" cy="80" r="13" fill="#a0aec0"/>
-                                <circle cx="290" cy="100" r="11" fill="#a0aec0"/>
-                                <path d="M70,140 L330,140" stroke="#1a202c" stroke-width="2" stroke-dasharray="5,5"/>
-                                <text x="200" y="50" fill="#f7fafc" font-size="14">Open-Graded Structure</text>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-                <div id="penetration" class="tab-content">
-                    <div class="flex flex-col md:flex-row">
-                        <div class="md:w-1/2 pr-0 md:pr-6">
-                            <h3 class="text-xl font-bold mb-4 text-gray-800">Penetration Macadam</h3>
-                            <p class="text-gray-700 mb-4">In Penetration Macadam, aggregates are placed and bitumen is poured over in layers, allowing it to penetrate through the aggregate structure.</p>
-                            <ul class="space-y-2 text-gray-700">
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    Used in low-traffic or temporary road structures
-                                </li>
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    Simple construction technique
-                                </li>
-                                <li class="flex items-start">
-                                    <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                    </svg>
-                                    Lower equipment requirements
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="md:w-1/2 mt-6 md:mt-0">
-                            <svg class="w-full" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="50" y="30" width="300" height="140" rx="5" fill="#4a5568"/>
-                                <rect x="70" y="60" width="260" height="80" rx="3" fill="#2d3748"/>
-                                <circle cx="100" cy="80" r="8" fill="#a0aec0"/>
-                                <circle cx="130" cy="90" r="10" fill="#a0aec0"/>
-                                <circle cx="160" cy="75" r="9" fill="#a0aec0"/>
-                                <circle cx="190" cy="85" r="11" fill="#a0aec0"/>
-                                <circle cx="220" cy="80" r="8" fill="#a0aec0"/>
-                                <circle cx="250" cy="90" r="10" fill="#a0aec0"/>
-                                <circle cx="280" cy="75" r="9" fill="#a0aec0"/>
-                                <path d="M70,60 L330,60" stroke="#1a202c" stroke-width="1"/>
-                                <path d="M90,40 L90,60" stroke="#1a202c" stroke-width="2"/>
-                                <path d="M150,40 L150,60" stroke="#1a202c" stroke-width="2"/>
-                                <path d="M210,40 L210,60" stroke="#1a202c" stroke-width="2"/>
-                                <path d="M270,40 L270,60" stroke="#1a202c" stroke-width="2"/>
-                                <path d="M330,40 L330,60" stroke="#1a202c" stroke-width="2"/>
-                                <path d="M70,40 L330,40" stroke="#1a202c" stroke-width="1"/>
-                                <rect x="70" y="30" width="260" height="10" fill="#1a202c"/>
-                                <text x="200" y="50" fill="#f7fafc" font-size="14">Bitumen Penetration</text>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="road-pattern"></div>
-
-    <!-- Materials Section -->
-    <section id="materials" class="py-16 bg-gray-100">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-12 text-center text-gray-800">Materials Used</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition hover:scale-105">
-                    <div class="bg-yellow-500 h-2"></div>
-                    <div class="p-6">
-                        <div class="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center mb-4 mx-auto">
-                            <svg class="w-8 h-8 text-yellow-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M3 5a2 2 0 012-2h10a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2V5zm11 1H6v8l4-2 4 2V6z" clip-rule="evenodd"></path>
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold mb-4 text-center text-gray-800">Bitumen Types</h3>
-                        <ul class="space-y-2 text-gray-700">
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                </svg>
-                                60/70, 80/100 penetration grade
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                </svg>
-                                Modified Bitumen (PMB, CRMB)
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                </svg>
-                                Cutback and emulsified bitumen
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition hover:scale-105">
-                    <div class="bg-yellow-500 h-2"></div>
-                    <div class="p-6">
-                        <div class="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center mb-4 mx-auto">
-                            <svg class="w-8 h-8 text-yellow-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z" clip-rule="evenodd"></path>
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold mb-4 text-center text-gray-800">Aggregates</h3>
-                        <ul class="space-y-2 text-gray-700">
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                </svg>
-                                Crushed stone
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                </svg>
-                                Gravel
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                </svg>
-                                Well-graded and clean sand
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition hover:scale-105">
-                    <div class="bg-yellow-500 h-2"></div>
-                    <div class="p-6">
-                        <div class="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center mb-4 mx-auto">
-                            <svg class="w-8 h-8 text-yellow-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M7 2a1 1 0 00-.707 1.707L7 4.414v3.758a1 1 0 01-.293.707l-4 4C.817 14.769 2.156 18 4.828 18h10.343c2.673 0 4.012-3.231 2.122-5.121l-4-4A1 1 0 0113 8.172V4.414l.707-.707A1 1 0 0013 2H7zm2 6.172V4h2v4.172a3 3 0 00.879 2.12l1.027 1.028a4 4 0 00-2.171.102l-.47.156a4 4 0 01-2.53 0l-.563-.187a1.993 1.993 0 00-.114-.035l1.063-1.063A3 3 0 009 8.172z" clip-rule="evenodd"></path>
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold mb-4 text-center text-gray-800">Filler Materials</h3>
-                        <ul class="space-y-2 text-gray-700">
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                </svg>
-                                Stone dust
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                </svg>
-                                Hydrated lime
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                </svg>
-                                Cement (in some cases)
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition hover:scale-105">
-                    <div class="bg-yellow-500 h-2"></div>
-                    <div class="p-6">
-                        <div class="w-16 h-16 bg-gray-800 rounded-full flex items-center justify-center mb-4 mx-auto">
-                            <svg class="w-8 h-8 text-yellow-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M5 5a3 3 0 015-2.236A3 3 0 0114.83 6H16a2 2 0 110 4h-5V9a1 1 0 10-2 0v1H4a2 2 0 110-4h1.17C5.06 5.687 5 5.35 5 5zm4 1V5a1 1 0 10-1 1h1zm3 0a1 1 0 10-1-1v1h1z" clip-rule="evenodd"></path>
-                                <path d="M9 11H3v5a2 2 0 002 2h4v-7zM11 18h4a2 2 0 002-2v-5h-6v7z"></path>
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-bold mb-4 text-center text-gray-800">Tack & Prime Coat</h3>
-                        <ul class="space-y-2 text-gray-700">
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                </svg>
-                                Bitumen emulsions
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                </svg>
-                                Cutback bitumen
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-5 h-5 text-yellow-500 mr-2 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                </svg>
-                                Enhances bonding between layers
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Construction Techniques Section -->
-    <section class="py-16 bg-white">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-12 text-center text-gray-800">Construction Techniques</h2>
-            <div class="flex flex-wrap -mx-4">
-                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-                    <div class="process-step bg-gray-100 rounded-lg shadow-md p-6 h-full">
-                        <div class="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center mb-4">
-                            <span class="text-gray-800 font-bold text-lg">1</span>
-                        </div>
-                        <h3 class="text-xl font-bold mb-3 text-gray-800">Site Preparation</h3>
-                        <p class="text-gray-700">Excavation, clearing, grading, and compaction of subgrade to create a stable foundation for the road structure.</p>
-                    </div>
-                </div>
-                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-                    <div class="process-step bg-gray-100 rounded-lg shadow-md p-6 h-full">
-                        <div class="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center mb-4">
-                            <span class="text-gray-800 font-bold text-lg">2</span>
-                        </div>
-                        <h3 class="text-xl font-bold mb-3 text-gray-800">Sub-base and Base Course</h3>
-                        <p class="text-gray-700">Laid with granular material (WBM/WMM), compacted to design density to provide structural support.</p>
-                    </div>
-                </div>
-                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-                    <div class="process-step bg-gray-100 rounded-lg shadow-md p-6 h-full">
-                        <div class="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center mb-4">
-                            <span class="text-gray-800 font-bold text-lg">3</span>
-                        </div>
-                        <h3 class="text-xl font-bold mb-3 text-gray-800">Application of Prime Coat</h3>
-                        <p class="text-gray-700">Applied to base layer to promote bonding with the bituminous layers that will be placed above.</p>
-                    </div>
-                </div>
-                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-                    <div class="process-step bg-gray-100 rounded-lg shadow-md p-6 h-full">
-                        <div class="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center mb-4">
-                            <span class="text-gray-800 font-bold text-lg">4</span>
-                        </div>
-                        <h3 class="text-xl font-bold mb-3 text-gray-800">Binder Course</h3>
-                        <p class="text-gray-700">A bituminous intermediate layer designed to absorb stress and distribute loads from the surface to the base.</p>
-                    </div>
-                </div>
-                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-                    <div class="process-step bg-gray-100 rounded-lg shadow-md p-6 h-full">
-                        <div class="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center mb-4">
-                            <span class="text-gray-800 font-bold text-lg">5</span>
-                        </div>
-                        <h3 class="text-xl font-bold mb-3 text-gray-800">Tack Coat</h3>
-                        <p class="text-gray-700">Thin bitumen layer applied before the final surfacing to ensure proper bonding between layers.</p>
-                    </div>
-                </div>
-                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-                    <div class="process-step bg-gray-100 rounded-lg shadow-md p-6 h-full">
-                        <div class="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center mb-4">
-                            <span class="text-gray-800 font-bold text-lg">6</span>
-                        </div>
-                        <h3 class="text-xl font-bold mb-3 text-gray-800">Surface Course</h3>
-                        <p class="text-gray-700">Final layer (DBM or BC), providing smoothness, skid resistance, and protection from environmental factors.</p>
-                    </div>
-                </div>
-                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8 md:mx-auto">
-                    <div class="process-step bg-gray-100 rounded-lg shadow-md p-6 h-full">
-                        <div class="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center mb-4">
-                            <span class="text-gray-800 font-bold text-lg">7</span>
-                        </div>
-                        <h3 class="text-xl font-bold mb-3 text-gray-800">Compaction</h3>
-                        <p class="text-gray-700">Carried out with vibratory rollers while the mix is hot to achieve target density and avoid air voids.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="road-pattern"></div>
-
-    <!-- Design Considerations Section -->
-    <section class="py-16 bg-gray-100">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-12 text-center text-gray-800">Design Considerations</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-white rounded-lg shadow-lg p-6 transform transition hover:scale-105">
-                    <div class="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mb-4 mx-auto">
-                        <svg class="w-8 h-8 text-gray-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clip-rule="evenodd"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center text-gray-800">Traffic Load Analysis</h3>
-                    <p class="text-gray-700 text-center">ESALs (Equivalent Single Axle Load) calculation to determine appropriate layer thickness based on expected traffic volume and composition.</p>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg p-6 transform transition hover:scale-105">
-                    <div class="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mb-4 mx-auto">
-                        <svg class="w-8 h-8 text-gray-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center text-gray-800">Climatic Conditions</h3>
-                    <p class="text-gray-700 text-center">Temperature and moisture influence material choice and design parameters to ensure durability in local environmental conditions.</p>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg p-6 transform transition hover:scale-105">
-                    <div class="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mb-4 mx-auto">
-                        <svg class="w-8 h-8 text-gray-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-2 0c0 .993-.241 1.929-.668 2.754l-1.524-1.525a3.997 3.997 0 00.078-2.183l1.562-1.562C15.802 8.249 16 9.1 16 10zm-5.165 3.913l1.58 1.58A5.98 5.98 0 0110 16a5.976 5.976 0 01-2.516-.552l1.562-1.562a4.006 4.006 0 001.789.027zm-4.677-2.796a4.002 4.002 0 01-.041-2.08l-.08.08-1.53-1.533A5.98 5.98 0 004 10c0 .954.223 1.856.619 2.657l1.54-1.54zm1.088-6.45A5.974 5.974 0 0110 4c.954 0 1.856.223 2.657.619l-1.54 1.54a4.002 4.002 0 00-2.346.033L7.246 4.668zM12 10a2 2 0 11-4 0 2 2 0 014 0z" clip-rule="evenodd"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center text-gray-800">Subgrade Strength</h3>
-                    <p class="text-gray-700 text-center">CBR (California Bearing Ratio) test results guide pavement layer design to ensure adequate support from the foundation soil.</p>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg p-6 transform transition hover:scale-105">
-                    <div class="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mb-4 mx-auto">
-                        <svg class="w-8 h-8 text-gray-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M5.293 9.707a1 1 0 010-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L11 7.414V15a1 1 0 11-2 0V7.414L6.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center text-gray-800">Drainage Design</h3>
-                    <p class="text-gray-700 text-center">Essential to prevent water accumulation and base layer deterioration, including proper cross slopes and drainage structures.</p>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg p-6 transform transition hover:scale-105">
-                    <div class="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mb-4 mx-auto">
-                        <svg class="w-8 h-8 text-gray-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M4.649 3.084A1 1 0 015.163 4.4 13.95 13.95 0 004 10c0 1.993.416 3.886 1.164 5.6a1 1 0 01-1.832.8A15.95 15.95 0 012 10c0-2.274.475-4.44 1.332-6.4a1 1 0 011.317-.516zM12.96 7a3 3 0 00-2.342 1.126l-.328.41-.111-.279A2 2 0 008.323 7H8a1 1 0 000 2h.323l.532 1.33-1.035 1.295a1 1 0 01-.781.375H7a1 1 0 100 2h.039a3 3 0 002.342-1.126l.328-.41.111.279A2 2 0 0011.677 14H12a1 1 0 100-2h-.323l-.532-1.33 1.035-1.295A1 1 0 0112.961 9H13a1 1 0 100-2h-.039zm1.874-2.6a1 1 0 011.833-.8A15.95 15.95 0 0118 10c0 2.274-.475 4.44-1.332 6.4a1 1 0 11-1.832-.8A13.949 13.949 0 0016 10c0-1.993-.416-3.886-1.165-5.6z" clip-rule="evenodd"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-center text-gray-800">Surface Slope & Camber</h3>
-                    <p class="text-gray-700 text-center">Designed for proper water runoff and user comfort, with appropriate cross slopes and superelevation at curves.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Quality Control Section -->
-    <section class="py-16 bg-white">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-12 text-center text-gray-800">Quality Control & Testing</h2>
-            <div class="flex flex-col md:flex-row">
-                <div class="md:w-1/2 pr-0 md:pr-8 mb-8 md:mb-0">
-                    <div class="bg-gray-100 p-6 rounded-lg shadow-md h-full">
-                        <h3 class="text-xl font-bold mb-6 text-gray-800">Material Testing</h3>
-                        <div class="space-y-4">
-                            <div class="flex items-start">
-                                <div class="bg-yellow-500 p-2 rounded-full mr-4 mt-1">
-                                    <svg class="w-4 h-4 text-gray-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h4 class="font-bold text-gray-800">Bitumen Testing</h4>
-                                    <p class="text-gray-700">Penetration, ductility, softening point, viscosity, and flash point tests to ensure quality.</p>
-                                </div>
-                            </div>
-                            <div class="flex items-start">
-                                <div class="bg-yellow-500 p-2 rounded-full mr-4 mt-1">
-                                    <svg class="w-4 h-4 text-gray-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h4 class="font-bold text-gray-800">Aggregate Testing</h4>
-                                    <p class="text-gray-700">Gradation, impact value, Los Angeles Abrasion (LAA), water absorption, and specific gravity tests.</p>
-                                </div>
-                            </div>
-                            <div class="flex items-start">
-                                <div class="bg-yellow-500 p-2 rounded-full mr-4 mt-1">
-                                    <svg class="w-4 h-4 text-gray-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h4 class="font-bold text-gray-800">Mix Design</h4>
-                                    <p class="text-gray-700">Marshall Mix Design method or Superpave method to determine optimal mix proportions.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="md:w-1/2">
-                    <div class="bg-gray-100 p-6 rounded-lg shadow-md h-full">
-                        <h3 class="text-xl font-bold mb-6 text-gray-800">Field Tests</h3>
-                        <div class="space-y-4">
-                            <div class="flex items-start">
-                                <div class="bg-yellow-500 p-2 rounded-full mr-4 mt-1">
-                                    <svg class="w-4 h-4 text-gray-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h4 class="font-bold text-gray-800">Density Testing</h4>
-                                    <p class="text-gray-700">Nuclear density gauge or core samples to verify compaction meets specifications.</p>
-                                </div>
-                            </div>
-                            <div class="flex items-start">
-                                <div class="bg-yellow-500 p-2 rounded-full mr-4 mt-1">
-                                    <svg class="w-4 h-4 text-gray-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h4 class="font-bold text-gray-800">Core Cutting</h4>
-                                    <p class="text-gray-700">Extraction of pavement cores to check layer thickness and bond between layers.</p>
-                                </div>
-                            </div>
-                            <div class="flex items-start">
-                                <div class="bg-yellow-500 p-2 rounded-full mr-4 mt-1">
-                                    <svg class="w-4 h-4 text-gray-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h4 class="font-bold text-gray-800">Surface Evenness</h4>
-                                    <p class="text-gray-700">Straight edge or profilometer to measure surface regularity and riding comfort.</p>
-                                </div>
-                            </div>
-                            <div class="flex items-start">
-                                <div class="bg-yellow-500 p-2 rounded-full mr-4 mt-1">
-                                    <svg class="w-4 h-4 text-gray-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h4 class="font-bold text-gray-800">Compaction Testing</h4>
-                                    <p class="text-gray-700">Temperature monitoring during compaction to ensure optimal rolling conditions.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="road-pattern"></div>
-
-    <!-- Applications Section -->
-    <section id="applications" class="py-16 bg-gray-100">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-12 text-center text-gray-800">Applications</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition hover:scale-105">
-                    <div class="h-48 bg-cover bg-center" style="background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'200\' viewBox=\'0 0 400 200\'><rect width=\'400\' height=\'200\' fill=\'%234a5568\'/><path d=\'M0,100 L400,100\' stroke=\'%23f7fafc\' stroke-width=\'4\' stroke-dasharray=\'20,20\'/><path d=\'M50,50 L350,50 L350,150 L50,150 Z\' fill=\'none\' stroke=\'%23f6ad55\' stroke-width=\'2\'/><rect x=\'100\' y=\'70\' width=\'60\' height=\'30\' fill=\'%232d3748\'/><rect x=\'240\' y=\'70\' width=\'60\' height=\'30\' fill=\'%232d3748\'/><rect x=\'100\' y=\'120\' width=\'60\' height=\'30\' fill=\'%232d3748\'/><rect x=\'240\' y=\'120\' width=\'60\' height=\'30\' fill=\'%232d3748\'/></svg>')"></div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-3 text-gray-800">National and State Highways</h3>
-                        <p class="text-gray-700">High-performance asphalt pavements designed for heavy traffic loads and high speeds, with multiple structural layers for durability.</p>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition hover:scale-105">
-                    <div class="h-48 bg-cover bg-center" style="background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'200\' viewBox=\'0 0 400 200\'><rect width=\'400\' height=\'200\' fill=\'%234a5568\'/><path d=\'M0,100 L400,100\' stroke=\'%23f7fafc\' stroke-width=\'4\' stroke-dasharray=\'10,10\'/><rect x=\'50\' y=\'30\' width=\'80\' height=\'140\' fill=\'%232d3748\'/><rect x=\'160\' y=\'30\' width=\'80\' height=\'140\' fill=\'%232d3748\'/><rect x=\'270\' y=\'30\' width=\'80\' height=\'140\' fill=\'%232d3748\'/><rect x=\'60\' y=\'40\' width=\'60\' height=\'30\' fill=\'%23a0aec0\'/><rect x=\'60\' y=\'80\' width=\'60\' height=\'30\' fill=\'%23a0aec0\'/><rect x=\'60\' y=\'120\' width=\'60\' height=\'30\' fill=\'%23a0aec0\'/><rect x=\'170\' y=\'40\' width=\'60\' height=\'30\' fill=\'%23a0aec0\'/><rect x=\'170\' y=\'80\' width=\'60\' height=\'30\' fill=\'%23a0aec0\'/><rect x=\'170\' y=\'120\' width=\'60\' height=\'30\' fill=\'%23a0aec0\'/><rect x=\'280\' y=\'40\' width=\'60\' height=\'30\' fill=\'%23a0aec0\'/><rect x=\'280\' y=\'80\' width=\'60\' height=\'30\' fill=\'%23a0aec0\'/><rect x=\'280\' y=\'120\' width=\'60\' height=\'30\' fill=\'%23a0aec0\'/></svg>')"></div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-3 text-gray-800">Urban Roads and Expressways</h3>
-                        <p class="text-gray-700">Designed for moderate to high traffic volumes with special attention to noise reduction, drainage, and integration with urban infrastructure.</p>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition hover:scale-105">
-                    <div class="h-48 bg-cover bg-center" style="background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'200\' viewBox=\'0 0 400 200\'><rect width=\'400\' height=\'200\' fill=\'%234a5568\'/><path d=\'M0,100 L400,100\' stroke=\'%23f7fafc\' stroke-width=\'4\'/><rect x=\'50\' y=\'30\' width=\'100\' height=\'60\' fill=\'%232d3748\'/><rect x=\'250\' y=\'30\' width=\'100\' height=\'60\' fill=\'%232d3748\'/><rect x=\'50\' y=\'110\' width=\'100\' height=\'60\' fill=\'%232d3748\'/><rect x=\'250\' y=\'110\' width=\'100\' height=\'60\' fill=\'%232d3748\'/><rect x=\'60\' y=\'40\' width=\'80\' height=\'40\' fill=\'%23a0aec0\'/><rect x=\'260\' y=\'40\' width=\'80\' height=\'40\' fill=\'%23a0aec0\'/><rect x=\'60\' y=\'120\' width=\'80\' height=\'40\' fill=\'%23a0aec0\'/><rect x=\'260\' y=\'120\' width=\'80\' height=\'40\' fill=\'%23a0aec0\'/><rect x=\'170\' y=\'30\' width=\'60\' height=\'140\' fill=\'%232d3748\'/></svg>')"></div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-3 text-gray-800">Industrial Roads</h3>
-                        <p class="text-gray-700">Heavy-duty asphalt pavements designed to withstand concentrated loads from industrial vehicles and equipment in manufacturing and logistics zones.</p>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition hover:scale-105">
-                    <div class="h-48 bg-cover bg-center" style="background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'200\' viewBox=\'0 0 400 200\'><rect width=\'400\' height=\'200\' fill=\'%234a5568\'/><path d=\'M50,100 L350,100\' stroke=\'%23f7fafc\' stroke-width=\'8\' stroke-dasharray=\'30,30\'/><path d=\'M200,30 L350,100 L200,170 L50,100 Z\' fill=\'%232d3748\' stroke=\'%23f6ad55\' stroke-width=\'2\'/><circle cx=\'200\' cy=\'100\' r=\'30\' fill=\'%23a0aec0\' stroke=\'%23f6ad55\' stroke-width=\'2\'/><path d=\'M170,100 L230,100 M200,70 L200,130\' stroke=\'%23f6ad55\' stroke-width=\'2\'/></svg>')"></div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-3 text-gray-800">Airport Runways</h3>
-                        <p class="text-gray-700">Specialized high-strength asphalt pavements designed to withstand aircraft loads, with strict requirements for smoothness and durability.</p>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition hover:scale-105">
-                    <div class="h-48 bg-cover bg-center" style="background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'200\' viewBox=\'0 0 400 200\'><rect width=\'400\' height=\'200\' fill=\'%234a5568\'/><rect x=\'50\' y=\'50\' width=\'300\' height=\'100\' fill=\'%232d3748\'/><path d=\'M50,70 L350,70 M50,90 L350,90 M50,110 L350,110 M50,130 L350,130\' stroke=\'%23f7fafc\' stroke-width=\'2\'/><path d=\'M70,50 L70,150 M90,50 L90,150 M110,50 L110,150 M130,50 L130,150 M150,50 L150,150 M170,50 L170,150 M190,50 L190,150 M210,50 L210,150 M230,50 L230,150 M250,50 L250,150 M270,50 L270,150 M290,50 L290,150 M310,50 L310,150 M330,50 L330,150\' stroke=\'%23f7fafc\' stroke-width=\'1\'/></svg>')"></div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-3 text-gray-800">Parking Lots</h3>
-                        <p class="text-gray-700">Asphalt surfaces designed for low-speed traffic with emphasis on proper drainage, marking visibility, and resistance to standing loads.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="py-16 bg-gray-800 text-white">
-        <div class="container mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold mb-6">Need Expert Consultation?</h2>
-            <p class="text-lg mb-8 max-w-2xl mx-auto">Our team of experienced engineers can help you design and implement the perfect asphalt road solution for your specific requirements.</p>
-            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-                <a href="#" class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-8 rounded-lg transition">Contact Us</a>
-                <a href="#" class="bg-transparent hover:bg-gray-700 border-2 border-white py-3 px-8 rounded-lg transition">Download Brochure</a>
-            </div>
-        </div>
-    </section>
-
-   
-    <script>
-        // Mobile menu toggle
-        document.getElementById('menu-toggle').addEventListener('click', function() {
-            document.getElementById('mobile-menu').classList.toggle('hidden');
-        });
-        
-        // Tab functionality
-        const tabButtons = document.querySelectorAll('.tab-button');
-        const tabContents = document.querySelectorAll('.tab-content');
-        
-        tabButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                // Remove active class from all buttons and contents
-                tabButtons.forEach(btn => btn.classList.remove('active', 'bg-yellow-500'));
-                tabContents.forEach(content => content.classList.remove('active'));
-                
-                // Add active class to clicked button and corresponding content
-                button.classList.add('active', 'bg-yellow-500');
-                const tabId = button.getAttribute('data-tab');
-                document.getElementById(tabId).classList.add('active');
-            });
-        });
-        
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                
-                const targetId = this.getAttribute('href');
-                if (targetId === '#') return;
-                
-                const targetElement = document.querySelector(targetId);
-                if (targetElement) {
-                    window.scrollTo({
-                        top: targetElement.offsetTop - 70,
-                        behavior: 'smooth'
-                    });
-                    
-                    // Close mobile menu if open
-                    document.getElementById('mobile-menu').classList.add('hidden');
-                }
-            });
-        });
-        
-        // Add shadow to navbar on scroll
-        window.addEventListener('scroll', function() {
-            const nav = document.querySelector('nav');
-            if (window.scrollY > 10) {
-                nav.classList.add('shadow-lg');
-            } else {
-                nav.classList.remove('shadow-lg');
-            }
-        });
-    </script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'965a9bc314318afd',t:'MTc1MzYwMzI4Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
-
-
-@endsection
+  <!-- Icons (Bootstrap Icons) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</body>
+</html>
