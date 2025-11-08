@@ -61,6 +61,43 @@
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
+
+  
+
+.top-bar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: center;
+}
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn.primary {
+  background-color: #d3ab35;
+  color: white;
+}
+
+
+  .tag-container {
+    margin-top: 15px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+}
+
+
+
 </style>
 
 <!-- ================= HERO SECTION ================= -->
@@ -72,9 +109,15 @@
     <h1 class="text-4xl md:text-5xl font-bold mb-4">Top-rated Road Construction Civil Work Systems in Maharashtra</h1>
     <p class="text-xl mb-2">Road Construction Experts in Maharashtra</p>
     <p class="text-lg opacity-90 mb-8">Building Strong Roads. Delivering Trusted Quality.</p>
-    <a href="#contact-bottom" class="btn-primary inline-flex items-center px-8 py-4 rounded-lg text-lg font-semibold">
-      📩 Get a Free Project Estimate
-    </a>
+    <div class="top-bar">
+      <a href="#contact" class="btn primary">Get a Fast Quote</a>
+
+      <a href="tel:+919326216153" class="btn outline">Call +91 93262 16153</a>
+      <!-- <button class="btn secondary">WhatsApp</button> -->
+    </div>
+    
+   
+
   </div>
 </header>
 
@@ -138,22 +181,45 @@
 
 <!-- ================= WHY CHOOSE US ================= -->
 <section class="py-16 bg-gray-50">
-  <div class="max-w-4xl mx-auto px-6 text-center">
-    <div class="bg-white p-8 rounded-xl shadow-md border border-[var(--primary)]">
-      <h3 class="text-2xl font-bold text-[var(--primary)] mb-4 flex items-center justify-center gap-2">
-        🏅 Why Choose Us?
+  <div class="max-w-12xl mx-auto px-6">
+    <div class="bg-white border border-gray-200 shadow-sm rounded-2xl p-8">
+      
+      <h3 class="text-2xl font-semibold text-[var(--primary)] text-center mb-6">
+        Why Choose Us
       </h3>
-      <ul class="text-base text-gray-700 space-y-2 text-left max-w-md mx-auto">
-        <li>✅ MORTH / IRC Compliant</li>
-        <li>✅ Experienced Team</li>
-        <li>✅ Modern Equipment</li>
-        <li>✅ Quality Control</li>
-        <li>✅ Timely Delivery</li>
-        <li>✅ Serving Maharashtra</li>
-      </ul>
+
+      <div class="flex flex-wrap justify-center items-center gap-x-8 gap-y-3 text-gray-700 text-base font-medium">
+
+        <span class="flex items-center gap-2">
+          <span class="text-[var(--primary)] text-lg">✔</span> MORTH / IRC Compliant
+        </span>
+
+        <span class="flex items-center gap-2">
+          <span class="text-[var(--primary)] text-lg">✔</span> Experienced Team
+        </span>
+
+        <span class="flex items-center gap-2">
+          <span class="text-[var(--primary)] text-lg">✔</span> Modern Equipment
+        </span>
+
+        <span class="flex items-center gap-2">
+          <span class="text-[var(--primary)] text-lg">✔</span> Quality Control
+        </span>
+
+        <span class="flex items-center gap-2">
+          <span class="text-[var(--primary)] text-lg">✔</span> Timely Delivery
+        </span>
+
+        <span class="flex items-center gap-2">
+          <span class="text-[var(--primary)] text-lg">✔</span> Serving Maharashtra
+        </span>
+
+      </div>
+
     </div>
   </div>
 </section>
+
 
 <!-- ================= COVERAGE AREA ================= -->
 <section class="py-16 bg-white">
@@ -178,70 +244,158 @@
 </section>
 
 <!-- ================= CONTACT FORM ================= -->
-<section id="contact-bottom" class="py-16 bg-white">
-  <div class="max-w-4xl mx-auto px-6">
-    <div class="text-center mb-12">
-      <h2 class="text-3xl font-bold text-gray-800 mb-4">Get Your Detailed Free Quote</h2>
-      <p class="text-gray-600">Tell us about your requirement — our team will contact you within 24 hours.</p>
+<section id="contact" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Contact Us</h1>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                Ready to start your construction project? Get in touch with our team for a detailed consultation and quote.
+            </p>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-12">
+            <!-- Contact Form -->
+            <div class="bg-gray-50 p-8 rounded-xl">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6">Get a Free Quote</h3>
+               
+                <form id="contact-form" action="{{ route('contact.store') }}" method="POST" class="space-y-6">
+                    @csrf
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Full Name *</label>
+                            <input type="text" name="name" id="name" required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
+                                placeholder="Enter your full name">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Mobile Number *</label>
+                            <input type="tel" name="mobile" id="mobile" required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
+                                placeholder="+91 XXXXX-XXXXX">
+                        </div>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Project Type *</label>
+                            <select name="project_type" id="project_type" required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent">
+                                <option value="">Select Project Type</option>
+                                <option value="Asphalt Road Construction">Asphalt Road Construction</option>
+                                <option value="Concrete Road Construction">Concrete Road Construction</option>
+                                <option value="Residential Construction">Residential Construction</option>
+                                <option value="Commercial Construction">Commercial Construction</option>
+                                <option value="Industrial Shed">Industrial Shed</option>
+                                <option value="Land Development">Land Development</option>
+                                <option value="Compound Wall">Compound Wall</option>
+                                <option value="Drainage & Sewer">Drainage & Sewer</option>
+                                <option value="Water Supply">Underground Water Supply</option>
+                                <option value="Renovation">Retrofitting & Renovation</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Location *</label>
+                            <select name="location" id="location" required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent">
+                                <option value="">Select Location</option>
+                                <option value="Mumbai">Mumbai</option>
+                                <option value="Pune">Pune</option>
+                                <option value="Raigad">Raigad</option>
+                                <option value="Khopoli">Khopoli</option>
+                                <option value="Nagothane">Nagothane</option>
+                                <option value="Other Maharashtra Location">Other Maharashtra Location</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-gray-700 font-medium mb-2">Project Details</label>
+                        <textarea name="message" id="message" rows="4"
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
+                            placeholder="Please describe your project requirements, timeline, and any specific details..."></textarea>
+                    </div>
+
+                    <button type="submit"
+                        class="w-full bg-yellow-400 hover:bg-yellow-500 text-gray-800 py-4 rounded-lg text-lg font-semibold transition-colors">
+                        <i class="fas fa-paper-plane mr-2"></i>Send Quote Request
+                    </button>
+                </form>
+                <div class="mt-8 pt-8 border-t border-gray-200">
+                    <h4 class="font-bold text-gray-800 mb-4">Quick Contact Options</h4>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="https://wa.me/919326216153" class="flex items-center justify-center bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                            <i class="fab fa-whatsapp mr-2 text-xl"></i>WhatsApp Chat
+                        </a>
+                        <a href="tel:+919326216153" class="flex items-center justify-center bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                            <i class="fas fa-phone mr-2"></i>Call Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Information -->
+            <div>
+                <div class="bg-gray-800 text-white p-8 rounded-xl mb-8">
+                    <h3 class="text-2xl font-bold mb-6">Contact Information</h3>
+
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="bg-yellow-400 p-3 rounded-lg mr-4 mt-1">
+                                <i class="fas fa-map-marker-alt text-gray-800"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-2">Head Office</h4>
+                                <p class="text-gray-300">
+                                    Crescent Pearl - B, B-G/1,<br>
+                                    Veena Nagar, Katrang Road,<br>
+                                    Nr. St. Anthony Church, Khopoli,<br>
+                                    Maharashtra 410203
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="bg-yellow-400 p-3 rounded-lg mr-4 mt-1">
+                                <i class="fas fa-phone text-gray-800"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-2">Phone Number</h4>
+                                <p class="text-gray-300">
+                                    Office: +91 93262 16153
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="bg-yellow-400 p-3 rounded-lg mr-4 mt-1">
+                                <i class="fas fa-envelope text-gray-800"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-2">Email</h4>
+                                <p class="text-gray-300">sc@shreeyashconstruction.co.in</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="bg-yellow-400 p-3 rounded-lg mr-4 mt-1">
+                                <i class="fas fa-clock text-gray-800"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-2">Working Hours</h4>
+                                <p class="text-gray-300">
+                                    Monday - Saturday: 9:00 AM - 6:00 PM<br>
+                                    Emergency: 24/7 Available
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               
+            </div>
+        </div>
     </div>
-
-    <form id="contact-form" class="bg-gray-50 p-8 rounded-xl shadow-lg">
-      <div class="grid md:grid-cols-2 gap-6 mb-6">
-        <div>
-          <label class="block text-gray-700 font-semibold mb-2">Full Name *</label>
-          <input type="text" id="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--primary)]">
-        </div>
-        <div>
-          <label class="block text-gray-700 font-semibold mb-2">Phone Number *</label>
-          <input type="tel" id="phone" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--primary)]">
-        </div>
-      </div>
-
-      <div class="grid md:grid-cols-2 gap-6 mb-6">
-        <div>
-          <label class="block text-gray-700 font-semibold mb-2">Email Address</label>
-          <input type="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--primary)]">
-        </div>
-        <div>
-          <label class="block text-gray-700 font-semibold mb-2">Project Location / District</label>
-          <input type="text" id="location" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--primary)]">
-        </div>
-      </div>
-
-      <div class="mb-6">
-        <label class="block text-gray-700 font-semibold mb-2">Type of Work Needed</label>
-        <select id="work-type" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--primary)]">
-          <option value="">Select work type</option>
-          <option>Asphalt Road Construction</option>
-          <option>CC Road Construction</option>
-          <option>GSB-WMM Laying</option>
-          <option>Compaction Services</option>
-          <option>Subgrade Preparation</option>
-        </select>
-      </div>
-
-      <div class="mb-6">
-        <label class="block text-gray-700 font-semibold mb-2">Message / Description</label>
-        <textarea id="message" rows="4" placeholder="Describe your project requirements..." class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[var(--primary)]"></textarea>
-      </div>
-
-      <button type="submit" class="w-full btn-primary py-4 px-6 rounded-lg text-lg font-semibold flex justify-center items-center">
-        <span id="submit-text">➡️ Get Free Quote Now</span>
-        <div id="submit-spinner" class="loading-spinner ml-3 hidden"></div>
-      </button>
-    </form>
-  </div>
 </section>
 
-<!-- ================= FOOTER ================= -->
-<footer class="py-12 mt-16">
-  <div class="max-w-6xl mx-auto px-6 text-center">
-    <h2 class="text-2xl font-bold mb-4 text-[var(--primary)]">📞 Contact Us Today</h2>
-    <p class="mb-6">Ready to start your next road project? Reach out for a free consultation and cost estimate.</p>
-    <p class="text-lg">📲 <strong>+91 9326216153</strong></p>
-    <p class="text-lg">📧 sc@shreeyashconstruction.co.in</p>
-    <p class="mt-8 text-sm text-gray-400">© 2025 Shreeyash Construction. All rights reserved.</p>
-  </div>
-</footer>
 
 @endsection

@@ -70,17 +70,12 @@
   color: white;
 }
 
-/* .btn.outline {
-  border: 2px solid #d3ab35;
-  color: #d3ab35;
-  background-color: transparent;
-} */
 
-.btn.secondary {
-  border: 1px solid #ffffff;
-  color: white;
-  background-color: transparent;
-}
+  .btn.secondary {
+    border: 1px solid #ffffff;
+    color: white;
+    background-color: transparent;
+  }
 
 
   .tag-container {
@@ -223,18 +218,18 @@ html {
     <p class="text-xl mb-2">Turnkey execution across Maharashtra with quality, compliance, and on‑time delivery. From foundations and RCC to PEB erection, roads, drainage, and utilities.</p>
 
    <div class="top-bar">
-  <a href="#contact" class="btn primary">Get a Fast Quote</a>
+    <a href="#contact" class="btn primary">Get a Fast Quote</a>
 
-  <a href="tel:+919326216153" class="btn outline">Call +91 93262 16153</a>
-  <button class="btn secondary">WhatsApp</button>
-</div>
+    <a href="tel:+919326216153" class="btn outline">Call +91 93262 16153</a>
+    <!-- <button class="btn secondary">WhatsApp</button> -->
+  </div>
 
-<div class="tag-container">
-  <span class="tag">MIDC Compliant</span>
-  <span class="tag">IS Codes</span>
-  <span class="tag">PEB & RCC</span>
-  <span class="tag">End-to-End</span>
-</div>
+  <div class="tag-container">
+    <span class="tag">MIDC Compliant</span>
+    <span class="tag">IS Codes</span>
+    <span class="tag">PEB & RCC</span>
+    <span class="tag">End-to-End</span>
+  </div>
 
   </div>
 </header>
