@@ -136,7 +136,7 @@
             'desc' => 'We offer precise plot leveling and grading services to shape land for residential layouts, industrial projects, or commercial use. Our services also include the creation of temporary or permanent road access, ensuring smooth logistics and project readiness.',
             'icon' => '<svg class="h-6 w-6 text-yellow-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l2-2 6 6 6-6 2 2"/><path d="M3 6h18v6H3z"/></svg>',
             'image' => asset('storage/PlotLeveling.jpg'),
-            'link' => route('industrial_shed_work'),
+            'link' => route('plot_leveling_grading_road_access'),
           ],
           [
             'title' => 'Earth Cutting, Filling & Compaction',
