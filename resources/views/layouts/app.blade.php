@@ -120,6 +120,8 @@
                 <div x-show="landOpen" x-transition x-cloak class="absolute left-full top-0 bg-white shadow-lg rounded w-56 z-50">
                   <a href="{{ route('plot_leveling_grading_road_access') }}" class="block px-4 py-2 hover:bg-yellow-100">Plot Leveling, Grading, Access</a>
                   <a href="{{ route('earth_cutting_filling_compaction') }}" class="block px-4 py-2 hover:bg-yellow-100">Earth Cutting & Compaction</a>
+                  <a href="{{ route('townshipandlanddevelopment') }}" class="block px-4 py-2 hover:bg-yellow-100">Township & Land Development</a>
+
                 </div>
               </div>
 

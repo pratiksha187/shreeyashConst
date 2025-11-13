@@ -30,6 +30,7 @@ Route::get('/water-drainage', [HomeController::class, 'water_drainage'])->name('
 Route::get('/factory-building', [HomeController::class, 'factory_building_civil_work'])->name('factory_building_civil_work');
 
 Route::get('/plot-leveling', [HomeController::class, 'plot_leveling_grading_road_access'])->name('plot_leveling_grading_road_access');
+Route::get('/Township-Land-Development', [HomeController::class, 'townshipandlanddevelopment'])->name('townshipandlanddevelopment');
 
 Route::get('/earth-cutting-filling-compaction', [HomeController::class, 'earth_cutting_filling_compaction'])->name('earth_cutting_filling_compaction');
 Route::get('/storm-water-drainage', [HomeController::class, 'storm_water_drainage'])->name('storm_water_drainage');
