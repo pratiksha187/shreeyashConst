@@ -520,6 +520,12 @@
       transform: translateX(4px);
       box-shadow: 0 4px 12px rgba(245, 158, 11, 0.15);
     }
+    .top-bar1 {
+    background: #0f172a;
+    color: #e5e7eb;
+    font-size: 13px;
+    padding: 6px 0;
+}
   </style>
 </head>
 
@@ -529,7 +535,7 @@
   <header id="mainHeader" class="header-wrapper">
 
     <!-- Top Bar -->
-    <div id="topBar" class="top-bar">
+    <div id="topBar" class="top-bar1">
       <div class="container-xl">
         <div class="row align-items-center">
           <div class="col-md-8">
