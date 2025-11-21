@@ -52,7 +52,13 @@
     color: white;
   }
     
-
+  /* ttt */
+.top-bar {
+    background: transparent;
+    color: #e5e7eb;
+    font-size: 13px;
+    padding: 6px 0;
+}
 .top-bar {
     display: flex;
     gap: 10px;
