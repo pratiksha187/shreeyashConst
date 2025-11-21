@@ -255,7 +255,7 @@ html {
 <!-- ================= SERVICES SECTION ================= -->
 
 <section id="services" class="py-20 bg-gray-50">
-  <div class="max-w-7xl mx-auto px-6">
+  <div class="max-w-8xl mx-auto px-6">
     <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900">
       Industrial Infrastructure Services
     </h2>
@@ -264,7 +264,7 @@ html {
     </p>
 
     <!-- <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"> -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
 
       <!-- Card 1 -->
       <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300">
@@ -322,19 +322,6 @@ html {
         </ul>
       </div>
 
-      <!-- Card 5 -->
-      <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300">
-        <div class="text-orange-600 mb-4 text-2xl">♻️</div>
-        <h3 class="text-xl font-semibold text-gray-900 mb-2">RE-FIT</h3>
-        <p class="text-gray-600 text-sm mb-4">
-          Strengthening old structures to improve safety, durability, and performance.
-        </p>
-        <ul class="space-y-2 text-gray-700">
-          <li class="flex items-center gap-2"><span class="text-orange-600">☑</span> Strong</li>
-          <li class="flex items-center gap-2"><span class="text-orange-600">☑</span> Safe</li>
-          <li class="flex items-center gap-2"><span class="text-orange-600">☑</span> Upgrade</li>
-        </ul>
-      </div>
 
     </div>
   </div>

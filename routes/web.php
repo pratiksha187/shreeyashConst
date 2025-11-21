@@ -15,8 +15,6 @@ Route::get('/asphalt-compaction', [HomeController::class, 'asphalt_compaction'])
 Route::get('/cement-concrete-road', [HomeController::class, 'inset_concrete_paving'])->name('inset_concrete_paving');
 Route::get('/road-construction', [HomeController::class, 'road_construction'])->name('road_construction');
 Route::get('/gsb-wmm-laying', [HomeController::class, 'gsb_wmm_laying'])->name('gsb_wmm_laying');
-
-
 Route::get('/offset-concrete-paving', [HomeController::class, 'offset_concrete_paving'])->name('offset_concrete_paving');
 Route::get('/base-layer-subgrade-preparation', [HomeController::class, 'base_layer_subgrade_preparation'])->name('base_layer_subgrade_preparation');
 
@@ -25,7 +23,6 @@ Route::get('/industrial-infrastructure', [HomeController::class, 'industrial_inf
 Route::get('/industrial-shed-work', [HomeController::class, 'industrial_shed_work'])->name('industrial_shed_work');
 Route::get('/land-development', [HomeController::class, 'land_development'])->name('land_development');
 Route::get('/water-drainage', [HomeController::class, 'water_drainage'])->name('water_drainage');
-
 
 Route::get('/factory-building', [HomeController::class, 'factory_building_civil_work'])->name('factory_building_civil_work');
 

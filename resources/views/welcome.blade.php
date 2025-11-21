@@ -125,6 +125,8 @@
             </div>
         </div>
     </section>
+    
+
 
     <!-- Why Choose Us -->
     <section id="why-us" class="py-20 bg-gray-800 text-white">
@@ -179,6 +181,52 @@
             </div>
         </div>
     </section>
+
+    <section class="py-12 bg-white">
+        <p class="text-center text-3xl font-bold text-gray-800 mb-6">
+            Our Trusted Clients
+        </p>
+
+        <div class="overflow-hidden relative">
+            <div class="flex items-center gap-12 animate-scrollSlow">
+
+                <!-- ⭐ Add your client logos here -->
+                <img src="{{ asset('storage/client/bhansali.jpg') }}" class="h-20 w-auto object-contain" />
+                <img src="{{ asset('storage/client/bharat.jpg') }}" class="h-20 w-auto object-contain" />
+                <img src="{{ asset('storage/client/cidco.png') }}" class="h-20 w-auto object-contain" />
+                <img src="{{ asset('storage/client/expat.png') }}" class="h-20 w-auto object-contain" />
+                <img src="{{ asset('storage/client/godrej.png') }}" class="h-20 w-auto object-contain" />
+                <img src="{{ asset('storage/client/hcc.png') }}" class="h-20 w-auto object-contain" />
+
+                <!-- Duplicate for smooth infinite effect -->
+                <img src="{{ asset('storage/client/indu.jpg') }}" class="h-20 w-auto object-contain" />
+                <img src="{{ asset('storage/client/irl.png') }}" class="h-20 w-auto object-contain" />
+                <img src="{{ asset('storage/client/isro.png') }}" class="h-20 w-auto object-contain" />
+                <img src="{{ asset('storage/client/John.png') }}" class="h-20 w-auto object-contain" />
+                <img src="{{ asset('storage/client/jsw.png') }}" class="h-20 w-auto object-contain" />
+
+                <img src="{{ asset('storage/client/kalptaru.png') }}" class="h-20 w-auto object-contain" />
+                <img src="{{ asset('storage/client/kalyan.jpg') }}" class="h-20 w-auto object-contain" />
+                <img src="{{ asset('storage/client/kanungo.jpg') }}" class="h-20 w-auto object-contain" />
+                <img src="{{ asset('storage/client/lakeside.png') }}" class="h-20 w-auto object-contain" />
+                <img src="{{ asset('storage/client/loda.png') }}" class="h-20 w-auto object-contain" />
+                <img src="{{ asset('storage/client/merck.png') }}" class="h-20 w-auto object-contain" />
+
+                <img src="{{ asset('storage/client/mfo.jpg') }}" class="h-20 w-auto object-contain" />
+                <img src="{{ asset('storage/client/nccc.jpg') }}" class="h-20 w-auto object-contain" />
+                <img src="{{ asset('storage/client/patil.jpg') }}" class="h-20 w-auto object-contain" />
+                <img src="{{ asset('storage/client/pendse.jpg') }}" class="h-20 w-auto object-contain" />
+                <img src="{{ asset('storage/client/pwd.jpg') }}" class="h-20 w-auto object-contain" />
+                <img src="{{ asset('storage/client/rcf.jpg') }}" class="h-20 w-auto object-contain" />
+
+                <img src="{{ asset('storage/client/supremeinfra-logo.jpg') }}" class="h-20 w-auto object-contain" />
+                <img src="{{ asset('storage/client/Surya.png') }}" class="h-20 w-auto object-contain" />
+                <img src="{{ asset('storage/client/xrbia.png') }}" class="h-20 w-auto object-contain" />
+                
+
+            </div>
+        </div>
+    </section>
 </div>
 
 <!-- Site Visit Modal -->
@@ -224,5 +272,15 @@
         </form>
     </div>
 </div>
+<style>
+@keyframes scrollSlow {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+.animate-scrollSlow {
+    animation: scrollSlow 25s linear infinite;
+}
+</style>
 
 @endsection
