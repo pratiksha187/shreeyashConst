@@ -41,159 +41,9 @@
     </div>
 </section>
 {{-- Content Section --}}
-<!-- <section class="py-16 bg-gray-50">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <div class="max-w-4xl mx-auto text-center">
-            <p class="text-xl text-gray-800 font-semibold mb-6">
-                Expert Site Grading and Road Access Contractors in Maharashtra
-            </p>
-
-            <div class="bg-white shadow-lg rounded-lg p-6 md:p-10 text-gray-700 leading-relaxed text-left inline-block">
-                <p class="mb-4">
-                    Shreeyash Construction offers professional <strong>plot leveling services</strong> for
-                    <strong>industrial, commercial, and residential</strong> developments. With years of expertise in
-                    <strong>land development and infrastructure works</strong>, we ensure every plot is accurately
-                    graded, compacted, and construction-ready.
-                </p>
-                <p>
-                    Our services include <strong>contour mapping</strong>, <strong>soil cutting and filling</strong>,
-                    <strong>slope stabilization</strong>, and <strong>access road development</strong> — all
-                    meticulously tailored to the site’s geography and your project specifications for durability
-                    and precision.
-                </p>
-            </div>
-        </div>
-    </div>
-</section> -->
-
-
-<!-- Services -->
-<!-- <section class="py-16 bg-white">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <div class="text-center mb-10">
-            <h2>Our Plot Leveling Services Include</h2>
-            <div class="section-underline"></div>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div class="card">
-                <div class="h-3 bg-yellow-500"></div>
-                <div class="p-6">
-                    <h3 class="text-lg font-semibold mb-3">Earthwork Cutting & Filling</h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-2">
-                        <li>Removal of excess soil from high areas</li>
-                        <li>Filling & compaction of low-lying zones</li>
-                        <li>Ensures uniform ground level across the plot</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="h-3 bg-yellow-500"></div>
-                <div class="p-6">
-                    <h3 class="text-lg font-semibold mb-3">Site Grading & Surface Drainage</h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-2">
-                        <li>Grading based on desired slope (1%–3%)</li>
-                        <li>Facilitates proper stormwater runoff</li>
-                        <li>Prevents water stagnation & erosion</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="h-3 bg-yellow-500"></div>
-                <div class="p-6">
-                    <h3 class="text-lg font-semibold mb-3">Compaction & Soil Stabilization</h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-2">
-                        <li>Achieves desired compaction density</li>
-                        <li>Use of vibratory rollers & soil compactors</li>
-                        <li>Lime/cement stabilization for weak soils</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="h-3 bg-yellow-500"></div>
-                <div class="p-6">
-                    <h3 class="text-lg font-semibold mb-3">Road Access Management</h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-2">
-                        <li>Construction of approach roads</li>
-                        <li>Temporary or permanent road options</li>
-                        <li>Includes stone soling, GSB/WMM & compaction</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-
-<!-- Technical Specifications -->
-<!-- <section class="py-16 bg-gray-50">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <div class="text-center mb-10">
-            <h2 class="section-title">Technical Specifications</h2>
-            <div class="section-underline"></div>
-        </div>
-
-        <div class="overflow-x-auto bg-white rounded-lg shadow-md">
-            <table class="min-w-full">
-                <thead>
-                    <tr class="bg-yellow-600 text-white">
-                        <th class="py-3 px-4 text-left">Parameter</th>
-                        <th class="py-3 px-4 text-left">Specification</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Grading Tolerance</td><td class="py-3 px-4">±50 mm (depending on site size)</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Compaction Density</td><td class="py-3 px-4">≥ 95% of Modified Proctor Density</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Fill Material</td><td class="py-3 px-4">Selected Earth / Murrum / GSB</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Slope for Drainage</td><td class="py-3 px-4">Min. 1% away from foundation or structure</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Machinery Used</td><td class="py-3 px-4">Bulldozers, Graders, Excavators, Vibro Rollers</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Road Base Layer</td><td class="py-3 px-4">GSB + WMM with defined camber/slope</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Drainage Provision</td><td class="py-3 px-4">Natural or RCC-lined channels if required</td></tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-</section> -->
-
-<!-- Applications -->
-<!-- <section class="py-16 bg-white">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <div class="text-center mb-10">
-            <h2 class="section-title">Applications of Plot Leveling</h2>
-            <div class="section-underline"></div>
-        </div>
-        <ul class="list-disc list-inside text-gray-700 space-y-2 max-w-3xl mx-auto">
-            <li>Industrial Plots</li>
-            <li>Commercial and SEZ Land Parcels</li>
-            <li>Factory or Warehouse Construction Sites</li>
-            <li>Residential Townships</li>
-            <li>Infrastructure Development Projects</li>
-        </ul>
-    </div>
-</section> -->
-
-<!-- Why Choose -->
-<!-- <section class="py-16 bg-gray-50">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <div class="text-center mb-10">
-            <h2 class="section-title">Why Choose Shreeyash Construction?</h2>
-            <div class="section-underline"></div>
-        </div>
-        <ul class="list-disc list-inside text-gray-700 space-y-2 max-w-4xl mx-auto">
-            <li>In-house machinery and skilled operators</li>
-            <li>Geo-technical assessment and leveling reports</li>
-            <li>Precision-controlled grading using GPS-enabled equipment</li>
-            <li>Seamless integration of road access, drainage, and plot preparation</li>
-            <li>Compliant with IRC and MoRTH standards</li>
-        </ul>
-    </div>
-</section> -->
-{{-- Content Section --}}
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <div class="max-w-4xl mx-auto text-center">
+        <div class="max-w-8xl mx-auto text-center">
             <p class="text-xl text-gray-800 font-bold mb-6">
                 Expert Site Grading and Road Access Contractors in Maharashtra
             </p>
@@ -276,68 +126,74 @@
     </div>
 </section>
 
-<!-- Technical Specifications -->
-<section class="py-16 bg-gray-50">
+<section class="py-20 bg-gray-50">
     <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <div class="text-center mb-10">
-            <h2 class="text-3xl font-bold text-gray-900">Technical Specifications</h2>
-            <div class="w-20 h-1 bg-yellow-600 mx-auto mt-4"></div>
+
+        <!-- HEADING -->
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-900">Land Development – Technical Specs & Advantages</h2>
+            <div class="w-24 h-1 bg-yellow-600 mx-auto mt-4"></div>
         </div>
 
-        <div class="overflow-x-auto bg-white rounded-lg shadow-md">
-            <table class="min-w-full">
-                <thead>
-                    <tr class="bg-yellow-600 text-white">
-                        <th class="py-3 px-4 text-left font-bold">Parameter</th>
-                        <th class="py-3 px-4 text-left font-bold">Specification</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="spec-row"><td class="py-3 px-4 font-bold">Grading Tolerance</td><td class="py-3 px-4">±50 mm (depending on site size)</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-bold">Compaction Density</td><td class="py-3 px-4">≥ 95% of Modified Proctor Density</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-bold">Fill Material</td><td class="py-3 px-4">Selected Earth / Murrum / GSB</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-bold">Slope for Drainage</td><td class="py-3 px-4">Min. 1% away from foundation or structure</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-bold">Machinery Used</td><td class="py-3 px-4">Bulldozers, Graders, Excavators, Vibro Rollers</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-bold">Road Base Layer</td><td class="py-3 px-4">GSB + WMM with defined camber/slope</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-bold">Drainage Provision</td><td class="py-3 px-4">Natural or RCC-lined channels if required</td></tr>
-                </tbody>
-            </table>
+        <!-- GRID SPLIT (LEFT: TABLE • RIGHT: LISTS) -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+
+            <!-- LEFT SIDE – TECHNICAL SPEC TABLE -->
+            <div>
+                <h3 class="text-2xl font-semibold text-gray-800 mb-6">Technical Specifications</h3>
+
+                <div class="overflow-x-auto bg-white rounded-lg shadow-md">
+                    <table class="min-w-full">
+                        <thead>
+                            <tr class="bg-yellow-600 text-white">
+                                <th class="py-3 px-4 text-left font-bold">Parameter</th>
+                                <th class="py-3 px-4 text-left font-bold">Specification</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="spec-row"><td class="py-3 px-4 font-bold">Grading Tolerance</td><td class="py-3 px-4">±50 mm (site dependent)</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-bold">Compaction Density</td><td class="py-3 px-4">≥ 95% Modified Proctor</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-bold">Fill Material</td><td class="py-3 px-4">Selected Earth / Murrum / GSB</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-bold">Slope for Drainage</td><td class="py-3 px-4">Minimum 1% outward</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-bold">Machinery Used</td><td class="py-3 px-4">Bulldozers, Graders, Excavators, Rollers</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-bold">Road Base Layer</td><td class="py-3 px-4">GSB + WMM with designed camber</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-bold">Drainage Provision</td><td class="py-3 px-4">Natural or RCC Channels</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- RIGHT SIDE – APPLICATIONS + WHY CHOOSE -->
+            <div>
+
+                <!-- APPLICATIONS -->
+                <h3 class="text-2xl font-semibold text-gray-800 mb-6">Applications of Plot Leveling</h3>
+
+                <ul class="list-disc list-inside text-gray-700 space-y-2 mb-10">
+                    <li>Industrial Plots</li>
+                    <li>Commercial and SEZ Land Parcels</li>
+                    <li>Factories & Warehouse Sites</li>
+                    <li>Residential Townships</li>
+                    <li>Infrastructure Development Projects</li>
+                </ul>
+
+                <!-- WHY CHOOSE -->
+                <h3 class="text-2xl font-semibold text-gray-800 mb-6">Why Choose Shreeyash Construction?</h3>
+
+                <ul class="list-disc list-inside text-gray-700 space-y-2">
+                    <li>In-house machinery & trained operators</li>
+                    <li>Geo-technical review & leveling report support</li>
+                    <li>GPS-enabled grading & accuracy</li>
+                    <li>Integrated road access & drainage planning</li>
+                    <li>Works as per IRC & MoRTH standards</li>
+                </ul>
+
+            </div>
+
         </div>
+
     </div>
 </section>
 
-<!-- Applications -->
-<section class="py-16 bg-white">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <div class="text-center mb-10">
-            <h2 class="text-3xl font-bold text-gray-900">Applications of Plot Leveling</h2>
-            <div class="w-20 h-1 bg-yellow-600 mx-auto mt-4"></div>
-        </div>
-        <ul class="list-disc list-inside text-gray-700 space-y-2 max-w-3xl mx-auto">
-            <li>Industrial Plots</li>
-            <li>Commercial and SEZ Land Parcels</li>
-            <li>Factory or Warehouse Construction Sites</li>
-            <li>Residential Townships</li>
-            <li>Infrastructure Development Projects</li>
-        </ul>
-    </div>
-</section>
-
-<!-- Why Choose -->
-<section class="py-16 bg-gray-50">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <div class="text-center mb-10">
-            <h2 class="text-3xl font-bold text-gray-900">Why Choose Shreeyash Construction?</h2>
-            <div class="w-20 h-1 bg-yellow-600 mx-auto mt-4"></div>
-        </div>
-        <ul class="list-disc list-inside text-gray-700 space-y-2 max-w-4xl mx-auto">
-            <li>In-house machinery and skilled operators</li>
-            <li>Geo-technical assessment and leveling reports</li>
-            <li>Precision-controlled grading using GPS-enabled equipment</li>
-            <li>Seamless integration of road access, drainage, and plot preparation</li>
-            <li>Compliant with IRC and MoRTH standards</li>
-        </ul>
-    </div>
-</section>
 
 @endsection

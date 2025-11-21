@@ -111,15 +111,15 @@
 
 <!-- ================= INTRO SECTION ================= -->
 <section class="py-16 bg-gray-50">
-  <div class="max-w-5xl mx-auto px-6 text-center">
-    <h2 class="text-3xl font-bold text-gray-800 mb-6">Why Shreeyash Construction?</h2>
+  <div class="max-w-8xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold text-yellow-500 mb-6">Why Shreeyash Construction?</h2>
     <p class="text-lg text-gray-700 mb-4 leading-relaxed">
-      Shreeyash Construction provides reliable and customized **compound wall solutions** across Maharashtra.
-      We specialize in building strong and aesthetically designed boundary walls that ensure **security, privacy, and structural integrity**.
+      Shreeyash Construction provides reliable and customized <strong>compound wall solutions</strong> across Maharashtra.
+      We specialize in building strong and aesthetically designed boundary walls that ensure <strong>security, privacy, and structural integrity</strong>.
       From UCR masonry to modern precast systems — our expertise covers end-to-end wall construction and installation.
     </p>
     <p class="text-gray-600">
-      Our team ensures **precision alignment, consistent finishing, and long-lasting strength** using high-quality materials and advanced methods.
+      Our team ensures <strong>precision alignment, consistent finishing, and long-lasting strength</strong> using high-quality materials and advanced methods.
     </p>
   </div>
 </section>
@@ -183,22 +183,52 @@
 
 <!-- ================= WHY CHOOSE US ================= -->
 <section class="py-16 bg-gray-50">
-  <div class="max-w-4xl mx-auto px-6 text-center">
+  <div class="max-w-8xl mx-auto px-6 text-center">
     <div class="bg-white p-8 rounded-xl shadow-md border border-[var(--primary)]">
-      <h3 class="text-2xl font-bold text-[var(--primary)] mb-4 flex items-center justify-center gap-2">
+      
+      <h3 class="text-2xl font-bold text-[var(--primary)] mb-6 flex items-center justify-center gap-2">
         🧱 Why Choose Us?
       </h3>
-      <ul class="text-base text-gray-700 space-y-2 text-left max-w-md mx-auto">
-        <li>✅ Experienced Civil & Structural Engineers</li>
-        <li>✅ Quality RCC, Masonry, and Precast Materials</li>
-        <li>✅ Accurate Leveling & Alignment</li>
-        <li>✅ Timely Execution</li>
-        <li>✅ Long-Lasting Durability</li>
-        <li>✅ Serving Maharashtra</li>
+
+      <!-- 3 in one row grid -->
+      <ul class="text-base text-gray-700 grid grid-cols-1 md:grid-cols-3 gap-4 text-left">
+        
+        <li class="flex items-start gap-2">
+          <span class="text-[var(--primary)]">✅</span>
+          Experienced Civil & Structural Engineers
+        </li>
+
+        <li class="flex items-start gap-2">
+          <span class="text-[var(--primary)]">✅</span>
+          Quality RCC, Masonry, and Precast Materials
+        </li>
+
+        <li class="flex items-start gap-2">
+          <span class="text-[var(--primary)]">✅</span>
+          Accurate Leveling & Alignment
+        </li>
+
+        <li class="flex items-start gap-2">
+          <span class="text-[var(--primary)]">✅</span>
+          Timely Execution
+        </li>
+
+        <li class="flex items-start gap-2">
+          <span class="text-[var(--primary)]">✅</span>
+          Long-Lasting Durability
+        </li>
+
+        <li class="flex items-start gap-2">
+          <span class="text-[var(--primary)]">✅</span>
+          Serving Maharashtra
+        </li>
+
       </ul>
+
     </div>
   </div>
 </section>
+
 <!-- ================= CONTACT FORM ================= -->
 <section id="contact" class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

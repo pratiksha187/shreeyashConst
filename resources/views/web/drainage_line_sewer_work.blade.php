@@ -151,98 +151,76 @@
     </section>
 
    
-    <!-- Technical Specifications -->
-    <section class="py-16 bg-gray-50">
-        <div class="container mx-auto px-4 md:px-6 lg:px-8">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-gray-800">Technical Specifications – Sewer & Drainage Work</h2>
-                <div class="w-20 h-1 bg-yellow-800 mx-auto mt-4 mb-6"></div>
-            </div>
-            
-            <div class="overflow-x-auto bg-white rounded-lg shadow-md">
-                <table class="min-w-full">
-                    <thead>
-                        <tr class="bg-yellow-600 text-white">
-                            <th class="py-3 px-4 text-left">Parameter</th>
-                            <th class="py-3 px-4 text-left">Specification</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">Pipe Types</td>
-                            <td class="py-3 px-4">RCC NP2/NP3, SW Pipes, UPVC, HDPE</td>
-                        </tr>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">Pipe Diameters</td>
-                            <td class="py-3 px-4">150mm to 1000mm (as per design flow)</td>
-                        </tr>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">Laying Depth</td>
-                            <td class="py-3 px-4">1.0m to 4.0m below ground level</td>
-                        </tr>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">Minimum Gradient</td>
-                            <td class="py-3 px-4">1:200 to 1:500 depending on diameter</td>
-                        </tr>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">Bedding Material</td>
-                            <td class="py-3 px-4">Sand / Lean Concrete (M10)</td>
-                        </tr>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">Manhole Spacing</td>
-                            <td class="py-3 px-4">30m to 50m or at every change in direction</td>
-                        </tr>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">Jointing Method</td>
-                            <td class="py-3 px-4">Collar joint / Rubber ring / Solvent weld</td>
-                        </tr>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">Testing</td>
-                            <td class="py-3 px-4">Air test, Hydraulic test, Vacuum test (where applicable)</td>
-                        </tr>
-                       
-                    </tbody>
-                </table>
-            </div>
+<section class="py-20 bg-gray-50">
+    <div class="container mx-auto px-4 md:px-6 lg:px-10">
+
+        <!-- MAIN TITLE -->
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-900">
+                Sewer & Drainage Work – Specifications, Applications & Why Choose Us
+            </h2>
+            <div class="w-24 h-1 bg-yellow-600 mx-auto mt-4"></div>
         </div>
-    </section>
 
-  <!-- Applications Section -->
-<section class="py-16 bg-white">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Applications</h2>
-        <ul class="list-disc list-inside text-gray-700 space-y-2">
-            <li>Municipal sewerage lines</li>
-            <li>Internal drainage for industrial parks and factories</li>
-            <li>Township and residential sewage networks</li>
-            <li>School, hospital, and commercial buildings</li>
-            <li>Roadside surface water drainage systems</li>
-        </ul>
+        <!-- 3 COLUMN GRID -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+            <!-- LEFT COLUMN – TECHNICAL SPECS -->
+            <div class="bg-white rounded-xl shadow-md border border-gray-200 p-6">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                    Technical Specifications
+                </h3>
+                <div class="w-14 h-1 bg-yellow-500 mb-4"></div>
+
+                <ul class="space-y-3 text-gray-700 text-sm leading-relaxed">
+                    <li><strong>Pipe Types:</strong> RCC NP2/NP3, SW Pipes, UPVC, HDPE</li>
+                    <li><strong>Pipe Diameters:</strong> 150mm to 1000mm</li>
+                    <li><strong>Laying Depth:</strong> 1.0m to 4.0m below ground level</li>
+                    <li><strong>Minimum Gradient:</strong> 1:200 to 1:500</li>
+                    <li><strong>Bedding Material:</strong> Sand / Lean Concrete (M10)</li>
+                    <li><strong>Manhole Spacing:</strong> 30m to 50m or at every change of direction</li>
+                    <li><strong>Jointing Method:</strong> Collar joint / Rubber ring / Solvent weld</li>
+                    <li><strong>Testing:</strong> Air test, Hydraulic test, Vacuum test</li>
+                </ul>
+            </div>
+
+            <!-- CENTER COLUMN – APPLICATIONS -->
+            <div class="bg-white rounded-xl shadow-md border border-gray-200 p-6">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                    Applications
+                </h3>
+                <div class="w-14 h-1 bg-yellow-500 mb-4"></div>
+
+                <ul class="list-disc list-inside space-y-3 text-gray-700 text-sm">
+                    <li>Municipal sewerage lines</li>
+                    <li>Internal drainage for industrial parks</li>
+                    <li>Township & residential sewage networks</li>
+                    <li>School, hospital & commercial building drainage</li>
+                    <li>Roadside surface water drainage systems</li>
+                </ul>
+            </div>
+
+            <!-- RIGHT COLUMN – WHY CHOOSE -->
+            <div class="bg-white rounded-xl shadow-md border border-gray-200 p-6">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                    Why Choose Shreeyash Construction?
+                </h3>
+                <div class="w-14 h-1 bg-yellow-500 mb-4"></div>
+
+                <ul class="list-disc list-inside space-y-3 text-gray-700 text-sm">
+                    <li>Extensive experience in public & private drainage projects</li>
+                    <li>Skilled manpower & advanced trenching machinery</li>
+                    <li>Compliance with ULB, MIDC, PMRDA & CPHEEO norms</li>
+                    <li>Safe, leak-proof & sustainable drainage solutions</li>
+                    <li>End-to-end service from planning to commissioning</li>
+                </ul>
+            </div>
+
+        </div>
     </div>
 </section>
 
-<!-- Why Choose Section -->
-<section class="py-16 bg-gray-50">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Why Choose Shreeyash Construction?</h2>
-        <ul class="list-disc list-inside text-gray-700 space-y-2">
-            <li>Extensive experience in public and private drainage projects</li>
-            <li>Skilled manpower and trenching machinery</li>
-            <li>Compliance with ULB, MIDC, PMRDA, and CPHEEO norms</li>
-            <li>Safe, leak-proof, and sustainable drainage solutions</li>
-            <li>End-to-end service from planning to commissioning</li>
-        </ul>
-    </div>
-</section>
 
-<!-- Additional Info -->
-<section class="py-6 bg-white">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <p class="text-gray-700">
-            We also ensure smooth coordination with other underground utilities such as water lines, electrical ducts, and stormwater drains for conflict-free installations.
-        </p>
-    </div>
-</section>
 
     <script>
         // Mobile menu toggle

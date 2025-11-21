@@ -111,19 +111,30 @@
 
 <!-- ================= INTRO SECTION ================= -->
 <section class="py-16 bg-gray-50">
-  <div class="max-w-5xl mx-auto px-6 text-center">
+  <div class="max-w-8xl mx-auto px-6 text-center">
     <h2 class="text-3xl font-bold text-gray-800 mb-6">Why Shreeyash Construction?</h2>
+
     <p class="text-lg text-gray-700 mb-4 leading-relaxed">
-      Shreeyash Construction offers reliable and technically sound solutions for **water and drainage system construction**
-      across Maharashtra. From **municipal stormwater management** to **underground water supply networks**, we deliver
-      projects with accuracy, durability, and compliance to engineering standards.
+      Shreeyash Construction offers reliable and technically sound solutions for 
+      <strong>water and drainage system construction</strong>
+      across Maharashtra. From 
+      <strong>municipal stormwater management</strong> 
+      to 
+      <strong>underground water supply networks</strong>, 
+      we deliver projects with accuracy, durability, and compliance to engineering standards.
     </p>
+
     <p class="text-gray-600">
-      Our team specializes in executing end-to-end infrastructure projects for **industrial parks, residential layouts,**
-      and **urban infrastructure developments**.
+      Our team specializes in executing end-to-end infrastructure projects for 
+      <strong>industrial parks</strong>, 
+      <strong>residential layouts</strong>, 
+      and 
+      <strong>urban infrastructure developments</strong>.
     </p>
+
   </div>
 </section>
+
 
 <!-- ================= SERVICES SECTION ================= -->
 <section id="services" class="py-16 bg-white">
@@ -198,22 +209,48 @@
 
 <!-- ================= WHY CHOOSE US ================= -->
 <section class="py-16 bg-gray-50">
-  <div class="max-w-4xl mx-auto px-6 text-center">
+  <div class="max-w-8xl mx-auto px-6 text-center">
+
     <div class="bg-white p-8 rounded-xl shadow-md border border-[var(--primary)]">
-      <h3 class="text-2xl font-bold text-[var(--primary)] mb-4 flex items-center justify-center gap-2">
+
+      <h3 class="text-2xl font-bold text-[var(--primary)] mb-6 flex items-center justify-center gap-2">
         💧 Why Choose Us?
       </h3>
-      <ul class="text-base text-gray-700 space-y-2 text-left max-w-md mx-auto">
-        <li>✅ Experienced Water & Drainage Experts</li>
-        <li>✅ Use of RCC, PVC, and HDPE Materials</li>
-        <li>✅ Compliance with IS & MJP Standards</li>
-        <li>✅ Advanced Machinery for Excavation & Laying</li>
-        <li>✅ Quality Testing and Long-lasting Performance</li>
-        <li>✅ Serving Maharashtra</li>
+
+      <!-- 3 Column List -->
+      <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 text-left max-w-4xl mx-auto text-gray-700">
+
+        <li class="flex items-center gap-2 text-base">
+          <span>✅</span> Experienced Water & Drainage Experts
+        </li>
+
+        <li class="flex items-center gap-2 text-base">
+          <span>✅</span> Use of RCC, PVC, and HDPE Materials
+        </li>
+
+        <li class="flex items-center gap-2 text-base">
+          <span>✅</span> Compliance with IS & MJP Standards
+        </li>
+
+        <li class="flex items-center gap-2 text-base">
+          <span>✅</span> Advanced Machinery for Excavation & Laying
+        </li>
+
+        <li class="flex items-center gap-2 text-base">
+          <span>✅</span> Quality Testing & Long-lasting Performance
+        </li>
+
+        <li class="flex items-center gap-2 text-base">
+          <span>✅</span> Serving Maharashtra
+        </li>
+
       </ul>
+
     </div>
+
   </div>
 </section>
+
 <!-- ================= CONTACT FORM ================= -->
 <section id="contact" class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

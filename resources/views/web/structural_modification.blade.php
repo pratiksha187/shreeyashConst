@@ -66,8 +66,8 @@
 {{-- Content Section --}}
 <section class="py-16 bg-gray-50">
   <div class="container mx-auto px-4 md:px-6 lg:px-8">
-    <div class="max-w-4xl mx-auto text-center">
-      <p class="text-xl text-gray-800 font-semibold mb-6">
+    <div class="max-w-8xl mx-auto text-center">
+      <p class="text-xl text-yellow-500 font-semibold mb-6">
         Strengthening and upgrading existing buildings to modern safety and performance standards
       </p>
 
@@ -196,85 +196,107 @@
     </div>
   </section>
 
-  <!-- Technical Specifications -->
-  <section class="py-16 bg-gray-50">
+<section class="py-16 bg-white">
     <div class="container mx-auto px-4 md:px-6 lg:px-8">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold text-gray-800">Technical Data – Retrofitting Specifications</h2>
-        <div class="w-20 h-1 bg-[color:var(--accent)] mx-auto mt-4 mb-6"></div>
-      </div>
 
-      <div class="overflow-x-auto bg-white rounded-lg shadow-md">
-        <table class="min-w-full">
-          <thead>
-            <tr class="bg-[color:var(--brand)] text-white">
-              <th class="py-3 px-4 text-left">Parameter</th>
-              <th class="py-3 px-4 text-left">Specification</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="spec-row">
-              <td class="py-3 px-4 font-medium">Structural Audit</td>
-              <td class="py-3 px-4">NDT (rebound hammer, UPV), cover meter, core tests where needed</td>
-            </tr>
-            <tr class="spec-row">
-              <td class="py-3 px-4 font-medium">Materials Used</td>
-              <td class="py-3 px-4">M25–M40 concrete, micro-concrete, epoxy resins, FRP sheets, structural steel</td>
-            </tr>
-            <tr class="spec-row">
-              <td class="py-3 px-4 font-medium">Seismic Design</td>
-              <td class="py-3 px-4">IS 1893:2016, IS 13920:2016 compliance</td>
-            </tr>
-            <tr class="spec-row">
-              <td class="py-3 px-4 font-medium">Corrosion Protection</td>
-              <td class="py-3 px-4">Anti-corrosive coating, cathodic protection as required</td>
-            </tr>
-            <tr class="spec-row">
-              <td class="py-3 px-4 font-medium">Execution Methods</td>
-              <td class="py-3 px-4">Jacketing, section enlargement, bracing, FRP wrapping</td>
-            </tr>
-            <tr class="spec-row">
-              <td class="py-3 px-4 font-medium">Project Duration</td>
-              <td class="py-3 px-4">Depends on structure size & complexity</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+        <!-- MAIN TITLE -->
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-800">Structural Retrofitting – Technical Specs & Process</h2>
+            <div class="w-20 h-1 bg-[color:var(--accent)] mx-auto mt-4 mb-6"></div>
+        </div>
+
+        <!-- LEFT - RIGHT GRID -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+
+            <!-- LEFT COLUMN – TECHNICAL SPECIFICATIONS -->
+            <div>
+                <h3 class="text-xl font-semibold mb-4 text-gray-800">Technical Data – Retrofitting Specifications</h3>
+
+                <div class="overflow-x-auto bg-white rounded-lg shadow-md">
+                    <table class="min-w-full">
+                        <thead>
+                            <tr class="bg-[color:var(--brand)] text-white">
+                                <th class="py-3 px-4 text-left">Parameter</th>
+                                <th class="py-3 px-4 text-left">Specification</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="spec-row">
+                                <td class="py-3 px-4 font-medium">Structural Audit</td>
+                                <td class="py-3 px-4">NDT (rebound hammer, UPV), cover meter, core tests</td>
+                            </tr>
+                            <tr class="spec-row">
+                                <td class="py-3 px-4 font-medium">Materials Used</td>
+                                <td class="py-3 px-4">M25–M40 concrete, micro-concrete, epoxy, FRP sheets, steel</td>
+                            </tr>
+                            <tr class="spec-row">
+                                <td class="py-3 px-4 font-medium">Seismic Design</td>
+                                <td class="py-3 px-4">IS 1893:2016, IS 13920:2016 compliant</td>
+                            </tr>
+                            <tr class="spec-row">
+                                <td class="py-3 px-4 font-medium">Corrosion Protection</td>
+                                <td class="py-3 px-4">Anti-corrosive coating, cathodic protection</td>
+                            </tr>
+                            <tr class="spec-row">
+                                <td class="py-3 px-4 font-medium">Execution Methods</td>
+                                <td class="py-3 px-4">Jacketing, section enlargement, bracing, FRP wrapping</td>
+                            </tr>
+                            <tr class="spec-row">
+                                <td class="py-3 px-4 font-medium">Project Duration</td>
+                                <td class="py-3 px-4">Based on structure size & complexity</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- RIGHT COLUMN – PROCESS -->
+            <div>
+                <h3 class="text-xl font-semibold mb-4 text-gray-800">Our Retrofitting Process</h3>
+
+                <div class="grid grid-cols-1 md:grid-cols-1 gap-6">
+
+                    <div class="bg-gray-50 p-6 rounded-lg shadow">
+                        <h3 class="font-semibold mb-2">1) Inspection & Structural Audit</h3>
+                        <p class="text-gray-600 text-sm">
+                            Visual checks, NDT testing, strength evaluation & defect mapping.
+                        </p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg shadow">
+                        <h3 class="font-semibold mb-2">2) Design & Planning</h3>
+                        <p class="text-gray-600 text-sm">
+                            Engineering-based design as per IS standards & structural performance.
+                        </p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg shadow">
+                        <h3 class="font-semibold mb-2">3) Material & Method Selection</h3>
+                        <p class="text-gray-600 text-sm">
+                            FRP, jacketing, micro-concrete, steel bracing, epoxy injections.
+                        </p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg shadow">
+                        <h3 class="font-semibold mb-2">4) Execution</h3>
+                        <p class="text-gray-600 text-sm">
+                            Controlled strengthening with minimal disruption to operations.
+                        </p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg shadow">
+                        <h3 class="font-semibold mb-2">5) Testing & Certification</h3>
+                        <p class="text-gray-600 text-sm">
+                            QA/QC, load testing, compliance documentation & stabilization reports.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
     </div>
-  </section>
-
-  <!-- Process -->
-  <section class="py-16 bg-white">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold text-gray-800">Our Process for Structural Retrofitting</h2>
-        <div class="w-20 h-1 bg-[color:var(--accent)] mx-auto mt-4 mb-6"></div>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div class="bg-gray-50 p-6 rounded-lg shadow">
-          <h3 class="font-semibold mb-2">1) Inspection & Structural Audit</h3>
-          <p class="text-gray-600 text-sm">Site visit, visual checks, NDT to assess damage & capacities.</p>
-        </div>
-        <div class="bg-gray-50 p-6 rounded-lg shadow">
-          <h3 class="font-semibold mb-2">2) Design & Planning</h3>
-          <p class="text-gray-600 text-sm">Customized strengthening plan per engineering principles & codes.</p>
-        </div>
-        <div class="bg-gray-50 p-6 rounded-lg shadow">
-          <h3 class="font-semibold mb-2">3) Material & Method Selection</h3>
-          <p class="text-gray-600 text-sm">Choose FRP, jacketing, bracing, micro-concrete, etc.</p>
-        </div>
-        <div class="bg-gray-50 p-6 rounded-lg shadow">
-          <h3 class="font-semibold mb-2">4) Execution</h3>
-          <p class="text-gray-600 text-sm">Careful sequencing to minimize disruption to occupants/operations.</p>
-        </div>
-        <div class="bg-gray-50 p-6 rounded-lg shadow">
-          <h3 class="font-semibold mb-2">5) Testing & Certification</h3>
-          <p class="text-gray-600 text-sm">Load tests, QA/QC, compliance documentation & final certification.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+</section>
 
   <!-- Industries Served -->
   <section class="py-16 bg-gray-50">

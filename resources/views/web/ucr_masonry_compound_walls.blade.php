@@ -59,8 +59,8 @@
 {{-- Content Section --}}
 <section class="py-16 bg-gray-50">
   <div class="container mx-auto px-4 md:px-6 lg:px-8">
-    <div class="max-w-4xl mx-auto text-center">
-      <p class="text-xl text-gray-800 font-semibold mb-6">
+    <div class="max-w-8xl mx-auto text-center">
+      <p class="text-xl text-yellow-500 font-semibold mb-6">
         Durable, custom-built compound walls for industrial, residential & commercial projects
       </p>
 
@@ -138,7 +138,7 @@
   </section>
 
   <!-- Technical Specs -->
-  <section class="py-16 bg-gray-50">
+  <!-- <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-4 md:px-6 lg:px-8">
       <div class="text-center mb-10">
         <h2 class="text-3xl font-bold text-gray-800">Technical Specifications – Masonry Compound Wall</h2>
@@ -167,10 +167,10 @@
         </table>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Construction Process -->
-  <section class="py-16 bg-white">
+  <!-- <section class="py-16 bg-white">
     <div class="container mx-auto px-4 md:px-6 lg:px-8">
       <div class="text-center mb-10">
         <h2 class="text-3xl font-bold text-gray-800">Construction Process</h2>
@@ -185,42 +185,142 @@
         <div class="card p-6"><h3 class="font-semibold mb-2">6) Paint / Gate Pillars</h3><p class="text-gray-600 text-sm">Exterior finish & accessories.</p></div>
       </div>
     </div>
-  </section>
-
-  <!-- Applications -->
+  </section> -->
   <section class="py-16 bg-gray-50">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-      <div class="text-center mb-10">
-        <h2 class="text-3xl font-bold text-gray-800">Applications</h2>
-        <div class="w-20 h-1 bg-[color:var(--accent)] mx-auto mt-4"></div>
-      </div>
-      <div class="bg-white rounded-xl p-8 shadow">
-        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
-          <span class="inline-block px-3 py-2 rounded-lg bg-gray-100 text-[color:var(--brand)] text-center">Industrial & factory plots</span>
-          <span class="inline-block px-3 py-2 rounded-lg bg-gray-100 text-[color:var(--brand)] text-center">Residential housing & bungalows</span>
-          <span class="inline-block px-3 py-2 rounded-lg bg-gray-100 text-[color:var(--brand)] text-center">Schools, hospitals & institutions</span>
-          <span class="inline-block px-3 py-2 rounded-lg bg-gray-100 text-[color:var(--brand)] text-center">Farmhouses / open plots</span>
-          <span class="inline-block px-3 py-2 rounded-lg bg-gray-100 text-[color:var(--brand)] text-center">Commercial perimeters</span>
+  <div class="container mx-auto px-4 md:px-6 lg:px-8">
+
+    <!-- Section Title -->
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-gray-800">Masonry Compound Wall – Technical Specs & Construction Process</h2>
+      <div class="w-24 h-1 bg-[color:var(--accent)] mx-auto mt-4"></div>
+    </div>
+
+    <!-- Two Column Layout -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+
+      <!-- LEFT SIDE – TECHNICAL SPECIFICATIONS -->
+      <div class="bg-white rounded-xl shadow-md p-6">
+        <h3 class="text-2xl font-semibold text-gray-800 mb-6 text-center">Technical Specifications</h3>
+
+        <div class="overflow-x-auto rounded-lg">
+          <table class="min-w-full">
+            <thead>
+              <tr class="bg-[color:var(--brand)] text-white">
+                <th class="py-3 px-4 text-left">Item</th>
+                <th class="py-3 px-4 text-left">Specification</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="spec-row"><td class="py-3 px-4 font-medium">Wall Height</td><td class="py-3 px-4">1.5 m to 3.0 m (customizable)</td></tr>
+              <tr class="spec-row"><td class="py-3 px-4 font-medium">Foundation Depth</td><td class="py-3 px-4">600 mm to 1000 mm</td></tr>
+              <tr class="spec-row"><td class="py-3 px-4 font-medium">Foundation Type</td><td class="py-3 px-4">Stone masonry / RCC strip foundation</td></tr>
+              <tr class="spec-row"><td class="py-3 px-4 font-medium">Wall Thickness</td><td class="py-3 px-4">115 mm to 230 mm</td></tr>
+              <tr class="spec-row"><td class="py-3 px-4 font-medium">Brick Type</td><td class="py-3 px-4">Cement / Fly ash / Red bricks</td></tr>
+              <tr class="spec-row"><td class="py-3 px-4 font-medium">Mortar Ratio</td><td class="py-3 px-4">1:4 or 1:6</td></tr>
+              <tr class="spec-row"><td class="py-3 px-4 font-medium">Plastering</td><td class="py-3 px-4">12–15 mm internal & external</td></tr>
+              <tr class="spec-row"><td class="py-3 px-4 font-medium">Reinforcement</td><td class="py-3 px-4">8/10 mm bars in RCC pillars</td></tr>
+              <tr class="spec-row"><td class="py-3 px-4 font-medium">Finish</td><td class="py-3 px-4">Smooth plaster & exterior paint</td></tr>
+            </tbody>
+          </table>
         </div>
       </div>
-    </div>
-  </section>
 
-  <section class="py-16 bg-white">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-      <div class="text-center mb-10">
-        <h2 class="text-3xl font-bold text-gray-800">Why Shreeyash Construction?</h2>
-      <div class="w-20 h-1 bg-[color:var(--accent)] mx-auto mt-4"></div>
+      <!-- RIGHT SIDE – CONSTRUCTION PROCESS -->
+      <div class="bg-white rounded-xl shadow-md p-6">
+        <h3 class="text-2xl font-semibold text-gray-800 mb-6 text-center">Construction Process</h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+          <div class="card bg-gray-50 p-5 rounded-lg shadow-sm">
+            <h4 class="font-semibold mb-2">1) Site Measurement & Layout</h4>
+            <p class="text-gray-600 text-sm">Accurate demarcation & setting out.</p>
+          </div>
+
+          <div class="card bg-gray-50 p-5 rounded-lg shadow-sm">
+            <h4 class="font-semibold mb-2">2) Trenching & Foundation</h4>
+            <p class="text-gray-600 text-sm">Excavation, base prep & footing.</p>
+          </div>
+
+          <div class="card bg-gray-50 p-5 rounded-lg shadow-sm">
+            <h4 class="font-semibold mb-2">3) Masonry Work</h4>
+            <p class="text-gray-600 text-sm">Brick/stone courses per design.</p>
+          </div>
+
+          <div class="card bg-gray-50 p-5 rounded-lg shadow-sm">
+            <h4 class="font-semibold mb-2">4) Pillars (If Required)</h4>
+            <p class="text-gray-600 text-sm">RCC pillars / coping for strength.</p>
+          </div>
+
+          <div class="card bg-gray-50 p-5 rounded-lg shadow-sm">
+            <h4 class="font-semibold mb-2">5) Plaster & Finishing</h4>
+            <p class="text-gray-600 text-sm">Internal & external plastering.</p>
+          </div>
+
+          <div class="card bg-gray-50 p-5 rounded-lg shadow-sm">
+            <h4 class="font-semibold mb-2">6) Paint / Gate Pillars</h4>
+            <p class="text-gray-600 text-sm">Exterior finish & accessories.</p>
+          </div>
+
+        </div>
       </div>
-      <ul class="list-disc list-inside text-gray-700 space-y-2 max-w-4xl mx-auto">
-        <li>Quality-focused workmanship with skilled masons</li>
-        <li>Timely project execution and cost-effective pricing</li>
-        <li>High-strength materials and reinforced design</li>
-        <li>Custom wall height, design, and finish options</li>
-        <li>We follow IS 1905 and local municipal norms for compound walls</li>
-      </ul>
+
     </div>
-  </section>
+  </div>
+</section>
+
+
+<section class="py-16 bg-gray-50">
+  <div class="container mx-auto px-4 md:px-6 lg:px-8">
+
+    <!-- Section Title -->
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-gray-800">Applications & Why Choose Us</h2>
+      <div class="w-24 h-1 bg-[color:var(--accent)] mx-auto mt-4"></div>
+    </div>
+
+    <!-- Two Column Layout -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+
+      <!-- LEFT SIDE – APPLICATIONS -->
+      <div class="bg-white rounded-xl p-8 shadow-md">
+        <h3 class="text-2xl font-semibold text-yellow-500 mb-6 text-center">Applications</h3>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+          <span class="block px-3 py-2 rounded-lg bg-gray-100 text-[color:var(--brand)] text-center">
+            Industrial & factory plots
+          </span>
+          <span class="block px-3 py-2 rounded-lg bg-gray-100 text-[color:var(--brand)] text-center">
+            Residential housing & bungalows
+          </span>
+          <span class="block px-3 py-2 rounded-lg bg-gray-100 text-[color:var(--brand)] text-center">
+            Schools, hospitals & institutions
+          </span>
+          <span class="block px-3 py-2 rounded-lg bg-gray-100 text-[color:var(--brand)] text-center">
+            Farmhouses / open plots
+          </span>
+          <span class="block px-3 py-2 rounded-lg bg-gray-100 text-[color:var(--brand)] text-center">
+            Commercial perimeters
+          </span>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE – WHY CHOOSE -->
+      <div class="bg-white rounded-xl p-8 shadow-md">
+        <h3 class="text-2xl font-semibold text-yellow-500 mb-6 text-center">Why Shreeyash Construction?</h3>
+
+        <ul class="list-disc list-inside text-gray-700 space-y-2">
+          <li>Quality-focused workmanship with skilled masons</li>
+          <li>Timely project execution and cost-effective pricing</li>
+          <li>High-strength materials and reinforced design</li>
+          <li>Custom wall height, design, and finish options</li>
+          <li>Follows IS 1905 & municipal norms for compound walls</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
   <script>
     // Optional: mobile menu toggle if your layout uses it
     (function(){

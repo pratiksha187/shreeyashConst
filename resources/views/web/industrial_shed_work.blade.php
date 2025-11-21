@@ -41,7 +41,7 @@
 {{-- Content Section --}}
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <div class="max-w-4xl mx-auto text-center">
+        <div class="max-w-8xl mx-auto text-center">
             <p class="text-xl text-gray-800 font-semibold mb-6">
                 Trusted Industrial Shed Contractors in Maharashtra
             </p>
@@ -62,180 +62,211 @@
         </div>
     </div>
 </section>
+<!-- ================== TYPES OF SHEDS + WORKING IDEAS (LEFT–RIGHT ONE SECTION) ================== -->
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12">
 
+        <!-- ============= LEFT — TYPES OF INDUSTRIAL SHEDS ============= -->
+        <div>
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Types of Industrial Sheds We Construct</h2>
+            <div class="w-20 h-1 bg-yellow-600 mb-8 rounded"></div>
 
-<!-- Types of Industrial Sheds -->
-<section class="py-16 bg-white">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <div class="text-center mb-10">
-            <h2 class="section-title">Types of Industrial Sheds We Construct</h2>
-            <div class="section-underline"></div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                    <h3 class="font-semibold text-lg mb-3">PEB Sheds</h3>
+                    <ul class="list-disc ml-5 text-gray-700 space-y-2">
+                        <li>Fast installation</li>
+                        <li>Custom design</li>
+                        <li>Low maintenance</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                    <h3 class="font-semibold text-lg mb-3">Conventional Steel Sheds</h3>
+                    <ul class="list-disc ml-5 text-gray-700 space-y-2">
+                        <li>Heavy-duty operations</li>
+                        <li>Hot-rolled steel sections</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                    <h3 class="font-semibold text-lg mb-3">Industrial Workshop Sheds</h3>
+                    <ul class="list-disc ml-5 text-gray-700 space-y-2">
+                        <li>Repair & production</li>
+                        <li>Office integration possible</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                    <h3 class="font-semibold text-lg mb-3">Commercial Workshop Sheds</h3>
+                    <ul class="list-disc ml-5 text-gray-700 space-y-2">
+                        <li>Showroom / service layouts</li>
+                        <li>Auto & retail industries</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                    <h3 class="font-semibold text-lg mb-3">Warehouse Sheds</h3>
+                    <ul class="list-disc ml-5 text-gray-700 space-y-2">
+                        <li>Clear span design</li>
+                        <li>Fire-resistant options</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                    <h3 class="font-semibold text-lg mb-3">Cold Storage & Agri Sheds</h3>
+                    <ul class="list-disc ml-5 text-gray-700 space-y-2">
+                        <li>Ventilation & insulation</li>
+                        <li>Humidity control</li>
+                    </ul>
+                </div>
+
+            </div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="card p-6">
-                <h3 class="text-lg font-semibold mb-3">PEB (Pre-Engineered Building) Sheds</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li>Fast installation</li>
-                    <li>Custom design</li>
-                    <li>Low maintenance</li>
-                </ul>
-            </div>
-            <div class="card p-6">
-                <h3 class="text-lg font-semibold mb-3">Conventional Steel Sheds</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li>Suitable for heavy-duty operations</li>
-                    <li>Built with hot-rolled steel sections</li>
-                </ul>
-            </div>
-            <div class="card p-6">
-                <h3 class="text-lg font-semibold mb-3">Industrial Workshop Sheds</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li>Ideal for repair, maintenance & production</li>
-                    <li>Can include integrated office spaces</li>
-                </ul>
-            </div>
-            <div class="card p-6">
-                <h3 class="text-lg font-semibold mb-3">Commercial Workshop Sheds</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li>Showroom-cum-workshop or service center layouts</li>
-                    <li>Suitable for automobile & retail industries</li>
-                </ul>
-            </div>
-            <div class="card p-6">
-                <h3 class="text-lg font-semibold mb-3">Warehouse Sheds</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li>Optimized storage height & clear span</li>
-                    <li>Fire-resistant design options</li>
-                </ul>
-            </div>
-            <div class="card p-6">
-                <h3 class="text-lg font-semibold mb-3">Fabricated Sheds for Agriculture & Cold Storage</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li>Ventilation, insulation & humidity control</li>
-                </ul>
-            </div>
+
+        <!-- ============= RIGHT — WORKING SHED IDEAS ============= -->
+        <div>
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Working Shed Ideas Tailored to Industry</h2>
+            <div class="w-20 h-1 bg-yellow-600 mb-8 rounded"></div>
+
+            <ul class="list-disc ml-5 text-gray-700 space-y-4 text-lg leading-relaxed">
+                <li>Multi-bay Workshop Sheds for parallel operations</li>
+                <li>Extended Height Sheds for cranes or tall machinery</li>
+                <li>Skylight-Integrated Sheds for natural lighting & energy savings</li>
+                <li>Mezzanine Floor Sheds for office + storage combination</li>
+                <li>Modular Shed Extensions for future expansion</li>
+            </ul>
         </div>
+
     </div>
 </section>
 
-<!-- Technical Specifications -->
-<section class="py-16 bg-gray-50">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <div class="text-center mb-10">
-            <h2 class="section-title">Technical Specifications</h2>
-            <div class="section-underline"></div>
+
+
+<!-- ================== COMBINED TECHNICAL + HEIGHT TABLES ================== -->
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Technical Specifications & Height Standards</h2>
+            <div class="w-24 h-1 bg-yellow-600 mx-auto mt-4 rounded"></div>
         </div>
-        <div class="overflow-x-auto bg-white rounded-lg shadow-md">
-            <table class="min-w-full">
-                <thead>
-                    <tr class="bg-yellow-600 text-white">
-                        <th class="py-3 px-4 text-left">Component</th>
-                        <th class="py-3 px-4 text-left">Specification</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Structure Type</td><td class="py-3 px-4">PEB / Steel Frame</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Height (Industrial Shed Height)</td><td class="py-3 px-4">6m to 15m (customizable)</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Roofing Material</td><td class="py-3 px-4">GI Sheets / Color Coated Sheets / Polycarbonate Skylights</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Cladding</td><td class="py-3 px-4">Profile Sheets / Sandwich Panels</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Foundation Type</td><td class="py-3 px-4">RCC Footings / Raft / Isolated Footings</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Bay Spacing</td><td class="py-3 px-4">5m to 8m</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Clear Span Width</td><td class="py-3 px-4">Up to 30m (without internal columns)</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">EOT Crane Provisions</td><td class="py-3 px-4">Optional – based on load requirements</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Insulation</td><td class="py-3 px-4">Rockwool / Glasswool (Optional)</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Ventilation</td><td class="py-3 px-4">Ridge Ventilators / Louvers / Turbo Vents</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Flooring</td><td class="py-3 px-4">Trimix / VDF / Epoxy Floor (optional)</td></tr>
-                </tbody>
-            </table>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+
+            <!-- ================= LEFT TABLE ================= -->
+            <div>
+                <h3 class="text-2xl font-semibold text-gray-800 mb-6">Technical Specifications</h3>
+                
+                <div class="overflow-x-auto bg-white rounded-lg shadow-md">
+                    <table class="min-w-full">
+                        <thead>
+                            <tr class="bg-yellow-600 text-white">
+                                <th class="py-3 px-4 text-left">Component</th>
+                                <th class="py-3 px-4 text-left">Specification</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Structure Type</td><td class="py-3 px-4">PEB / Steel Frame</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Height (Industrial Shed Height)</td><td class="py-3 px-4">6m to 15m (customizable)</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Roofing Material</td><td class="py-3 px-4">GI Sheets / Color Coated Sheets / Polycarbonate Skylights</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Cladding</td><td class="py-3 px-4">Profile Sheets / Sandwich Panels</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Foundation Type</td><td class="py-3 px-4">RCC Footings / Raft / Isolated Footings</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Bay Spacing</td><td class="py-3 px-4">5m to 8m</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Clear Span Width</td><td class="py-3 px-4">Up to 30m</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">EOT Crane Provisions</td><td class="py-3 px-4">Optional – based on load</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Insulation</td><td class="py-3 px-4">Rockwool / Glasswool (Optional)</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Ventilation</td><td class="py-3 px-4">Ridge Ventilators / Louvers / Turbo Vents</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Flooring</td><td class="py-3 px-4">Trimix / VDF / Epoxy</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- ================= RIGHT TABLE ================= -->
+            <div>
+                <h3 class="text-2xl font-semibold text-gray-800 mb-6">Industrial Shed Height – Typical Ranges</h3>
+
+                <div class="overflow-x-auto bg-white rounded-lg shadow-md">
+                    <table class="min-w-full">
+                        <thead>
+                            <tr class="bg-yellow-600 text-white">
+                                <th class="py-3 px-4 text-left">Type of Shed</th>
+                                <th class="py-3 px-4 text-left">Height (m)</th>
+                                <th class="py-3 px-4 text-left">Use Case</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Light Industrial Shed</td><td class="py-3 px-4">4.5 – 6</td><td class="py-3 px-4">Workshops, packaging</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Standard Warehouse</td><td class="py-3 px-4">6 – 9</td><td class="py-3 px-4">Storage, logistics</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Assembly Line Shed</td><td class="py-3 px-4">6 – 10</td><td class="py-3 px-4">Automobile, assembly</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Heavy Industrial Shed</td><td class="py-3 px-4">9 – 12</td><td class="py-3 px-4">Foundries, machinery</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Logistics / Forklift Shed</td><td class="py-3 px-4">10 – 12</td><td class="py-3 px-4">Container handling</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Crane-Operated Shed</td><td class="py-3 px-4">12 – 18+</td><td class="py-3 px-4">EOT crane facilities</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Aircraft Hangars</td><td class="py-3 px-4">15 – 25+</td><td class="py-3 px-4">Large clear spans</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
         </div>
+
     </div>
 </section>
 
-<!-- Industrial Shed Height Table -->
-<section class="py-16 bg-white">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <div class="text-center mb-10">
-            <h2 class="section-title">Industrial Shed Height — Typical Ranges</h2>
-            <div class="section-underline"></div>
+<!-- INDUSTRIAL SHED WORK PROCESS – CARD DESIGN -->
+<section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900">
+                Industrial Shed Work Process
+            </h2>
+            <div class="w-24 h-1 bg-yellow-600 mx-auto mt-4 rounded"></div>
         </div>
-        <div class="overflow-x-auto bg-white rounded-lg shadow-md">
-            <table class="min-w-full">
-                <thead>
-                    <tr class="bg-yellow-600 text-white">
-                        <th class="py-3 px-4 text-left">Type of Industrial Shed</th>
-                        <th class="py-3 px-4 text-left">Typical Height Range (meters)</th>
-                        <th class="py-3 px-4 text-left">Use Case</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Light Industrial Shed</td><td class="py-3 px-4">4.5 – 6</td><td class="py-3 px-4">Workshops, small-scale manufacturing, packaging</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Standard Warehouse/Storage Shed</td><td class="py-3 px-4">6 – 9</td><td class="py-3 px-4">General storage, medium-scale logistics</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Automotive/Assembly Line Shed</td><td class="py-3 px-4">6 – 10</td><td class="py-3 px-4">Car workshops, assembly lines, light machinery</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Heavy Industrial Shed</td><td class="py-3 px-4">9 – 12</td><td class="py-3 px-4">Foundries, heavy equipment, large-scale production</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Container-Handling/Logistics Shed</td><td class="py-3 px-4">10 – 12</td><td class="py-3 px-4">Forklift/container handling, logistics hubs</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Crane-Operated Industrial Shed</td><td class="py-3 px-4">12 – 18+</td><td class="py-3 px-4">Facilities requiring EOT cranes or overhead gantries</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Aircraft Hangars / Shipbuilding</td><td class="py-3 px-4">15 – 25+</td><td class="py-3 px-4">Very large clearances and spans</td></tr>
-                </tbody>
-            </table>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+            <!-- Card 1 -->
+            <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300">
+                <div class="text-yellow-600 text-4xl mb-4">📍</div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">Site Inspection</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Soil testing, load assessment & site layout planning completed with precision.
+                </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300">
+                <div class="text-yellow-600 text-4xl mb-4">📐</div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">Design & Planning</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    PEB/custom design, structural drawings & engineering analysis for stability.
+                </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300">
+                <div class="text-yellow-600 text-4xl mb-4">🏗️</div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">Fabrication & Erection</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Pre-fabricated steel components delivered & erected using high-end machinery.
+                </p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300">
+                <div class="text-yellow-600 text-4xl mb-4">✔️</div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">Finishing & Handover</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    Roofing, cladding, painting & QA/QC checks followed by final project handover.
+                </p>
+            </div>
+
         </div>
+
     </div>
 </section>
 
-<!-- Working Shed Ideas -->
-<section class="py-16 bg-gray-50">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <div class="text-center mb-10">
-            <h2 class="section-title">Working Shed Ideas Tailored to Industry</h2>
-            <div class="section-underline"></div>
-        </div>
-        <ul class="list-disc list-inside text-gray-700 space-y-2 max-w-4xl mx-auto">
-            <li>Multi-bay Workshop Sheds for parallel operations</li>
-            <li>Extended Height Sheds to accommodate cranes or tall machinery</li>
-            <li>Skylight-Integrated Sheds for natural lighting and energy savings</li>
-            <li>Mezzanine Floor Sheds for office/storage combo</li>
-            <li>Modular Shed Extensions for future expansion</li>
-        </ul>
-    </div>
-</section>
-
-<!-- Process -->
-<section class="py-16 bg-white">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <div class="text-center mb-10">
-            <h2 class="section-title">Our Industrial Shed Work Process</h2>
-            <div class="section-underline"></div>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="card p-6"><ul class="list-disc list-inside text-gray-700 space-y-2">
-                <li>Site Inspection & Soil Testing</li>
-                <li>Design & Structural Planning (PEB/Custom)</li>
-            </ul></div>
-            <div class="card p-6"><ul class="list-disc list-inside text-gray-700 space-y-2">
-                <li>Fabrication & Component Delivery</li>
-                <li>Shed Erection with Heavy Machinery</li>
-            </ul></div>
-            <div class="card p-6"><ul class="list-disc list-inside text-gray-700 space-y-2">
-                <li>Roofing, Cladding & Finishing</li>
-                <li>Quality Checks & Project Handover</li>
-            </ul></div>
-        </div>
-    </div>
-</section>
-
-<!-- Why Choose -->
-<section class="py-16 bg-gray-50">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <div class="text-center mb-10">
-            <h2 class="section-title">Why Shreeyash Construction for Industrial Shed Work?</h2>
-            <div class="section-underline"></div>
-        </div>
-        <ul class="list-disc list-inside text-gray-700 space-y-2 max-w-4xl mx-auto">
-            <li>Over 20 years of civil and structural experience</li>
-            <li>In-house design and fabrication capabilities</li>
-            <li>Projects delivered on-time and within budget</li>
-            <li>Strong understanding of shed height, airflow, load specs & usage</li>
-            <li>Customized solutions for Manufacturing, FMCG, Logistics, Textile, Auto</li>
-        </ul>
-    </div>
-</section>
 @endsection

@@ -106,20 +106,23 @@
 
 <!-- ================= INTRO SECTION ================= -->
 <section class="py-16 bg-gray-50">
-  <div class="max-w-5xl mx-auto px-6 text-center">
+  <div class="max-w-8xl mx-auto px-6 text-center">
     <h2 class="text-3xl font-bold text-gray-800 mb-6">Why Shreeyash Construction?</h2>
+
     <p class="text-lg text-gray-700 mb-4 leading-relaxed">
       Shreeyash Construction provides comprehensive land development services in Maharashtra — helping
       landowners and developers transform raw plots into construction-ready assets.
-      We specialize in **earthwork, grading, road access, and compaction**, using advanced machinery and
+      We specialize in <strong>earthwork, grading, road access, and compaction</strong>, using advanced machinery and
       expert teams to ensure accuracy, compliance, and long-term stability.
     </p>
+
     <p class="text-gray-600">
       Whether it’s residential layouts, industrial estates, or commercial zones, our precision-driven
       land development process ensures optimal site preparation for all project types.
     </p>
   </div>
 </section>
+
 
 <!-- ================= SERVICES SECTION ================= -->
 <section id="services" class="py-16 bg-white">
@@ -173,7 +176,7 @@
 
 <!-- ================= WHY CHOOSE US ================= -->
 <section class="py-16 bg-gray-50">
-  <div class="max-w-6xl mx-auto px-6">
+  <div class="max-w-8xl mx-auto px-6">
 
     <h3 class="text-3xl font-semibold text-[var(--primary)] text-center mb-10">
       Why Choose Us

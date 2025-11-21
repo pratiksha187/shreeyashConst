@@ -198,8 +198,8 @@
 }
 
 textarea:focus, input:focus {
-  border-color: #f25c05 !important;
-  box-shadow: 0 0 6px rgba(242, 92, 5, 0.4) !important;
+  border-color: #d3ab35 !important;
+  box-shadow: 0 0 6px rgba(243, 170, 53, 0.4) !important;
 }
 
 html {
@@ -238,7 +238,7 @@ html {
 
 <!-- ================= INTRO SECTION ================= -->
 <section class="py-16 bg-gray-50">
-  <div class="max-w-5xl mx-auto px-6 text-center">
+  <div class="max-w-8xl mx-auto px-6 text-center">
     <h2 class="text-3xl font-bold text-gray-800 mb-6">Why Shreeyash Construction?</h2>
     <p class="text-lg text-gray-700 mb-4 leading-relaxed">
       Shreeyash Construction offers end-to-end industrial infrastructure solutions across Maharashtra.
@@ -351,8 +351,8 @@ html {
         </p>
       </div>
       <a href="#contact" 
-         class="mt-4 md:mt-0 inline-block border-2 border-orange-600 text-orange-600 font-medium px-5 py-2 rounded-md 
-                hover:bg-orange-600 hover:text-white transition-all duration-300">
+         class="mt-4 md:mt-0 inline-block border-2 border-yellow-600 text-yellow-600 font-medium px-5 py-2 rounded-md 
+                hover:bg-yellow-600 hover:text-white transition-all duration-300">
         Discuss Your Project
       </a>
     </div>
@@ -404,7 +404,7 @@ html {
     </div>
   </div>
 </section>
-<section class="why-choose">
+<!-- <section class="why-choose">
   <h2>Why Choose Shreeyash Construction</h2>
   <p>Industrial specialists with rigorous QA/QC and milestone-based delivery.</p>
 
@@ -441,7 +441,88 @@ html {
     <span>Pune</span>
     <span>Navi Mumbai</span>
   </div>
+</section> -->
+<section class="py-20 bg-gray-50">
+  <div class="container mx-auto px-6 max-w-7xl">
+
+    <!-- MAIN HEADING -->
+    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 text-center">
+      Why Choose Shreeyash Construction
+    </h2>
+    <div class="w-24 h-1 bg-yellow-600 mx-auto mt-4 mb-10 rounded-full"></div>
+
+    <p class="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-16">
+      Industrial specialists with rigorous QA/QC, engineered precision, and milestone-based delivery across Maharashtra.
+    </p>
+
+    <!-- FEATURES GRID -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
+
+      <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold text-gray-900 mb-2">Turnkey Capability</h3>
+        <p class="text-gray-600">Design, approvals, execution, handover — one team, one timeline.</p>
+      </div>
+
+      <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold text-gray-900 mb-2">Quality & Compliance</h3>
+        <p class="text-gray-600">Built to IS codes and MIDC norms with strong QA/QC documentation.</p>
+      </div>
+
+      <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold text-gray-900 mb-2">Experienced Team</h3>
+        <p class="text-gray-600">Expertise across sheds, utilities, factory buildings & industrial roads.</p>
+      </div>
+
+      <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition">
+        <h3 class="text-xl font-semibold text-gray-900 mb-2">On-Time Delivery</h3>
+        <p class="text-gray-600">Milestone planning with strong cost and timeline control at every stage.</p>
+      </div>
+
+    </div>
+
+    <!-- AREAS WE SERVE -->
+    <h3 class="text-3xl font-bold text-gray-900 text-center mb-6">Areas We Serve</h3>
+    <div class="w-20 h-1 bg-yellow-600 mx-auto mb-12 rounded-full"></div>
+
+    <div class="flex flex-wrap justify-center gap-4">
+
+      <span class="px-5 py-2 bg-white rounded-full text-gray-800 font-medium border border-gray-200 shadow-sm">
+        Khopoli
+      </span>
+
+      <span class="px-5 py-2 bg-white rounded-full text-gray-800 font-medium border border-gray-200 shadow-sm">
+        Raigad
+      </span>
+
+      <span class="px-5 py-2 bg-white rounded-full text-gray-800 font-medium border border-gray-200 shadow-sm">
+        Pen
+      </span>
+
+      <span class="px-5 py-2 bg-white rounded-full text-gray-800 font-medium border border-gray-200 shadow-sm">
+        Panvel
+      </span>
+
+      <span class="px-5 py-2 bg-white rounded-full text-gray-800 font-medium border border-gray-200 shadow-sm">
+        Taloja MIDC
+      </span>
+
+      <span class="px-5 py-2 bg-white rounded-full text-gray-800 font-medium border border-gray-200 shadow-sm">
+        Chakan MIDC
+      </span>
+
+      <span class="px-5 py-2 bg-white rounded-full text-gray-800 font-medium border border-gray-200 shadow-sm">
+        Pune
+      </span>
+
+      <span class="px-5 py-2 bg-white rounded-full text-gray-800 font-medium border border-gray-200 shadow-sm">
+        Navi Mumbai
+      </span>
+
+    </div>
+
+  </div>
 </section>
+
 <!-- ================= CONTACT / FORM SECTION (FIXED) ================= -->
 <section id="contact" class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -3,199 +3,270 @@
 @section('title', 'Asphalt Compaction Services in Maharashtra – Shreeyash Construction')
 
 @push('meta')
-<meta name="description" content="Shreeyash Construction provides asphalt & bitumen road construction services across Maharashtra — end-to-end paving, compaction, and QC.">
+<meta name="description" content="Shreeyash Construction provides asphalt & bitumen road construction services across Maharashtra — precision paving, compaction & quality-controlled execution.">
 @endpush
 
 @section('content')
+
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
-  body{font-family:'Poppins',sans-serif;scroll-behavior:smooth;background:#f8f9fa}
-  .hero-pattern{
-    background-color:#1a202c;
-    background-image:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%232d3748' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  body { font-family: 'Poppins', sans-serif; background:#f8f9fa; }
+
+  /* Consistent section heading */
+  .sec-heading { font-size:2.4rem; font-weight:700; color:#1f2937; }
+  .sec-line { width:60px; height:4px; background:#f59e0b; margin:12px auto 35px; border-radius:6px; }
+
+  /* Clean bullet list */
+  .yellow-bullet { width:10px; height:10px; background:#f59e0b; border-radius:50%; margin-top:6px; margin-right:10px; }
+
+  /* Process Cards */
+  .process-card {
+      background:#fff;
+      border-radius:14px;
+      padding:25px 28px;
+      border-top:5px solid #f59e0b;
+      box-shadow:0 8px 15px rgba(0,0,0,0.08);
+      transition:.25s;
   }
-  .section-transition{position:relative;height:80px;overflow:hidden}
-  .road-pattern{
-    background-color:#2d3748;
-    background-image:linear-gradient(90deg,#f7fafc 0%,#f7fafc 10%,transparent 10%,transparent 90%,#f7fafc 90%,#f7fafc 100%);
-    height:8px;width:100%;margin:24px 0;
-  }
-  .card{background:#fff;border-radius:0.75rem;box-shadow:0 10px 20px rgba(0,0,0,.08);overflow:hidden}
-  .card .stripe{height:8px;background:#f59e0b}
-  .lift{transition:transform .25s ease, box-shadow .25s ease}
-  .lift:hover{transform:translateY(-4px)}
-  .section-title{font-size:1.875rem;font-weight:700;color:#1f2937}
-  .section-underline{width:5rem;height:4px;background:#f59e0b;margin:.75rem auto 1.25rem;border-radius:9999px}
-  .spec-row:nth-child(odd){background:rgba(15,76,129,.05)}
+  .process-card:hover { transform:translateY(-6px); }
+
+  /* Technical Table */
+  .tech-table th { background:#f59e0b; color:#fff; padding:12px; font-weight:600; }
+  .tech-table td { padding:12px; border-bottom:1px solid #ddd; }
+  .tech-table tr:nth-child(even) { background:#f1f5f9; }
+
 </style>
 
- <section class="relative h-[430px] overflow-hidden">
-    {{-- Image fills the header, crops gracefully like CSS background-cover --}}
-    <img src="/storage/logo/header/Compaction.png"
-         alt="Precast Compound Walls"
-         class="absolute inset-0 w-full h-full object-cover object-center">
-    {{-- Dark overlay for text readability --}}
-    <div class="absolute inset-0 bg-black/30"></div>
 
-    <div class="relative container mx-auto px-4 md:px-6 lg:px-8 h-full flex items-center justify-center">
-      <div class="max-w-5xl mx-auto text-center bg-black/50 p-6 rounded-lg">
-        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
-         Asphalt Compaction Services
-        </h1>
-        
-      </div>
-    </div>
-  </section>
-<!-- <div class="road-pattern"></div> -->
+<!-- ========================= HERO ========================= -->
+<section class="relative h-[430px] overflow-hidden">
+    <img src="/storage/logo/header/Compaction.png" class="absolute inset-0 w-full h-full object-cover">
+    <div class="absolute inset-0 bg-black/50"></div>
 
-<!-- OVERVIEW STYLE CARD (content unchanged) -->
-<section class="py-14 bg-white">
-  <div class="container mx-auto px-4">
-    <div class="card max-w-4xl mx-auto lift">
-      <div class="stripe"></div>
-      <div class="p-8 md:p-10 text-gray-700 leading-relaxed text-center">
-        <p>
-          Shreeyash Construction is a trusted name in road construction and infrastructure development
-          across Maharashtra. We specialize in asphalt compaction, ensuring long-lasting, high-performance
-          roads that meet national and international quality standards.
-        </p>
-      </div>
+    <div class="relative h-full flex items-center justify-center text-center px-6">
+        <div class="bg-black/40 px-10 py-6 rounded-xl backdrop-blur-sm">
+            <h1 class="text-white text-4xl md:text-5xl font-bold">Asphalt Compaction Services</h1>
+            <p class="text-gray-200 mt-3 text-lg tracking-wide">Precision • Durability • Strength</p>
+        </div>
     </div>
-  </div>
 </section>
 
-<div class="road-pattern"></div>
 
-<!-- WHAT IS ASPHALT COMPACTION (same content, styled like design) -->
-<section class="py-16 bg-gray-100">
-  <div class="container mx-auto px-4">
-    <h2 class="section-title text-center">What is Asphalt Compaction?</h2>
-    <div class="section-underline"></div>
 
-    <div class="card max-w-4xl mx-auto lift">
-      <div class="stripe"></div>
-      <div class="p-8 md:p-10 text-gray-700 leading-relaxed">
-        <p class="text-center">
-          Asphalt compaction is the process of densifying the asphalt mix after it has been laid using rollers. Proper compaction ensures:
+<!-- ========================= INTRO ========================= -->
+<!-- <section class="py-20 bg-white text-center">
+    <div class="container mx-auto px-4 max-w-4xl">
+
+        <h2 class="sec-heading">Asphalt Compaction Excellence Across Maharashtra</h2>
+        <div class="sec-line"></div>
+
+        <p class="text-lg text-gray-700 leading-relaxed">
+            Shreeyash Construction specializes in engineered asphalt compaction, delivering high-performance
+            road surfaces for highways, industrial estates, townships, and municipal roads. Our approach
+            ensures <strong class="text-gray-900">maximum density, durability, and long-term road performance</strong>,
+            fully compliant with MoRTH & IRC standards.
         </p>
-        <ul class="list-disc list-inside mt-4 max-w-2xl mx-auto">
-          <li>Increased load-bearing capacity</li>
-          <li>Improved water resistance</li>
-          <li>Reduced air voids</li>
-          <li>Longer pavement life</li>
+
+    </div>
+</section> -->
+
+<section class="py-20 bg-white">
+    <div class="container mx-auto px-4 max-w-6xl">
+
+        <!-- MAIN HEADING -->
+        <h2 class="sec-heading text-center">Asphalt Compaction Excellence Across Maharashtra</h2>
+        <div class="sec-line"></div>
+
+        <!-- OVERVIEW TEXT -->
+        <p class="text-lg text-gray-700 leading-relaxed text-center max-w-4xl mx-auto mb-14">
+            Shreeyash Construction specializes in engineered asphalt compaction, delivering high-performance
+            road surfaces for highways, industrial estates, townships, and municipal roads. Our approach ensures
+            <strong class="text-gray-900">maximum density, durability, and long-term road performance</strong>,
+            fully compliant with MoRTH & IRC standards.
+        </p>
+
+        <!-- TWO COLUMN LAYOUT -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+
+            <!-- LEFT COLUMN : WHAT IS ASPHALT COMPACTION -->
+            <div>
+                <h3 class="text-2xl font-semibold text-gray-900 mb-4">
+                    What is Asphalt Compaction?
+                </h3>
+
+                <p class="text-gray-700 text-lg leading-relaxed mb-6">
+                    Asphalt compaction densifies the asphalt layer immediately after laying. This process increases
+                    structural stability, reduces air voids, and greatly enhances long-term pavement performance.
+                </p>
+            </div>
+
+            <!-- RIGHT COLUMN : BENEFITS -->
+            <div>
+                <h3 class="text-2xl font-semibold text-gray-900 mb-4">
+                    Key Benefits of Proper Compaction
+                </h3>
+
+                <ul class="space-y-4 text-gray-700 text-lg leading-relaxed">
+                    <li class="flex items-start">
+                        <span class="yellow-bullet"></span>
+                        <span class="ml-2">Increased load-bearing capacity</span>
+                    </li>
+
+                    <li class="flex items-start">
+                        <span class="yellow-bullet"></span>
+                        <span class="ml-2">Improved water resistance</span>
+                    </li>
+
+                    <li class="flex items-start">
+                        <span class="yellow-bullet"></span>
+                        <span class="ml-2">Reduced air voids for extended pavement life</span>
+                    </li>
+
+                    <li class="flex items-start">
+                        <span class="yellow-bullet"></span>
+                        <span class="ml-2">Superior long-term road performance</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ========================= MERGED SECTION ========================= -->
+<section class="py-20 bg-gray-50">
+  <div class="container mx-auto px-4 max-w-7xl">
+
+    <!-- MAIN HEADING -->
+    <h2 class="sec-heading text-center">Why Choose Us & Asphalt Compaction Details</h2>
+    <div class="sec-line"></div>
+
+    <!-- TWO COLUMN LAYOUT -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+
+      <!-- LEFT : WHY CHOOSE SHREEYASH -->
+      <div class="pr-0 lg:pr-6">
+
+        <h3 class="text-2xl font-semibold text-gray-900 mb-5">
+          Why Choose Shreeyash Construction?
+        </h3>
+
+        <ul class="space-y-4 text-gray-700 text-lg leading-relaxed">
+
+          @foreach([
+              'Experienced Engineers & Operators',
+              'High-Efficiency Rollers & Paving Equipment',
+              'Strict Quality Control & On-Site Testing',
+              'Compliance with MoRTH, IRC & NHAI Standards',
+              'On-time Project Execution & Dedicated Supervision'
+          ] as $item)
+
+          <li class="flex items-start">
+            <span class="yellow-bullet flex-shrink-0"></span>
+            <span class="ml-2">{{ $item }}</span>
+          </li>
+
+          @endforeach
+
         </ul>
-        <p class="mt-4 text-center">
-          This crucial phase determines the durability and performance of the asphalt pavement.
-        </p>
+
       </div>
+
+
+      <!-- RIGHT : WHAT IS ASPHALT + TECH INFO -->
+      <div class="pl-0 lg:pl-6">
+
+       
+        <!-- TECH SPECS -->
+        <h3 class="text-2xl font-semibold text-gray-900 mt-10 mb-4">
+          Technical Specifications
+        </h3>
+
+        <div class="overflow-x-auto bg-white rounded-lg shadow-md border border-gray-200">
+          <table class="min-w-full tech-table text-gray-700">
+
+            <thead>
+              <tr>
+                <th class="text-left px-4 py-3">Parameter</th>
+                <th class="text-left px-4 py-3">Specification</th>
+              </tr>
+            </thead>
+
+            <tbody>
+
+              @foreach([
+                ['Compaction Target', '92% – 97% of Maximum Theoretical Density (MTD)'],
+                ['Layer Thickness', '40mm to 100mm'],
+                ['Rolling Temperature Range', '120°C to 140°C'],
+                ['Roller Passes', '6 to 10 passes'],
+                ['Roller Types', 'Vibratory, Pneumatic-Tired, Static Rollers'],
+                ['Moisture Content', '< 0.5%'],
+                ['Air Voids', '3% – 6%'],
+              ] as $spec)
+
+              <tr class="border-b border-gray-200">
+                <td class="px-4 py-3 font-medium">{{ $spec[0] }}</td>
+                <td class="px-4 py-3">{{ $spec[1] }}</td>
+              </tr>
+
+              @endforeach
+
+            </tbody>
+
+          </table>
+        </div>
+
+      </div>
+
     </div>
+
   </div>
 </section>
 
-<div class="road-pattern"></div>
 
-<!-- PROCESS (turned into three design cards; text unchanged) -->
-<section class="py-16 bg-white">
-  <div class="container mx-auto px-4">
-    <h2 class="section-title text-center">Our Asphalt Compaction Process</h2>
-    <div class="section-underline"></div>
 
-    <div class="grid gap-8 grid-cols-1 md:grid-cols-3">
-      <!-- Initial Breakdown Rolling -->
-      <div class="card lift">
-        <div class="stripe"></div>
-        <div class="p-6 text-gray-700">
-          <h3 class="text-xl font-semibold mb-3">Initial Breakdown Rolling</h3>
-          <ul class="list-disc list-inside space-y-1">
-            <li>Performed immediately after laying the mix.</li>
-            <li>Uses vibratory steel-drum rollers.</li>
-            <li>Ensures initial compaction when the material is hottest.</li>
-          </ul>
-        </div>
-      </div>
+<!-- ========================= PROCESS ========================= -->
+<section class="py-20 bg-white">
+  <div class="container mx-auto px-4 max-w-6xl">
 
-      <!-- Intermediate Compaction -->
-      <div class="card lift">
-        <div class="stripe"></div>
-        <div class="p-6 text-gray-700">
-          <h3 class="text-xl font-semibold mb-3">Intermediate Compaction</h3>
-          <ul class="list-disc list-inside space-y-1">
-            <li>Achieved using pneumatic-tired rollers.</li>
-            <li>Helps to seal voids and improve density.</li>
-          </ul>
-        </div>
-      </div>
+    <h2 class="sec-heading text-center">Our Asphalt Compaction Process</h2>
+    <div class="sec-line"></div>
 
-      <!-- Finish Rolling -->
-      <div class="card lift">
-        <div class="stripe"></div>
-        <div class="p-6 text-gray-700">
-          <h3 class="text-xl font-semibold mb-3">Finish Rolling</h3>
-          <ul class="list-disc list-inside space-y-1">
-            <li>Performed with smooth steel-wheel rollers.</li>
-            <li>Provides a uniform, smooth surface texture.</li>
-            <li>Eliminates roller marks.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
 
-<div class="road-pattern"></div>
-
-<!-- TECHNICAL SPECS (same table, wrapped in design card) -->
-<section class="py-16 bg-gray-100">
-  <div class="container mx-auto px-4">
-    <h2 class="section-title text-center">Technical Specifications of Asphalt Compaction</h2>
-    <div class="section-underline"></div>
-
-    <div class="card max-w-5xl mx-auto overflow-x-auto">
-      <div class="stripe"></div>
-      <div class="p-0">
-        <table class="min-w-full">
-          <thead>
-            <tr class="bg-yellow-600 text-white">
-              <th class="py-3 px-4 text-left">Parameter</th>
-              <th class="py-3 px-4 text-left">Specification</th>
-            </tr>
-          </thead>
-          <tbody class="text-gray-700">
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Compaction Target</td><td class="py-3 px-4">92%–97% of Maximum Theoretical Density (MTD)</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Layer Thickness</td><td class="py-3 px-4">40mm to 100mm (depending on design)</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Rolling Temperature Range</td><td class="py-3 px-4">120°C to 140°C</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Number of Roller Passes</td><td class="py-3 px-4">6 to 10 (varies by mix design and layer thickness)</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Type of Rollers Used</td><td class="py-3 px-4">Tandem Vibratory, Pneumatic-Tired, Static Rollers</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Moisture Content</td><td class="py-3 px-4">&lt; 0.5%</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Air Voids in Compacted Mix</td><td class="py-3 px-4">3% to 6%</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-</section>
-
-<div class="road-pattern"></div>
-
-<!-- WHY CHOOSE US (same bullets, styled) -->
-<section class="py-16 bg-white">
-  <div class="container mx-auto px-4">
-    <h2 class="section-title text-center">Why Choose Shreeyash Construction?</h2>
-    <div class="section-underline"></div>
-
-    <div class="card max-w-3xl mx-auto lift">
-      <div class="stripe"></div>
-      <div class="p-8 md:p-10">
-        <ul class="space-y-3 text-gray-700">
-          <li class="flex items-start"><span class="inline-block w-2.5 h-2.5 bg-yellow-500 rounded-full mt-2 mr-3"></span>Experienced Engineers & Operators</li>
-          <li class="flex items-start"><span class="inline-block w-2.5 h-2.5 bg-yellow-500 rounded-full mt-2 mr-3"></span>High-Efficiency Rollers & Paving Equipment</li>
-          <li class="flex items-start"><span class="inline-block w-2.5 h-2.5 bg-yellow-500 rounded-full mt-2 mr-3"></span>Strict Quality Control & On-Site Testing</li>
-          <li class="flex items-start"><span class="inline-block w-2.5 h-2.5 bg-yellow-500 rounded-full mt-2 mr-3"></span>Compliance with MoRTH, IRC, and NHAI standards</li>
-          <li class="flex items-start"><span class="inline-block w-2.5 h-2.5 bg-yellow-500 rounded-full mt-2 mr-3"></span>On-time Project Execution</li>
+      <div class="process-card">
+        <h3 class="text-xl font-semibold mb-3">Initial Breakdown Rolling</h3>
+        <ul class="space-y-2 text-gray-700">
+          <li>✔ Done immediately after laying the mix</li>
+          <li>✔ High-frequency vibratory rollers</li>
+          <li>✔ Achieves max density while asphalt is hottest</li>
         </ul>
       </div>
+
+      <div class="process-card">
+        <h3 class="text-xl font-semibold mb-3">Intermediate Compaction</h3>
+        <ul class="space-y-2 text-gray-700">
+          <li>✔ Pneumatic-tired rollers</li>
+          <li>✔ Eliminates remaining voids</li>
+          <li>✔ Strengthens bonding of layers</li>
+        </ul>
+      </div>
+
+      <div class="process-card">
+        <h3 class="text-xl font-semibold mb-3">Finish Rolling</h3>
+        <ul class="space-y-2 text-gray-700">
+          <li>✔ Smooth steel-wheel rollers</li>
+          <li>✔ Final surface leveling</li>
+          <li>✔ Removes roller marks</li>
+        </ul>
+      </div>
+
     </div>
+
   </div>
 </section>
+
 @endsection

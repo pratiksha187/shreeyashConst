@@ -54,8 +54,8 @@
 {{-- Content Section --}}
 <section class="py-16 bg-gray-50">
   <div class="container mx-auto px-4 md:px-6 lg:px-8">
-    <div class="max-w-4xl mx-auto text-center">
-      <p class="text-xl text-gray-800 font-semibold mb-6">
+    <div class="max-w-8xl mx-auto text-center">
+      <p class="text-xl text-yellow-500 font-semibold mb-6">
         End-to-end civil solutions for offices, retail, showrooms, warehouses, and industrial facilities
       </p>
 
@@ -148,38 +148,68 @@
     </div>
   </section>
 
-  <!-- Technical Data -->
-  <section class="py-16 bg-white">
+<section class="py-16 bg-white">
     <div class="container mx-auto px-4 md:px-6 lg:px-8">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold text-gray-800">Technical Data for Commercial Civil Work</h2>
-        <div class="w-20 h-1 bg-[color:var(--accent)] mx-auto mt-4 mb-6"></div>
-      </div>
 
-      <div class="overflow-x-auto bg-white rounded-lg shadow-md">
-        <table class="min-w-full">
-          <thead>
-            <tr class="bg-[color:var(--brand)] text-white">
-              <th class="py-3 px-4 text-left">Parameter</th>
-              <th class="py-3 px-4 text-left">Standard Specification</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Foundation</td><td class="py-3 px-4">RCC (M25) or piles as per geotechnical report</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Structural Frame</td><td class="py-3 px-4">RCC columns & beams / structural steel</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Flooring</td><td class="py-3 px-4">Industrial vitrified, epoxy, or polished concrete</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Roofing</td><td class="py-3 px-4">RCC slab with insulation / PEB roofing</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Partitions</td><td class="py-3 px-4">Gypsum boards, glass, or brick masonry</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Doors & Windows</td><td class="py-3 px-4">Aluminium, uPVC, or tempered glass systems</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Electrical Systems</td><td class="py-3 px-4">ISI concealed wiring, efficient lighting</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">HVAC & Plumbing</td><td class="py-3 px-4">Ducted A/C, CPVC/UPVC pipelines</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Fire Safety</td><td class="py-3 px-4">Sprinklers, fire-rated doors, hydrants</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Compliance</td><td class="py-3 px-4">NBC, IS Codes & local fire guidelines</td></tr>
-          </tbody>
-        </table>
-      </div>
+        <!-- HEADING -->
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-800">Commercial Civil Work – Technical Data & Industries Served</h2>
+            <div class="w-20 h-1 bg-[color:var(--accent)] mx-auto mt-4 mb-6"></div>
+        </div>
+
+        <!-- LEFT – RIGHT LAYOUT -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+
+            <!-- LEFT COLUMN – TECHNICAL TABLE -->
+            <div>
+                <h3 class="text-xl text-yellow-500 font-semibold mb-4">Technical Specifications</h3>
+
+                <div class="overflow-x-auto bg-white rounded-lg shadow-md">
+                    <table class="min-w-full">
+                        <thead>
+                            <tr class="bg-[color:var(--brand)] text-white">
+                                <th class="py-3 px-4 text-left">Parameter</th>
+                                <th class="py-3 px-4 text-left">Specification</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Foundation</td><td class="py-3 px-4">RCC (M25) or piles as per geotechnical report</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Structural Frame</td><td class="py-3 px-4">RCC columns & beams / Structural steel</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Flooring</td><td class="py-3 px-4">Industrial vitrified, epoxy, polished concrete</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Roofing</td><td class="py-3 px-4">RCC slab with insulation / PEB roofing</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Partitions</td><td class="py-3 px-4">Gypsum, glass partitions, brick masonry</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Doors & Windows</td><td class="py-3 px-4">Aluminium, uPVC or tempered glass systems</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Electrical</td><td class="py-3 px-4">ISI concealed wiring, efficient LED lighting</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">HVAC & Plumbing</td><td class="py-3 px-4">Ducted A/C, CPVC/UPVC pipelines</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Fire Safety</td><td class="py-3 px-4">Hydrants, sprinklers, fire-rated doors</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Compliance</td><td class="py-3 px-4">NBC, IS Codes, fire authority guidelines</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- RIGHT COLUMN – INDUSTRIES SERVED -->
+            <div>
+                <h3 class="text-xl text-yellow-500 font-semibold mb-4">Industries We Serve</h3>
+
+                <div class="bg-gray-50 rounded-xl p-8 shadow-md">
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+
+                        <span class="chip text-[color:var(--brand)] font-medium text-center">Corporate Offices</span>
+                        <span class="chip text-[color:var(--brand)] font-medium text-center">Retail Stores & Malls</span>
+                        <span class="chip text-[color:var(--brand)] font-medium text-center">Hotels & Restaurants</span>
+                        <span class="chip text-[color:var(--brand)] font-medium text-center">Warehouses & Industrial Units</span>
+                        <span class="chip text-[color:var(--brand)] font-medium text-center">Hospitals & Healthcare</span>
+                        <span class="chip text-[color:var(--brand)] font-medium text-center">Educational Institutions</span>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
-  </section>
+</section>
+
 
   <!-- Process -->
   <section class="py-16 bg-gray-50">
@@ -218,25 +248,7 @@
     </div>
   </section>
 
-  <!-- Industries Served -->
-  <section class="py-16 bg-white">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold text-gray-800">Industries We Serve</h2>
-        <div class="w-20 h-1 bg-[color:var(--accent)] mx-auto mt-4 mb-6"></div>
-      </div>
-      <div class="bg-gray-50 rounded-xl p-8 shadow-md">
-        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
-          <span class="chip text-[color:var(--brand)] font-medium text-center">Corporate Offices</span>
-          <span class="chip text-[color:var(--brand)] font-medium text-center">Retail Stores & Malls</span>
-          <span class="chip text-[color:var(--brand)] font-medium text-center">Hotels & Restaurants</span>
-          <span class="chip text-[color:var(--brand)] font-medium text-center">Warehouses & Industrial Units</span>
-          <span class="chip text-[color:var(--brand)] font-medium text-center">Hospitals & Healthcare</span>
-          <span class="chip text-[color:var(--brand)] font-medium text-center">Educational Institutions</span>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
 
 
   <script>

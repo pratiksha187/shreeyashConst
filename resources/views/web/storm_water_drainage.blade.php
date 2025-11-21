@@ -16,10 +16,7 @@
 @section('content')
 
 {{-- HERO --}}
-<!-- <section class="relative h-[430px] overflow-hidden">
-  <img src="/storage/logo/header/Storm.png"
-       alt="Storm Water Drainage"
-       class="absolute inset-0 w-full h-full object-cover object-center"> -->
+
        <section class="relative h-[250px] md:h-[400px] lg:h-[500px] overflow-hidden">
   <img src="/storage/logo/header/Storm.png"
        alt="Storm Water Drainage"
@@ -37,8 +34,8 @@
 {{-- INTRO --}}
 <section class="py-16 bg-gray-50">
   <div class="container mx-auto px-4 md:px-6 lg:px-8">
-    <div class="max-w-4xl mx-auto text-center">
-      <p class="text-xl text-gray-800 font-semibold mb-6">
+    <div class="max-w-8xl mx-auto text-center">
+      <p class="text-xl text-yellow-500 font-semibold mb-6">
         Efficient and Sustainable Drainage Systems for Urban and Industrial Projects
       </p>
       <div class="bg-white shadow-lg rounded-lg p-6 md:p-10 text-gray-700 leading-relaxed text-left">
@@ -167,38 +164,50 @@
   </div>
 </section>
 
-{{-- APPLICATIONS --}}
-<section class="py-16 bg-white">
-  <div class="container mx-auto px-4 md:px-6 lg:px-8">
-    <div class="text-center mb-10">
-      <h2 class="text-3xl font-bold text-gray-800">Applications</h2>
-      <div class="w-20 h-1 bg-yellow-800 mx-auto mt-4 mb-6"></div>
+<section class="py-20 bg-gray-50">
+  <div class="container mx-auto px-4 md:px-6 lg:px-10">
+
+    <!-- SECTION TITLE -->
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-gray-800">Applications & Why Choose Us</h2>
+      <div class="w-24 h-1 bg-yellow-800 mx-auto mt-4"></div>
     </div>
-    <ul class="list-disc list-inside text-gray-700 space-y-2 max-w-3xl mx-auto">
-      <li>City and Municipal Roads</li>
-      <li>Industrial Zones and MIDC Layouts</li>
-      <li>Township Roads and Commercial Complexes</li>
-      <li>Highways and Rural Connectivity Projects</li>
-      <li>Parking Lots, Warehouses, and SEZs</li>
-    </ul>
+
+    <!-- LEFT + RIGHT PARTITION -->
+    <div class="grid md:grid-cols-2 gap-12">
+
+      <!-- LEFT SIDE – APPLICATIONS -->
+      <div class="bg-white p-8 shadow-md rounded-xl border border-gray-200">
+        <h3 class="text-2xl font-semibold text-gray-900 mb-4">Applications</h3>
+        <div class="w-16 h-1 bg-yellow-600 mb-6"></div>
+
+        <ul class="list-disc list-inside text-gray-700 space-y-3 text-lg">
+          <li>City and Municipal Roads</li>
+          <li>Industrial Zones and MIDC Layouts</li>
+          <li>Township Roads and Commercial Complexes</li>
+          <li>Highways and Rural Connectivity Projects</li>
+          <li>Parking Lots, Warehouses, and SEZs</li>
+        </ul>
+      </div>
+
+      <!-- RIGHT SIDE – WHY CHOOSE -->
+      <div class="bg-white p-8 shadow-md rounded-xl border border-gray-200">
+        <h3 class="text-2xl font-semibold text-gray-900 mb-4">Why Choose Shreeyash Construction?</h3>
+        <div class="w-16 h-1 bg-yellow-600 mb-6"></div>
+
+        <ul class="list-disc list-inside text-gray-700 space-y-3 text-lg">
+          <li>Experienced in NHAI, PMGSY, MIDC & Municipal drainage projects</li>
+          <li>In-house engineers, machinery, and quality control teams</li>
+          <li>Customized solutions based on hydrology & terrain</li>
+          <li>Integration with roads, plot development & site leveling</li>
+          <li>Timely execution with slope control & zero waterlogging</li>
+        </ul>
+      </div>
+
+    </div>
+
   </div>
 </section>
 
-{{-- WHY CHOOSE --}}
-<section class="py-16 bg-gray-50">
-  <div class="container mx-auto px-4 md:px-6 lg:px-8">
-    <div class="text-center mb-10">
-      <h2 class="text-3xl font-bold text-gray-800">Why Choose Shreeyash Construction?</h2>
-      <div class="w-20 h-1 bg-yellow-800 mx-auto mt-4 mb-6"></div>
-    </div>
-    <ul class="list-disc list-inside text-gray-700 space-y-2 max-w-4xl mx-auto">
-      <li>Experienced in drainage projects for NHAI, PMGSY, MIDC & Municipal bodies</li>
-      <li>In-house engineers, equipment, and quality control team</li>
-      <li>Customized solutions based on terrain and hydrology</li>
-      <li>Integration with roadworks, plot development, and site leveling</li>
-      <li>Timely execution with focus on safety, slope control, and zero waterlogging</li>
-    </ul>
-  </div>
-</section>
 
 @endsection

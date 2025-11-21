@@ -42,7 +42,7 @@
 {{-- Content Section --}}
 <section class="py-16 bg-gray-50">
   <div class="container mx-auto px-4 md:px-6 lg:px-8">
-    <div class="max-w-4xl mx-auto text-center">
+    <div class="max-w-8xl mx-auto text-center">
       <p class="text-xl text-gray-800 font-semibold mb-6">
         Reliable Earthwork & Soil Compaction Contractors in Maharashtra
       </p>
@@ -64,120 +64,138 @@
   </div>
 </section>
 
+<section class="py-20 bg-white">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
 
-    <!-- Core Earthwork Services -->
-    <section class="py-16 bg-white">
-        <div class="container mx-auto px-4 md:px-6 lg:px-8">
-            <div class="text-center mb-10">
-                <h2 class="section-title">Our Core Earthwork Services</h2>
-                <div class="section-underline"></div>
+        <!-- HEADING -->
+        <div class="text-center mb-12">
+            <h2 class="section-title text-3xl font-bold text-gray-900">Earthwork Services & Technical Specifications</h2>
+            <div class="section-underline w-20 h-1 bg-yellow-600 mx-auto mt-4"></div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+
+            <!-- LEFT SIDE — CARDS -->
+            <div>
+                <h3 class="text-2xl font-semibold text-gray-800 mb-6">Our Core Earthwork Services</h3>
+
+                <div class="space-y-6">
+
+                    <!-- Earth Cutting -->
+                    <div class="card shadow-lg rounded-lg overflow-hidden">
+                        <div class="h-3 bg-yellow-500"></div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-semibold mb-3">Earth Cutting</h3>
+                            <ul class="list-disc list-inside text-gray-700 space-y-2">
+                                <li>Excavation using hydraulic excavators</li>
+                                <li>Rock cutting with breakers or controlled blasting</li>
+                                <li>Accurate cutting per design levels & slope</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Filling Soil -->
+                    <div class="card shadow-lg rounded-lg overflow-hidden">
+                        <div class="h-3 bg-yellow-500"></div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-semibold mb-3">Filling Soil / Embankment</h3>
+                            <ul class="list-disc list-inside text-gray-700 space-y-2">
+                                <li>Placement of approved fill (earth/murrum)</li>
+                                <li>Layer-wise filling ensuring uniformity</li>
+                                <li>Material sourced from approved locations</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Compaction -->
+                    <div class="card shadow-lg rounded-lg overflow-hidden">
+                        <div class="h-3 bg-yellow-500"></div>
+                        <div class="p-6">
+                            <h3 class="text-lg font-semibold mb-3">Compaction</h3>
+                            <ul class="list-disc list-inside text-gray-700 space-y-2">
+                                <li>Achieving desired density with vibratory rollers</li>
+                                <li>Moisture adjustment to reach OMC</li>
+                                <li>Surface dressing for next activity</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Earth Cutting -->
-                <div class="card">
-                    <div class="h-3 bg-yellow-500"></div>
-                    <div class="p-6">
-                        <h3 class="text-lg font-semibold mb-3">Earth Cutting</h3>
-                        <ul class="list-disc list-inside text-gray-700 space-y-2">
-                            <li>Excavation of high land or hard strata using hydraulic excavators</li>
-                            <li>Rock cutting with controlled blasting or rock breakers (as required)</li>
-                            <li>Accurate cutting as per design levels and slope</li>
-                        </ul>
-                    </div>
+            <!-- RIGHT SIDE — TECHNICAL SPEC TABLE -->
+            <div>
+                <h3 class="text-2xl font-semibold text-gray-800 mb-6">Technical Specifications</h3>
+
+                <div class="overflow-x-auto bg-white rounded-lg shadow-md">
+                    <table class="min-w-full">
+                        <thead>
+                            <tr class="bg-yellow-600 text-white">
+                                <th class="py-3 px-4 text-left font-semibold">Activity</th>
+                                <th class="py-3 px-4 text-left font-semibold">Specification</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Cutting Tolerance</td><td class="py-3 px-4">±50 mm from final level</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Fill Layer Thickness</td><td class="py-3 px-4">200–300 mm (loose)</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Compaction Density</td><td class="py-3 px-4">≥95% Modified Proctor</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Compaction Equipment</td><td class="py-3 px-4">8–10 Ton Rollers, Plate Compactors</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Moisture Control</td><td class="py-3 px-4">Maintained at OMC for proper compaction</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Soil Type</td><td class="py-3 px-4">Murrum / Red Soil / Sandy Clay</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Testing</td><td class="py-3 px-4">FDT, Moisture Test, Plate Load Test (optional)</td></tr>
+                        </tbody>
+                    </table>
                 </div>
 
-                <!-- Filling Soil / Embankment -->
-                <div class="card">
-                    <div class="h-3 bg-yellow-500"></div>
-                    <div class="p-6">
-                        <h3 class="text-lg font-semibold mb-3">Filling Soil / Earth Embankment</h3>
-                        <ul class="list-disc list-inside text-gray-700 space-y-2">
-                            <li>Transport & placement of approved fill (earth/murrum)</li>
-                            <li>Layer-wise filling for uniform distribution</li>
-                            <li>Soil sourced from approved borrow areas or site excavation</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Compaction -->
-                <div class="card">
-                    <div class="h-3 bg-yellow-500"></div>
-                    <div class="p-6">
-                        <h3 class="text-lg font-semibold mb-3">Compaction</h3>
-                        <ul class="list-disc list-inside text-gray-700 space-y-2">
-                            <li>Required density using vibratory rollers & compactors</li>
-                            <li>Moisture adjustment to reach Optimum Moisture Content (OMC)</li>
-                            <li>Surface dressing for next activity or roadwork</li>
-                        </ul>
-                    </div>
-                </div>
             </div>
+
         </div>
-    </section>
 
-    <!-- Technical Specifications -->
-    <section class="py-16 bg-gray-50">
-        <div class="container mx-auto px-4 md:px-6 lg:px-8">
-            <div class="text-center mb-10">
-                <h2 class="section-title">Technical Specifications</h2>
-                <div class="section-underline"></div>
-            </div>
+    </div>
+</section>
 
-            <div class="overflow-x-auto bg-white rounded-lg shadow-md">
-                <table class="min-w-full">
-                    <thead>
-                        <tr class="bg-yellow-600 text-white">
-                            <th class="py-3 px-4 text-left">Activity</th>
-                            <th class="py-3 px-4 text-left">Specification</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="spec-row"><td class="py-3 px-4 font-medium">Cutting Tolerance</td><td class="py-3 px-4">±50 mm (as per final level design)</td></tr>
-                        <tr class="spec-row"><td class="py-3 px-4 font-medium">Fill Layer Thickness</td><td class="py-3 px-4">200 mm to 300 mm (loose)</td></tr>
-                        <tr class="spec-row"><td class="py-3 px-4 font-medium">Compaction Density</td><td class="py-3 px-4">≥ 95% of Modified Proctor Density (MDD)</td></tr>
-                        <tr class="spec-row"><td class="py-3 px-4 font-medium">Compaction Equipment</td><td class="py-3 px-4">Vibratory Rollers (8–10 Ton), Plate Compactors</td></tr>
-                        <tr class="spec-row"><td class="py-3 px-4 font-medium">Soil Moisture</td><td class="py-3 px-4">Maintained near OMC for effective compaction</td></tr>
-                        <tr class="spec-row"><td class="py-3 px-4 font-medium">Soil Type Used</td><td class="py-3 px-4">Murrum / Red Soil / Sandy Clay (as per design)</td></tr>
-                        <tr class="spec-row"><td class="py-3 px-4 font-medium">Testing Methods</td><td class="py-3 px-4">Field Density Test, Moisture Content Test, Plate Load Test (if required)</td></tr>
-                    </tbody>
-                </table>
-            </div>
+<section class="py-20 bg-white">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+
+        <!-- HEADING -->
+        <div class="text-center mb-12">
+            <h2 class="section-title text-3xl font-bold text-gray-900">
+                Applications & Why Choose Shreeyash Construction
+            </h2>
+            <div class="w-20 h-1 bg-yellow-600 mx-auto mt-4"></div>
         </div>
-    </section>
 
-    <!-- Applications -->
-    <section class="py-16 bg-white">
-        <div class="container mx-auto px-4 md:px-6 lg:px-8">
-            <div class="text-center mb-10">
-                <h2 class="section-title">Applications of Our Earthwork Services</h2>
-                <div class="section-underline"></div>
-            </div>
-            <ul class="list-disc list-inside text-gray-700 space-y-2 max-w-3xl mx-auto">
-                <li>Industrial plot development</li>
-                <li>Road subgrade preparation</li>
-                <li>Residential township sites</li>
-                <li>Warehouse platforms and internal roads</li>
-                <li>Canal and drainage embankments</li>
-                <li>Airport and railway infrastructure</li>
-            </ul>
-        </div>
-    </section>
+        <!-- TWO COLUMN LAYOUT -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
 
-    <!-- Why Choose -->
-    <section class="py-16 bg-gray-50">
-        <div class="container mx-auto px-4 md:px-6 lg:px-8">
-            <div class="text-center mb-10">
-                <h2 class="section-title">Why Choose Shreeyash Construction?</h2>
-                <div class="section-underline"></div>
+            <!-- LEFT SIDE – APPLICATIONS -->
+            <div>
+                <h3 class="text-2xl font-semibold text-gray-800 mb-4">Applications of Our Earthwork Services</h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-3 leading-relaxed">
+                    <li>Industrial plot development</li>
+                    <li>Road subgrade preparation</li>
+                    <li>Residential township sites</li>
+                    <li>Warehouse platforms & internal roads</li>
+                    <li>Canal & drainage embankments</li>
+                    <li>Airport & railway infrastructure</li>
+                </ul>
             </div>
-            <ul class="list-disc list-inside text-gray-700 space-y-2 max-w-4xl mx-auto">
-                <li>In-house excavators, dumpers, compactors, and survey teams</li>
-                <li>End-to-end service from cutting to final ground compaction</li>
-                <li>Strict quality control with field and lab testing</li>
-                <li>Fast-track execution without compromising on specifications</li>
-                <li>Experience with MoRTH, NHAI, PMGSY, and MIDC project norms</li>
-            </ul>
+
+            <!-- RIGHT SIDE – WHY CHOOSE -->
+            <div>
+                <h3 class="text-2xl font-semibold text-gray-800 mb-4">Why Choose Shreeyash Construction?</h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-3 leading-relaxed">
+                    <li>In-house excavators, dumpers, compactors & survey teams</li>
+                    <li>End-to-end service from cutting to final ground compaction</li>
+                    <li>Strict quality control with field & laboratory testing</li>
+                    <li>Fast-track execution without compromising quality</li>
+                    <li>Experience with MoRTH, NHAI, PMGSY & MIDC project norms</li>
+                </ul>
+            </div>
+
         </div>
-    </section>
+
+    </div>
+</section>
+
 @endsection

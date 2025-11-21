@@ -123,8 +123,8 @@
 
 <!-- ================= INTRO SECTION ================= -->
 <section class="py-16 bg-gray-50">
-  <div class="max-w-5xl mx-auto px-6 text-center">
-    <h2 class="text-3xl font-bold text-gray-800 mb-6">Why Shreeyash Construction?</h2>
+  <div class="max-w-8xl mx-auto px-6 text-center">
+    <h2 class="text-2xl font-bold text-yellow-500 mb-6">Why Shreeyash Construction?</h2>
     <p class="text-lg text-gray-700 mb-4 leading-relaxed">
       Shreeyash Construction provides <b>specialized retrofitting and demolition services</b> for industrial and civil
       structures across Maharashtra. From <b>factory modification</b> to <b>structural rehabilitation</b> and <b>controlled demolition</b>, 

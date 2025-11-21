@@ -41,8 +41,8 @@
     {{-- Content Section --}}
     <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <div class="max-w-4xl mx-auto text-center">
-        <p class="text-xl text-gray-800 font-semibold mb-6">
+        <div class="max-w-8xl mx-auto text-center">
+        <p class="text-xl text-yellow-500 font-semibold mb-6">
             Reliable Underground Water Supply Network Contractors in Maharashtra
         </p>
 
@@ -138,92 +138,73 @@
         </div>
     </section>
 
-    <!-- Technical Specifications -->
-    <section class="py-16 bg-gray-50">
-        <div class="container mx-auto px-4 md:px-6 lg:px-8">
-            <div class="text-center mb-10">
-                <h2 class="section-title">Technical Specifications – Underground Water Supply</h2>
-                <div class="section-underline"></div>
+<section class="py-20 bg-gray-50">
+    <div class="container mx-auto px-4 md:px-6 lg:px-10">
+
+        <!-- MAIN TITLE -->
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-900">
+                Underground Water Supply – Specifications, Applications & Why Choose Us
+            </h2>
+            <div class="w-24 h-1 bg-yellow-600 mx-auto mt-4"></div>
+        </div>
+
+        <!-- 3 COLUMN PARTITION -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+            <!-- LEFT BOX – TECHNICAL SPECIFICATIONS -->
+            <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                    Technical Specifications
+                </h3>
+                <div class="w-14 h-1 bg-yellow-500 mb-4"></div>
+
+                <ul class="space-y-3 text-gray-700 text-sm leading-relaxed">
+                    <li><strong>Pipe Types:</strong> HDPE (PE-100), DI, GI</li>
+                    <li><strong>Pipe Sizes:</strong> 40 mm to 600 mm</li>
+                    <li><strong>Working Pressure:</strong> 6–16 bar</li>
+                    <li><strong>Jointing:</strong> Butt Fusion / Electro Fusion / Mechanical</li>
+                    <li><strong>Laying Depth:</strong> 900 mm – 1500 mm below NGL</li>
+                    <li><strong>Testing Pressure:</strong> 1.5 × Working Pressure</li>
+                    <li><strong>Valves:</strong> Gate, Air, NRV, Butterfly</li>
+                    <li><strong>IS Standards:</strong> IS 4984, IS 8329, CPHEEO Manual</li>
+                </ul>
             </div>
 
-            <div class="overflow-x-auto bg-white rounded-lg shadow-md">
-                <table class="min-w-full">
-                    <thead>
-                        <tr class="bg-yellow-600 text-white">
-                            <th class="py-3 px-4 text-left">Parameter</th>
-                            <th class="py-3 px-4 text-left">Specification</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">Pipe Types</td>
-                            <td class="py-3 px-4">HDPE (PE-100), Ductile Iron (DI), Galvanized Iron (GI)</td>
-                        </tr>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">Pipe Sizes</td>
-                            <td class="py-3 px-4">40 mm to 600 mm (based on flow requirements)</td>
-                        </tr>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">Working Pressure</td>
-                            <td class="py-3 px-4">6–16 bar (customized as per demand head)</td>
-                        </tr>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">Jointing Method</td>
-                            <td class="py-3 px-4">Butt Fusion / Electro Fusion / Mechanical</td>
-                        </tr>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">Depth of Laying</td>
-                            <td class="py-3 px-4">900 mm to 1500 mm below NGL (as per standards)</td>
-                        </tr>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">Testing Pressure</td>
-                            <td class="py-3 px-4">1.5 × Working Pressure</td>
-                        </tr>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">Valves Used</td>
-                            <td class="py-3 px-4">Gate Valves, Air Valves, NRVs, Butterfly Valves</td>
-                        </tr>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">IS Standards Followed</td>
-                            <td class="py-3 px-4">IS 4984, IS 8329, CPHEEO Manual on Water Supply</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
+            <!-- CENTER BOX – APPLICATIONS -->
+            <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                    Applications
+                </h3>
+                <div class="w-14 h-1 bg-yellow-500 mb-4"></div>
 
-    <!-- Applications -->
-    <section class="py-16 bg-white">
-        <div class="container mx-auto px-4 md:px-6 lg:px-8">
-            <div class="text-center mb-10">
-                <h2 class="section-title">Applications of Underground Water Pipeline Work</h2>
-                <div class="section-underline"></div>
+                <ul class="list-disc list-inside text-gray-700 space-y-3 text-sm">
+                    <li>Industrial Water Distribution Networks</li>
+                    <li>Township & Smart City Projects</li>
+                    <li>Rural & Urban Water Supply Schemes</li>
+                    <li>MIDC & SEZ Water Infrastructure</li>
+                    <li>Commercial & Institutional Campus Supply Lines</li>
+                </ul>
             </div>
-            <ul class="list-disc list-inside text-gray-700 space-y-2 max-w-3xl mx-auto">
-                <li>Industrial Water Distribution</li>
-                <li>Township & Smart City Projects</li>
-                <li>Rural & Urban Water Supply Schemes</li>
-                <li>MIDC & SEZ Water Networks</li>
-                <li>Commercial Parks & Institutional Campuses</li>
-            </ul>
-        </div>
-    </section>
 
-    <!-- Why Choose -->
-    <section class="py-16 bg-gray-50">
-        <div class="container mx-auto px-4 md:px-6 lg:px-8">
-            <div class="text-center mb-10">
-                <h2 class="section-title">Why Shreeyash Construction?</h2>
-                <div class="section-underline"></div>
+            <!-- RIGHT BOX – WHY CHOOSE -->
+            <div class="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                    Why Shreeyash Construction?
+                </h3>
+                <div class="w-14 h-1 bg-yellow-500 mb-4"></div>
+
+                <ul class="list-disc list-inside text-gray-700 space-y-3 text-sm">
+                    <li>Skilled execution team with modern machinery</li>
+                    <li>Accurate trenching, jointing & pressure testing</li>
+                    <li>Compliant with development authority norms</li>
+                    <li>Zero-leakage guarantee with long-term durability</li>
+                    <li>Integrated with utilities & site infrastructure</li>
+                </ul>
             </div>
-            <ul class="list-disc list-inside text-gray-700 space-y-2 max-w-4xl mx-auto">
-                <li>Skilled execution team with modern equipment</li>
-                <li>Accurate trenching, jointing, and pressure testing</li>
-                <li>Compliant with local development authority norms</li>
-                <li>Zero-leakage assurance with long-term serviceability</li>
-                <li>Integration with underground utilities & site infrastructure</li>
-            </ul>
+
         </div>
-    </section>
+    </div>
+</section>
+
 @endsection

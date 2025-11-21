@@ -56,8 +56,8 @@
 {{-- Content Section --}}
 <section class="py-16 bg-gray-50">
   <div class="container mx-auto px-4 md:px-6 lg:px-8">
-    <div class="max-w-4xl mx-auto text-center">
-      <p class="text-xl text-gray-800 font-semibold mb-6">
+    <div class="max-w-8xl mx-auto text-center">
+      <p class="text-xl text-yellow-500 font-semibold mb-6">
         Restoring safety, strength, and service life of your building
       </p>
 

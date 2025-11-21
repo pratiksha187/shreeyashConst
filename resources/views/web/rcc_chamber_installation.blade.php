@@ -42,8 +42,8 @@
     {{-- Content Section --}}
     <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <div class="max-w-4xl mx-auto text-center">
-        <p class="text-xl text-gray-800 font-semibold mb-6">
+        <div class="max-w-8xl mx-auto text-center">
+        <p class="text-xl text-yellow-500 font-semibold mb-6">
             Expert Construction of Inspection, Valve, and Utility Chambers
         </p>
 
@@ -127,111 +127,126 @@
         </div>
     </section>
 
-    <!-- Technical Specifications -->
-    <section class="py-16 bg-gray-50">
-        <div class="container mx-auto px-4 md:px-6 lg:px-8">
-            <div class="text-center mb-10">
-                <h2 class="section-title">Technical Specifications – RCC & Precast Chambers</h2>
-                <div class="section-underline"></div>
+  <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+
+        <!-- Title -->
+        <div class="text-center mb-10">
+            <h2 class="text-3xl font-bold text-gray-900">
+                Technical Specifications – RCC & Precast Chambers
+            </h2>
+            <div class="w-24 h-1 bg-yellow-600 mx-auto mt-4"></div>
+        </div>
+
+        <!-- Table -->
+        <div class="overflow-x-auto bg-white rounded-xl shadow-lg border border-gray-200">
+            <table class="min-w-full text-left">
+                <thead>
+                    <tr class="bg-yellow-600 text-white">
+                        <th class="py-3 px-5 font-semibold text-sm md:text-base">Component</th>
+                        <th class="py-3 px-5 font-semibold text-sm md:text-base">Specification</th>
+                    </tr>
+                </thead>
+
+                <tbody class="text-gray-800 text-sm md:text-base">
+                    <tr class="odd:bg-gray-50">
+                        <td class="py-3 px-5 font-medium">Chamber Type</td>
+                        <td class="py-3 px-5">Cast-in-situ RCC / Factory-made Precast</td>
+                    </tr>
+
+                    <tr class="odd:bg-gray-50">
+                        <td class="py-3 px-5 font-medium">Grade of Concrete</td>
+                        <td class="py-3 px-5">M20 to M30 (based on structural requirement)</td>
+                    </tr>
+
+                    <tr class="odd:bg-gray-50">
+                        <td class="py-3 px-5 font-medium">Internal Size</td>
+                        <td class="py-3 px-5">450×450 mm to 1500×1500 mm or as per design</td>
+                    </tr>
+
+                    <tr class="odd:bg-gray-50">
+                        <td class="py-3 px-5 font-medium">Cover Type</td>
+                        <td class="py-3 px-5">RCC, CI, or SFRC – Light / Medium / Heavy Duty</td>
+                    </tr>
+
+                    <tr class="odd:bg-gray-50">
+                        <td class="py-3 px-5 font-medium">Load Bearing Capacity</td>
+                        <td class="py-3 px-5">UDL from 2.5T to 40T (as per location)</td>
+                    </tr>
+
+                    <tr class="odd:bg-gray-50">
+                        <td class="py-3 px-5 font-medium">Steps</td>
+                        <td class="py-3 px-5">Galvanized CI or MS Step Iron (300 mm spacing)</td>
+                    </tr>
+
+                    <tr class="odd:bg-gray-50">
+                        <td class="py-3 px-5 font-medium">Jointing Method</td>
+                        <td class="py-3 px-5">Cement Mortar / Rubber Gasket (for precast)</td>
+                    </tr>
+
+                    <tr class="odd:bg-gray-50">
+                        <td class="py-3 px-5 font-medium">Waterproofing</td>
+                        <td class="py-3 px-5">Integral waterproofing additives or external coating</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</section>
+
+<section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4 md:px-6 lg:px-8">
+
+        <!-- Heading -->
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-900">RCC & Precast Chamber – Installation, Applications & Advantages</h2>
+            <div class="w-24 h-1 bg-yellow-600 mx-auto mt-4"></div>
+        </div>
+
+        <!-- 3 Column Layout -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <!-- Installation Process -->
+            <div class="bg-white rounded-xl shadow-md p-6 border border-gray-200">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">Installation Process</h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-2">
+                    <li>Site Marking & Excavation</li>
+                    <li>PCC Base & Foundation Preparation</li>
+                    <li>Chamber Placement or Casting</li>
+                    <li>Pipe Connection and Sealing</li>
+                    <li>Step Iron Fixing (if required)</li>
+                    <li>Top Slab / Cover Installation</li>
+                    <li>Backfilling & Surface Finishing</li>
+                </ul>
             </div>
 
-            <div class="overflow-x-auto bg-white rounded-lg shadow-md">
-                <table class="min-w-full">
-                    <thead>
-                        <tr class="bg-yellow-600 text-white">
-                            <th class="py-3 px-4 text-left">Component</th>
-                            <th class="py-3 px-4 text-left">Specification</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">Chamber Type</td>
-                            <td class="py-3 px-4">Cast-in-situ RCC / Factory-made Precast</td>
-                        </tr>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">Grade of Concrete</td>
-                            <td class="py-3 px-4">M20 to M30 (based on structural requirement)</td>
-                        </tr>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">Internal Size</td>
-                            <td class="py-3 px-4">450×450 mm to 1500×1500 mm or as per design</td>
-                        </tr>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">Cover Type</td>
-                            <td class="py-3 px-4">RCC, CI, or SFRC – Light/Medium/Heavy Duty</td>
-                        </tr>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">Load Bearing Capacity</td>
-                            <td class="py-3 px-4">UDL from 2.5T to 40T (as per location)</td>
-                        </tr>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">Steps</td>
-                            <td class="py-3 px-4">Galvanized CI or MS Step Iron (at 300 mm intervals)</td>
-                        </tr>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">Jointing Method</td>
-                            <td class="py-3 px-4">Cement Mortar / Rubber Gasket (for precast)</td>
-                        </tr>
-                        <tr class="spec-row">
-                            <td class="py-3 px-4 font-medium">Waterproofing</td>
-                            <td class="py-3 px-4">Integral additives or external coating (if required)</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <!-- Applications -->
+            <div class="bg-white rounded-xl shadow-md p-6 border border-gray-200">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">Applications</h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-2">
+                    <li>Sewerage & Drainage Networks</li>
+                    <li>Industrial & Residential Water Pipelines</li>
+                    <li>Electrical & Communication Networks</li>
+                    <li>MIDC, Smart City & Govt. EPC Projects</li>
+                    <li>Roadside Utility Corridors</li>
+                </ul>
             </div>
-        </div>
-    </section>
 
-    <!-- Installation Process -->
-    <section class="py-16 bg-white">
-        <div class="container mx-auto px-4 md:px-6 lg:px-8">
-            <div class="text-center mb-10">
-                <h2 class="section-title">Installation Process</h2>
-                <div class="section-underline"></div>
+            <!-- Why Choose -->
+            <div class="bg-white rounded-xl shadow-md p-6 border border-gray-200">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">Why Shreeyash Construction?</h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-2">
+                    <li>Expertise in Cast-in-situ & Precast Chambers</li>
+                    <li>Accurate Execution as per IS Standards</li>
+                    <li>High-quality Concrete, Steel & Finishing</li>
+                    <li>Meets Municipal & Industrial Specifications</li>
+                    <li>Fast & Safe Execution with Trained Team</li>
+                </ul>
             </div>
-            <ul class="list-disc list-inside text-gray-700 space-y-2 max-w-3xl mx-auto">
-                <li>Site Marking & Excavation</li>
-                <li>PCC Base & Foundation Preparation</li>
-                <li>Chamber Placement or Casting (as per type)</li>
-                <li>Pipe Connection and Sealing</li>
-                <li>Step Iron Fixing (for deep chambers)</li>
-                <li>Top Slab / Cover Fitting</li>
-                <li>Backfilling and Surface Finishing</li>
-            </ul>
-        </div>
-    </section>
 
-    <!-- Applications -->
-    <section class="py-16 bg-gray-50">
-        <div class="container mx-auto px-4 md:px-6 lg:px-8">
-            <div class="text-center mb-10">
-                <h2 class="section-title">Applications</h2>
-                <div class="section-underline"></div>
-            </div>
-            <ul class="list-disc list-inside text-gray-700 space-y-2 max-w-3xl mx-auto">
-                <li>Sewerage and Drainage Networks</li>
-                <li>Industrial and Residential Water Supply Lines</li>
-                <li>Electrical & Communication Networks</li>
-                <li>MIDC, PMAY, Smart City, and EPC Projects</li>
-                <li>Roadside Utility Corridors</li>
-            </ul>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Why Choose -->
-    <section class="py-16 bg-white">
-        <div class="container mx-auto px-4 md:px-6 lg:px-8">
-            <div class="text-center mb-10">
-                <h2 class="section-title">Why Shreeyash Construction?</h2>
-                <div class="section-underline"></div>
-            </div>
-            <ul class="list-disc list-inside text-gray-700 space-y-2 max-w-4xl mx-auto">
-                <li>In-house expertise in both cast-in-situ and precast chamber works</li>
-                <li>Accurate execution as per IS standards and project drawings</li>
-                <li>Use of high-quality concrete, steel, and protective treatments</li>
-                <li>Compliance with municipal and industrial specifications</li>
-                <li>Fast, efficient installation with safety protocols in place</li>
-            </ul>
-        </div>
-    </section>
 @endsection

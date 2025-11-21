@@ -47,8 +47,8 @@
 
 <!-- ✅ INTRO -->
 <section class="py-16 bg-gray-50">
-  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h2 class="text-xl md:text-2xl text-gray-800 font-semibold mb-6">
+  <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-xl md:text-2xl text-yellow-500 font-semibold mb-6">
       Safe, efficient, and professionally managed demolition services across Maharashtra
     </h2>
 
@@ -164,41 +164,65 @@
 </section>
 
 
-<!-- ✅ PROCESS -->
 <section class="py-16 bg-gray-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">Our Process for Demolition Work</h2>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-      @foreach([
-        'Site Survey & Planning',
-        'Approval & Contracting',
-        'Execution',
-        'Post-Demolition'
-      ] as $step)
-      <div class="bg-white p-6 rounded-lg shadow card text-center">
-        <h3 class="font-semibold mb-2">{{ $loop->iteration }}) {{ $step }}</h3>
-        <p class="text-gray-600 text-sm">Professional workflow for predictable, safe outcomes.</p>
+    <!-- MAIN TITLE -->
+    <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
+      Demolition Work – Process & Industries We Serve
+    </h2>
+
+    <!-- 2-COLUMN LAYOUT -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+
+      <!-- LEFT COLUMN – PROCESS -->
+      <div>
+        <h3 class="text-2xl font-semibold text-gray-800 mb-6 text-center lg:text-left">
+          Our Process for Demolition Work
+        </h3>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6">
+          @foreach([
+            'Site Survey & Planning',
+            'Approval & Contracting',
+            'Execution',
+            'Post-Demolition'  
+          ] as $step)
+          <div class="bg-white p-6 rounded-lg shadow card text-center">
+            <h3 class="font-semibold mb-2">{{ $loop->iteration }}) {{ $step }}</h3>
+            <p class="text-gray-600 text-sm">Professional workflow for predictable, safe outcomes.</p>
+          </div>
+          @endforeach
+        </div>
       </div>
-      @endforeach
+
+      <!-- RIGHT COLUMN – INDUSTRIES -->
+      <div>
+        <h3 class="text-2xl font-semibold text-gray-800 mb-6 text-center lg:text-left">
+          Industries & Clients We Serve
+        </h3>
+
+        <div class="bg-white rounded-xl p-8 shadow-md">
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-4">
+            @foreach([
+              'Residential Owners',
+              'Commercial Developers',
+              'Government Bodies',
+              'Industrial Operators',
+              'Renovation Contractors'
+            ] as $i)
+            <span class="chip text-[color:var(--brand)] font-medium text-center block bg-gray-100 p-2 rounded-lg">
+              {{ $i }}
+            </span>
+            @endforeach
+          </div>
+        </div>
+      </div>
+
     </div>
+
   </div>
 </section>
 
-
-<!-- ✅ INDUSTRIES -->
-<section class="py-16 bg-white">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h2 class="text-3xl font-bold text-gray-800 mb-10">Industries & Clients We Serve</h2>
-
-    <div class="bg-gray-50 rounded-xl p-8 shadow-md">
-      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
-        @foreach(['Residential Owners','Commercial Developers','Government Bodies','Industrial Operators','Renovation Contractors'] as $i)
-        <span class="chip text-[color:var(--brand)] font-medium">{{ $i }}</span>
-        @endforeach
-      </div>
-    </div>
-  </div>
-</section>
 
 @endsection

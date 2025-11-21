@@ -92,69 +92,129 @@
       </div>
     </div>
   </section>
-<section id="overview" class="py-16 bg-white">
-   <div class="container mx-auto px-4">
-      <div class="flex flex-col md:flex-row items-center">
-         <!-- Text Section -->
-         <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
-            <h2 class="text-3xl font-bold mb-6 text-gray-800">Overview</h2>
-            <p class="text-gray-700 mb-4">
-               As a leading <strong>asphalt road contractor in Maharashtra,</strong> Shreeyash Construction specializes in the construction of <strong>flexible pavements using hot mix bitumen</strong> for <strong>highways, internal roads, and industrial zones</strong>. Our team uses <strong>advanced paver finishers and vibratory rollers</strong> to ensure a smooth and long-lasting finish. Whether you're planning a township approach road or <strong>bitumen road construction in Khopoli,</strong> Raigad, Pune, Mumbai — we deliver <strong>quality-driven execution</strong> with timely delivery.
-            </p>
-            <!-- Feature Icons -->
-            <div class="flex flex-wrap mt-8">
-               <div class="w-1/2 md:w-1/3 mb-4">
-                  <div class="flex items-center">
-                     <div class="bg-yellow-500 p-2 rounded-full mr-3">
-                        <i class="fas fa-dollar-sign text-gray-800"></i>
-                     </div>
-                     <span class="text-gray-800 font-medium">Cost-Effective</span>
-                  </div>
-               </div>
-               <div class="w-1/2 md:w-1/3 mb-4">
-                  <div class="flex items-center">
-                     <div class="bg-yellow-500 p-2 rounded-full mr-3">
-                        <i class="fas fa-clock text-gray-800"></i>
-                     </div>
-                     <span class="text-gray-800 font-medium">Fast Installation</span>
-                  </div>
-               </div>
-               <div class="w-1/2 md:w-1/3 mb-4">
-                  <div class="flex items-center">
-                     <div class="bg-yellow-500 p-2 rounded-full mr-3">
-                        <i class="fas fa-shield-alt text-gray-800"></i>
-                     </div>
-                     <span class="text-gray-800 font-medium">Durable</span>
-                  </div>
-               </div>
-               <div class="w-1/2 md:w-1/3 mb-4">
-                  <div class="flex items-center">
-                     <div class="bg-yellow-500 p-2 rounded-full mr-3">
-                        <i class="fas fa-recycle text-gray-800"></i>
-                     </div>
-                     <span class="text-gray-800 font-medium">Recyclable</span>
-                  </div>
-               </div>
-               <div class="w-1/2 md:w-1/3 mb-4">
-                  <div class="flex items-center">
-                     <div class="bg-yellow-500 p-2 rounded-full mr-3">
-                        <i class="fas fa-tools text-gray-800"></i>
-                     </div>
-                     <span class="text-gray-800 font-medium">Maintainable</span>
-                  </div>
-               </div>
+<!-- ================= OVERVIEW (Clean & Compressed) ================= -->
+<section id="overview" class="py-14 bg-white">
+    <div class="container mx-auto px-4 max-w-7xl">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+
+            <!-- LEFT TEXT -->
+            <div>
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Overview</h2>
+
+                <p class="text-gray-700 leading-relaxed">
+                    Shreeyash Construction is a trusted <strong>asphalt / bitumen road contractor in Maharashtra</strong>,
+                    delivering flexible pavement solutions for <strong>highways, industrial roads, and township
+                    developments</strong>. Using advanced paver finishers, hot mix plants, and vibratory rollers, we ensure
+                    long-lasting, smooth, and durable asphalt surfaces.
+                </p>
+
+                <p class="text-gray-700 mt-3 leading-relaxed">
+                    From <strong>Khopoli, Raigad, Pune, Mumbai to Nashik</strong>, our road construction services focus on
+                    <strong>speed, quality control, and long-term performance</strong>.
+                </p>
+
+                <!-- FEATURES -->
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6">
+
+                    @foreach([
+                        ['fas fa-dollar-sign', 'Cost-Effective'],
+                        ['fas fa-clock', 'Fast Installation'],
+                        ['fas fa-shield-alt', 'Durable'],
+                        ['fas fa-recycle', 'Recyclable'],
+                        ['fas fa-tools', 'Maintainable'],
+                        ['fas fa-check-circle', 'Smooth Finish'],
+                    ] as $f)
+
+                    <div class="flex items-center gap-3 bg-gray-50 p-3 rounded-lg shadow-sm hover:shadow-md transition">
+                        <div class="bg-yellow-500 text-gray-900 p-2 rounded-full">
+                            <i class="{{ $f[0] }}"></i>
+                        </div>
+                        <span class="text-gray-800 text-sm font-medium">{{ $f[1] }}</span>
+                    </div>
+
+                    @endforeach
+
+                </div>
             </div>
-         </div>
-         <!-- Image Section -->
-         <div class="md:w-1/2">
-            <img src="{{ asset('storage/logo/main/roadconst.jpg') }}" 
-               alt="Road Construction"
-               class="w-full h-auto max-h-[400px] object-cover rounded-lg shadow-md">
-         </div>
-      </div>
-   </div>
+
+            <!-- RIGHT IMAGE -->
+            <div>
+                <img src="{{ asset('storage/logo/main/roadconst.jpg') }}"
+                     class="rounded-xl shadow-xl w-full object-cover max-h-[380px]"
+                     alt="Asphalt Road Construction">
+            </div>
+
+        </div>
+
+    </div>
 </section>
-<div class="road-pattern"></div>
+<!-- ================= PAVEMENT TYPES (Premium + Compressed) ================= -->
+<section id="pavement-types" class="py-14 bg-gray-100">
+    <div class="container mx-auto px-4 max-w-7xl">
+
+        <h2 class="text-3xl font-bold text-center text-gray-900 mb-10">Pavement Types</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            <!-- CARD 1 -->
+            <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 border border-gray-200">
+                <div class="h-1.5 bg-yellow-500 rounded mb-5"></div>
+
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">1. Flexible Pavements</h3>
+
+                <ul class="space-y-3 text-gray-700 text-sm leading-relaxed">
+                    <li class="flex items-start">
+                        <span class="text-yellow-500 mt-1 mr-2">✔</span>
+                        Made up of bituminous and granular layers that distribute traffic loads.
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-yellow-500 mt-1 mr-2">✔</span>
+                        Flexible structure — deforms under load but regains shape when unloaded.
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-yellow-500 mt-1 mr-2">✔</span>
+                        Includes subgrade, sub-base, base course, binder course & surface course.
+                    </li>
+                </ul>
+
+                <img src="{{ asset('storage/logo/main/Layers-of-a-flexible-pavement.jpg') }}"
+                     alt="Flexible Pavement"
+                     class="w-full mt-6 rounded-xl shadow-lg object-cover max-h-[320px]">
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 border border-gray-200">
+                <div class="h-1.5 bg-yellow-500 rounded mb-5"></div>
+
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">2. Rigid Pavements with Bituminous Overlay</h3>
+
+                <ul class="space-y-3 text-gray-700 text-sm leading-relaxed">
+                    <li class="flex items-start">
+                        <span class="text-yellow-500 mt-1 mr-2">✔</span>
+                        Concrete base slab overlaid with a high-performance bituminous layer.
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-yellow-500 mt-1 mr-2">✔</span>
+                        Enhances ride quality, skid resistance & user comfort.
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-yellow-500 mt-1 mr-2">✔</span>
+                        Protects the rigid base from cracks, moisture & environmental damage.
+                    </li>
+                </ul>
+
+                <img src="{{ asset('storage/logo/main/RigidPavements.png') }}"
+                     alt="Rigid Pavement"
+                     class="w-full mt-6 rounded-xl shadow-lg object-cover max-h-[320px]">
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- 
 <section id="pavement-types" class="py-16 bg-gray-100">
    <div class="container mx-auto px-4">
       <h2 class="text-3xl font-bold mb-12 text-center text-gray-800">Pavement Types</h2>
@@ -223,84 +283,76 @@
          </div>
       </div>
    </div>
-</section>
+</section> -->
 <!-- Construction Methods Section -->
+<!-- ================= CONSTRUCTION METHODS (Premium + Compressed) ================= -->
+<section id="construction-methods" class="py-14 bg-gray-50">
+    <div class="container mx-auto px-4 max-w-7xl">
 
-<section id="construction" class="py-20 bg-gray-50">
-   <div class="container mx-auto px-4">
-      <h2 class="text-4xl font-bold text-center text-gray-900 mb-14">Construction Methods</h2>
-      <div class="grid gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-         <!-- Card Template -->
-         <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300">
-            <div class="bg-red-600 h-2"></div>
-            <div class="p-6">
-               <h3 class="text-xl font-semibold text-gray-800 mb-2">Hot Mix Asphalt (HMA)</h3>
-               <p class="text-gray-600 text-sm mb-4">Produced by heating the asphalt binder and mixing it with aggregates at 150–190°C.</p>
-               <ul class="space-y-2 text-sm text-gray-700">
-                  <li>✅ Suitable for high-traffic roads</li>
-                  <li>✅ Requires high-quality control</li>
-                  <li>✅ Needs rapid compaction after laying</li>
-               </ul>
+        <h2 class="text-3xl font-bold text-center text-gray-900 mb-10">Construction Methods</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            @foreach([
+                [
+                    'Hot Mix Asphalt (HMA)',
+                    'Produced by heating asphalt binder & aggregates at 150–190°C.',
+                    ['Suitable for high-traffic roads', 'Requires high-precision QC', 'Needs rapid compaction']
+                ],
+                [
+                    'Cold Mix Asphalt',
+                    'Made using emulsified/cutback bitumen at normal temperature.',
+                    ['Ideal for remote & rural areas', 'Can be stockpiled for months', 'Low energy consumption']
+                ],
+                [
+                    'Warm Mix Asphalt',
+                    'Mixed at 100–140°C, saving energy and reducing emissions.',
+                    ['Lower fuel cost', 'Better workability', 'Extended paving season']
+                ],
+                [
+                    'Bituminous Macadam (BM)',
+                    'An open-graded base layer using large aggregates.',
+                    ['Strong load distribution', 'Common for base layers', 'Used in rural/secondary roads']
+                ],
+                [
+                    'Penetration Macadam',
+                    'Bitumen poured over compacted aggregates allowing penetration.',
+                    ['Suitable for low-traffic roads', 'Simple technique', 'Minimal equipment needed']
+                ]
+            ] as $method)
+
+            <!-- Card -->
+            <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition border border-gray-200">
+                
+                <!-- Gold line -->
+                <div class="h-1.5 bg-yellow-500 rounded mb-4"></div>
+
+                <h3 class="text-xl font-semibold text-gray-800 mb-2">{{ $method[0] }}</h3>
+
+                <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                    {{ $method[1] }}
+                </p>
+
+                <ul class="space-y-2 text-sm text-gray-700">
+                    @foreach($method[2] as $point)
+                    <li class="flex items-start">
+                        <span class="text-yellow-500 text-lg mr-2 leading-tight">✔</span>
+                        <span>{{ $point }}</span>
+                    </li>
+                    @endforeach
+                </ul>
+
             </div>
-         </div>
-         <!-- Card 2 -->
-         <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300">
-            <div class="bg-blue-600 h-2"></div>
-            <div class="p-6">
-               <h3 class="text-xl font-semibold text-gray-800 mb-2">Cold Mix Asphalt</h3>
-               <p class="text-gray-600 text-sm mb-4">Produced without heating, using emulsified or cutback bitumen, applied at ambient temperatures.</p>
-               <ul class="space-y-2 text-sm text-gray-700">
-                  <li>✅ Ideal for remote or low-traffic areas</li>
-                  <li>✅ Can be stockpiled for later use</li>
-                  <li>✅ Lower energy consumption and emissions</li>
-               </ul>
-            </div>
-         </div>
-         <!-- Card 3 -->
-         <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300">
-            <div class="bg-green-600 h-2"></div>
-            <div class="p-6">
-               <h3 class="text-xl font-semibold text-gray-800 mb-2">Warm Mix Asphalt</h3>
-               <p class="text-gray-600 text-sm mb-4">Produced at lower temperatures (100–140°C), offering environmental and cost advantages.</p>
-               <ul class="space-y-2 text-sm text-gray-700">
-                  <li>✅ Reduced emissions and energy use</li>
-                  <li>✅ Extended paving season</li>
-                  <li>✅ Improved workability and compaction</li>
-               </ul>
-            </div>
-         </div>
-         <!-- Card 4 -->
-         <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300">
-            <div class="bg-yellow-500 h-2"></div>
-            <div class="p-6">
-               <h3 class="text-xl font-semibold text-gray-800 mb-2">Bituminous Macadam (BM)</h3>
-               <p class="text-gray-600 text-sm mb-4">An open-graded bituminous base layer commonly used in rural and secondary roads.</p>
-               <ul class="space-y-2 text-sm text-gray-700">
-                  <li>✅ Uses larger aggregate sizes</li>
-                  <li>✅ Provides good load distribution</li>
-                  <li>✅ Often used as a base layer</li>
-               </ul>
-            </div>
-         </div>
-         <!-- Card 5 -->
-         <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300">
-            <div class="bg-purple-600 h-2"></div>
-            <div class="p-6">
-               <h3 class="text-xl font-semibold text-gray-800 mb-2">Penetration Macadam</h3>
-               <p class="text-gray-600 text-sm mb-4">Aggregates are placed and bitumen is poured in layers to penetrate the structure.</p>
-               <ul class="space-y-2 text-sm text-gray-700">
-                  <li>✅ For low-traffic or temporary roads</li>
-                  <li>✅ Simple construction technique</li>
-                  <li>✅ Lower equipment requirements</li>
-               </ul>
-            </div>
-         </div>
-      </div>
-   </div>
+            @endforeach
+
+        </div>
+
+    </div>
 </section>
+
 <div class="road-pattern"></div>
 <!-- Materials Section -->
-<section id="materials" class="py-16 bg-gray-100">
+<!-- <section id="materials" class="py-16 bg-gray-100">
    <div class="container mx-auto px-4">
       <h2 class="text-3xl font-bold mb-12 text-center text-gray-800">Materials Used</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -431,132 +483,168 @@
          </div>
       </div>
    </div>
+</section> -->
+<!-- ================= MATERIALS USED (Premium + Compressed) ================= -->
+<section id="materials" class="py-14 bg-gray-100">
+    <div class="container mx-auto px-4 max-w-7xl">
+
+        <h2 class="text-3xl font-bold text-center text-gray-900 mb-10">Materials Used</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+            @foreach([
+                [
+                    'Bitumen Types',
+                    [
+                        '60/70, 80/100 penetration grade',
+                        'Modified Bitumen (PMB, CRMB)',
+                        'Cutback / Emulsified Bitumen'
+                    ],
+                    'fas fa-oil-can'
+                ],
+                [
+                    'Aggregates',
+                    [
+                        'Crushed stone',
+                        'Gravel for bases',
+                        'Well-graded clean sand'
+                    ],
+                    'fas fa-mountain'
+                ],
+                [
+                    'Filler Materials',
+                    [
+                        'Stone dust',
+                        'Hydrated lime',
+                        'Cement (optional use)'
+                    ],
+                    'fas fa-layer-group'
+                ],
+                [
+                    'Tack & Prime Coat',
+                    [
+                        'Bitumen emulsions',
+                        'Cutback bitumen',
+                        'Ensures bonding between layers'
+                    ],
+                    'fas fa-fill-drip'
+                ]
+            ] as $m)
+
+            <!-- Card -->
+            <div class="bg-white rounded-2xl shadow-md p-6 border border-gray-200 hover:shadow-xl transition">
+
+                <!-- Icon -->
+                <div class="w-14 h-14 bg-yellow-500 text-gray-900 rounded-full flex items-center justify-center mx-auto mb-4 shadow">
+                    <i class="{{ $m[2] }} text-xl"></i>
+                </div>
+
+                <h3 class="text-xl font-semibold text-center text-gray-800 mb-4">{{ $m[0] }}</h3>
+
+                <ul class="space-y-2 text-gray-700 text-sm">
+                    @foreach($m[1] as $point)
+                    <li class="flex items-start">
+                        <span class="text-yellow-500 mr-2 mt-0.5">✔</span>
+                        <span>{{ $point }}</span>
+                    </li>
+                    @endforeach
+                </ul>
+
+            </div>
+            @endforeach
+
+        </div>
+
+    </div>
 </section>
-<!-- Construction Techniques Section -->
+
+<!-- ================= MERGED : CONSTRUCTION TECHNIQUES + DESIGN CONSIDERATIONS ================= -->
 <section class="py-16 bg-white">
-   <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold mb-12 text-center text-gray-800">Construction Techniques</h2>
-      <div class="flex flex-wrap -mx-4">
-         <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-            <div class="process-step bg-gray-100 rounded-lg shadow-md p-6 h-full">
-               <div class="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center mb-4">
-                  <span class="text-gray-800 font-bold text-lg">1</span>
-               </div>
-               <h3 class="text-xl font-bold mb-3 text-gray-800">Site Preparation</h3>
-               <p class="text-gray-700">Excavation, clearing, grading, and compaction of subgrade to create a stable foundation for the road structure.</p>
+    <div class="container mx-auto px-4 max-w-7xl">
+
+        <!-- Main Title -->
+        <h2 class="text-3xl font-bold text-center text-gray-900 mb-4">
+            Construction Techniques & Design Considerations
+        </h2>
+
+        <!-- Added One Line Under Main Title -->
+        <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">
+            Engineered with precision to ensure durability, safety, and long-term performance.
+        </p>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+
+            <!-- LEFT SIDE : CONSTRUCTION TECHNIQUES -->
+            <div>
+
+                <!-- Added Line for LEFT Section -->
+                <p class="text-sm text-gray-600 mb-2">
+                    Step-by-step execution methods followed during road construction.
+                </p>
+
+                <h3 class="text-2xl font-semibold text-gray-900 mb-6">Construction Techniques</h3>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    @foreach([
+                        ['1','Site Preparation','Excavation, clearing, grading & compaction of subgrade for a stable foundation.'],
+                        ['2','Sub-base & Base Course','Granular layers (WBM/WMM) compacted to required density.'],
+                        ['3','Application of Prime Coat','Promotes bonding between base and bituminous layers.'],
+                        ['4','Binder Course','Intermediate layer distributing stress and loads effectively.'],
+                        ['5','Tack Coat','Thin bitumen layer ensuring proper bonding before surfacing.'],
+                        ['6','Surface Course','Final DBM/BC layer providing smoothness & skid resistance.'],
+                        ['7','Compaction','Vibratory rollers achieve target density & remove air voids.'],
+                    ] as $step)
+
+                    <div class="bg-gray-50 border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md transition">
+                        <div class="w-12 h-12 bg-yellow-500 text-gray-900 rounded-full flex items-center justify-center mb-3 font-bold">
+                            {{ $step[0] }}
+                        </div>
+                        <h4 class="text-lg font-semibold text-gray-800 mb-2">{{ $step[1] }}</h4>
+                        <p class="text-gray-700 text-sm leading-relaxed">{{ $step[2] }}</p>
+                    </div>
+
+                    @endforeach
+                </div>
             </div>
-         </div>
-         <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-            <div class="process-step bg-gray-100 rounded-lg shadow-md p-6 h-full">
-               <div class="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center mb-4">
-                  <span class="text-gray-800 font-bold text-lg">2</span>
-               </div>
-               <h3 class="text-xl font-bold mb-3 text-gray-800">Sub-base and Base Course</h3>
-               <p class="text-gray-700">Laid with granular material (WBM/WMM), compacted to design density to provide structural support.</p>
+
+            <!-- RIGHT SIDE : DESIGN CONSIDERATIONS -->
+            <div>
+
+                <!-- Added Line for RIGHT Section -->
+                <p class="text-sm text-gray-600 mb-2">
+                    Essential engineering parameters that influence pavement design & performance.
+                </p>
+
+                <h3 class="text-2xl font-semibold text-gray-900 mb-6">Design Considerations</h3>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    @foreach([
+                        ['fas fa-chart-line','Traffic Load Analysis','ESAL calculations determine layer thickness based on expected traffic.'],
+                        ['fas fa-cloud-sun','Climatic Conditions','Temperature & moisture influence material selection and pavement design.'],
+                        ['fas fa-mountain','Subgrade Strength','CBR test results guide foundation layer thickness.'],
+                        ['fas fa-water','Drainage Design','Proper slopes & drains prevent water damage and base deterioration.'],
+                        ['fas fa-road','Surface Slope & Camber','Ensures smooth drainage, safety & comfortable vehicle movement.'],
+                        ['fas fa-cogs','Material Performance','Selection based on durability, stability & environmental suitability.'],
+                    ] as $item)
+
+                    <div class="bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition text-center">
+                        <div class="w-14 h-14 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-3 shadow">
+                            <i class="{{ $item[0] }} text-gray-900 text-xl"></i>
+                        </div>
+                        <h4 class="text-lg font-semibold text-gray-800 mb-2">{{ $item[1] }}</h4>
+                        <p class="text-gray-700 text-sm leading-relaxed">{{ $item[2] }}</p>
+                    </div>
+
+                    @endforeach
+                </div>
             </div>
-         </div>
-         <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-            <div class="process-step bg-gray-100 rounded-lg shadow-md p-6 h-full">
-               <div class="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center mb-4">
-                  <span class="text-gray-800 font-bold text-lg">3</span>
-               </div>
-               <h3 class="text-xl font-bold mb-3 text-gray-800">Application of Prime Coat</h3>
-               <p class="text-gray-700">Applied to base layer to promote bonding with the bituminous layers that will be placed above.</p>
-            </div>
-         </div>
-         <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-            <div class="process-step bg-gray-100 rounded-lg shadow-md p-6 h-full">
-               <div class="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center mb-4">
-                  <span class="text-gray-800 font-bold text-lg">4</span>
-               </div>
-               <h3 class="text-xl font-bold mb-3 text-gray-800">Binder Course</h3>
-               <p class="text-gray-700">A bituminous intermediate layer designed to absorb stress and distribute loads from the surface to the base.</p>
-            </div>
-         </div>
-         <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-            <div class="process-step bg-gray-100 rounded-lg shadow-md p-6 h-full">
-               <div class="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center mb-4">
-                  <span class="text-gray-800 font-bold text-lg">5</span>
-               </div>
-               <h3 class="text-xl font-bold mb-3 text-gray-800">Tack Coat</h3>
-               <p class="text-gray-700">Thin bitumen layer applied before the final surfacing to ensure proper bonding between layers.</p>
-            </div>
-         </div>
-         <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
-            <div class="process-step bg-gray-100 rounded-lg shadow-md p-6 h-full">
-               <div class="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center mb-4">
-                  <span class="text-gray-800 font-bold text-lg">6</span>
-               </div>
-               <h3 class="text-xl font-bold mb-3 text-gray-800">Surface Course</h3>
-               <p class="text-gray-700">Final layer (DBM or BC), providing smoothness, skid resistance, and protection from environmental factors.</p>
-            </div>
-         </div>
-         <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8 md:mx-auto">
-            <div class="process-step bg-gray-100 rounded-lg shadow-md p-6 h-full">
-               <div class="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center mb-4">
-                  <span class="text-gray-800 font-bold text-lg">7</span>
-               </div>
-               <h3 class="text-xl font-bold mb-3 text-gray-800">Compaction</h3>
-               <p class="text-gray-700">Carried out with vibratory rollers while the mix is hot to achieve target density and avoid air voids.</p>
-            </div>
-         </div>
-      </div>
-   </div>
+
+        </div>
+
+    </div>
 </section>
-<div class="road-pattern"></div>
-<!-- Design Considerations Section -->
-<section class="py-16 bg-gray-100">
-   <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold mb-12 text-center text-gray-800">Design Considerations</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-         <div class="bg-white rounded-lg shadow-lg p-6 transform transition hover:scale-105">
-            <div class="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mb-4 mx-auto">
-               <svg class="w-8 h-8 text-gray-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clip-rule="evenodd"></path>
-               </svg>
-            </div>
-            <h3 class="text-xl font-bold mb-3 text-center text-gray-800">Traffic Load Analysis</h3>
-            <p class="text-gray-700 text-center">ESALs (Equivalent Single Axle Load) calculation to determine appropriate layer thickness based on expected traffic volume and composition.</p>
-         </div>
-         <div class="bg-white rounded-lg shadow-lg p-6 transform transition hover:scale-105">
-            <div class="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mb-4 mx-auto">
-               <svg class="w-8 h-8 text-gray-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z"></path>
-               </svg>
-            </div>
-            <h3 class="text-xl font-bold mb-3 text-center text-gray-800">Climatic Conditions</h3>
-            <p class="text-gray-700 text-center">Temperature and moisture influence material choice and design parameters to ensure durability in local environmental conditions.</p>
-         </div>
-         <div class="bg-white rounded-lg shadow-lg p-6 transform transition hover:scale-105">
-            <div class="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mb-4 mx-auto">
-               <svg class="w-8 h-8 text-gray-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-2 0c0 .993-.241 1.929-.668 2.754l-1.524-1.525a3.997 3.997 0 00.078-2.183l1.562-1.562C15.802 8.249 16 9.1 16 10zm-5.165 3.913l1.58 1.58A5.98 5.98 0 0110 16a5.976 5.976 0 01-2.516-.552l1.562-1.562a4.006 4.006 0 001.789.027zm-4.677-2.796a4.002 4.002 0 01-.041-2.08l-.08.08-1.53-1.533A5.98 5.98 0 004 10c0 .954.223 1.856.619 2.657l1.54-1.54zm1.088-6.45A5.974 5.974 0 0110 4c.954 0 1.856.223 2.657.619l-1.54 1.54a4.002 4.002 0 00-2.346.033L7.246 4.668zM12 10a2 2 0 11-4 0 2 2 0 014 0z" clip-rule="evenodd"></path>
-               </svg>
-            </div>
-            <h3 class="text-xl font-bold mb-3 text-center text-gray-800">Subgrade Strength</h3>
-            <p class="text-gray-700 text-center">CBR (California Bearing Ratio) test results guide pavement layer design to ensure adequate support from the foundation soil.</p>
-         </div>
-         <div class="bg-white rounded-lg shadow-lg p-6 transform transition hover:scale-105">
-            <div class="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mb-4 mx-auto">
-               <svg class="w-8 h-8 text-gray-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M5.293 9.707a1 1 0 010-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L11 7.414V15a1 1 0 11-2 0V7.414L6.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
-               </svg>
-            </div>
-            <h3 class="text-xl font-bold mb-3 text-center text-gray-800">Drainage Design</h3>
-            <p class="text-gray-700 text-center">Essential to prevent water accumulation and base layer deterioration, including proper cross slopes and drainage structures.</p>
-         </div>
-         <div class="bg-white rounded-lg shadow-lg p-6 transform transition hover:scale-105">
-            <div class="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mb-4 mx-auto">
-               <svg class="w-8 h-8 text-gray-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M4.649 3.084A1 1 0 015.163 4.4 13.95 13.95 0 004 10c0 1.993.416 3.886 1.164 5.6a1 1 0 01-1.832.8A15.95 15.95 0 012 10c0-2.274.475-4.44 1.332-6.4a1 1 0 011.317-.516zM12.96 7a3 3 0 00-2.342 1.126l-.328.41-.111-.279A2 2 0 008.323 7H8a1 1 0 000 2h.323l.532 1.33-1.035 1.295a1 1 0 01-.781.375H7a1 1 0 100 2h.039a3 3 0 002.342-1.126l.328-.41.111.279A2 2 0 0011.677 14H12a1 1 0 100-2h-.323l-.532-1.33 1.035-1.295A1 1 0 0112.961 9H13a1 1 0 100-2h-.039zm1.874-2.6a1 1 0 011.833-.8A15.95 15.95 0 0118 10c0 2.274-.475 4.44-1.332 6.4a1 1 0 11-1.832-.8A13.949 13.949 0 0016 10c0-1.993-.416-3.886-1.165-5.6z" clip-rule="evenodd"></path>
-               </svg>
-            </div>
-            <h3 class="text-xl font-bold mb-3 text-center text-gray-800">Surface Slope & Camber</h3>
-            <p class="text-gray-700 text-center">Designed for proper water runoff and user comfort, with appropriate cross slopes and superelevation at curves.</p>
-         </div>
-      </div>
-   </div>
-</section>
+
+
 <!-- Quality Control Section -->
 <section class="py-16 bg-white">
    <div class="container mx-auto px-4">

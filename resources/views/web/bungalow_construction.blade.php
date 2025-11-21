@@ -56,8 +56,8 @@
 {{-- Content Section --}}
 <section class="py-16 bg-gray-50">
   <div class="container mx-auto px-4 md:px-6 lg:px-8">
-    <div class="max-w-4xl mx-auto text-center">
-      <p class="text-xl text-gray-800 font-semibold mb-6">
+    <div class="max-w-8xl mx-auto text-center">
+      <p class="text-xl text-yellow-500 font-semibold mb-6">
         Premium, durable, and aesthetically designed homes by a trusted Maharashtra contractor
       </p>
 
@@ -148,84 +148,92 @@
     </div>
   </section>
 
-  <!-- Technical Data -->
-  <section class="py-16 bg-white">
+<section class="py-16 bg-white">
     <div class="container mx-auto px-4 md:px-6 lg:px-8">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold text-gray-800">Technical Data for Bungalow Construction</h2>
-        <div class="w-20 h-1 bg-[color:var(--accent)] mx-auto mt-4 mb-6"></div>
-        <p class="text-gray-600 max-w-3xl mx-auto">
-          We focus on high-quality materials and proven standards to ensure long-lasting homes.
-        </p>
-      </div>
 
-      <div class="overflow-x-auto bg-gray-50 rounded-lg shadow">
-        <table class="min-w-full">
-          <thead>
-            <tr class="bg-[color:var(--brand)] text-white">
-              <th class="py-3 px-4 text-left">Parameter</th>
-              <th class="py-3 px-4 text-left">Standard Specification</th>
-            </tr>
-          </thead>
-          <tbody class="bg-white">
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Foundation</td><td class="py-3 px-4">RCC (M20) with 150mm PCC & anti-termite treatment</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Wall Structure</td><td class="py-3 px-4">AAC blocks / clay bricks – 150/200mm</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Roof Slab</td><td class="py-3 px-4">RCC (M20) with waterproof membrane</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Flooring</td><td class="py-3 px-4">Vitrified tiles / Italian marble / wooden</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Doors & Windows</td><td class="py-3 px-4">Teakwood / uPVC / Aluminium frames</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Electrical</td><td class="py-3 px-4">ISI copper wiring, modular switches, concealed</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Plumbing</td><td class="py-3 px-4">CPVC/UPVC with branded fixtures</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Painting</td><td class="py-3 px-4">Exterior weather shield & interior premium emulsion</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Load Bearing</td><td class="py-3 px-4">Seismic zone compliance as per IS code</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4 font-medium">Project Duration</td><td class="py-3 px-4">6–12 months (size & complexity dependent)</td></tr>
-          </tbody>
-        </table>
-      </div>
+        <!-- SECTION HEADING -->
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-800">Technical Data & Cost Guide for Bungalow Construction</h2>
+            <div class="w-20 h-1 bg-[color:var(--accent)] mx-auto mt-4 mb-6"></div>
+        </div>
+
+        <!-- 2 COLUMN LAYOUT -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+
+            <!-- LEFT COLUMN : TECHNICAL DATA TABLE -->
+            <div>
+                <h3 class="text-xl text-yellow-500 font-semibold mb-4">Technical Specifications</h3>
+
+                <div class="overflow-x-auto bg-gray-50 rounded-lg shadow">
+                    <table class="min-w-full">
+                        <thead>
+                            <tr class="bg-[color:var(--brand)] text-white">
+                                <th class="py-3 px-4 text-left">Parameter</th>
+                                <th class="py-3 px-4 text-left">Specification</th>
+                            </tr>
+                        </thead>
+                        <tbody class="bg-white">
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Foundation</td><td class="py-3 px-4">RCC (M20) + 150mm PCC + Anti-termite</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Wall Structure</td><td class="py-3 px-4">AAC / Clay Bricks – 150–200mm</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Roof Slab</td><td class="py-3 px-4">RCC (M20) + Waterproofing</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Flooring</td><td class="py-3 px-4">Vitrified / Italian Marble / Wooden</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Doors & Windows</td><td class="py-3 px-4">Teakwood / uPVC / Aluminum</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Electrical</td><td class="py-3 px-4">ISI Wiring, Modular Switches</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Plumbing</td><td class="py-3 px-4">CPVC / UPVC – Branded</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Painting</td><td class="py-3 px-4">Weather Coat + Premium Interior</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Load Bearing</td><td class="py-3 px-4">IS-Code Seismic Design</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Project Duration</td><td class="py-3 px-4">6–12 Months</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- RIGHT COLUMN : COST GUIDE -->
+            <div>
+                <h3 class="text-xl text-yellow-500 font-semibold mb-4">Construction Cost Guide</h3>
+
+                <!-- COST RANGE CARDS -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+
+                    <div class="bg-white p-6 rounded-lg shadow card">
+                        <h4 class="text-lg font-semibold mb-2">Economy Range</h4>
+                        <p class="text-gray-700">₹1,500 – ₹1,800 / sq.ft.</p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-lg shadow card">
+                        <h4 class="text-lg font-semibold mb-2">Standard Range</h4>
+                        <p class="text-gray-700">₹1,900 – ₹2,500 / sq.ft.</p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-lg shadow card">
+                        <h4 class="text-lg font-semibold mb-2">Luxury Range</h4>
+                        <p class="text-gray-700">₹2,600 – ₹4,000+ / sq.ft.</p>
+                    </div>
+
+                </div>
+
+                <!-- EXAMPLE COST TABLE -->
+                <div class="overflow-x-auto bg-white rounded-lg shadow">
+                    <table class="min-w-full">
+                        <thead>
+                            <tr class="bg-[color:var(--brand)] text-white">
+                                <th class="py-3 px-4 text-left">Example</th>
+                                <th class="py-3 px-4 text-left">Indicative Cost</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="spec-row"><td class="py-3 px-4">2 BHK Bungalow</td><td class="py-3 px-4">₹25–35 Lakhs</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4">3 BHK Bungalow</td><td class="py-3 px-4">₹40–60 Lakhs</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
     </div>
-  </section>
+</section>
 
-  <!-- Cost Guide -->
-  <section class="py-16 bg-gray-50">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold text-gray-800">Bungalow Construction Cost Guide</h2>
-        <div class="w-20 h-1 bg-[color:var(--accent)] mx-auto mt-4 mb-6"></div>
-        <p class="text-gray-600 max-w-3xl mx-auto">
-          Costs vary by size, materials, design complexity, and location. We provide detailed, transparent quotations before starting.
-        </p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div class="bg-white p-6 rounded-lg shadow card">
-          <h3 class="text-lg font-semibold mb-2">Economy Range</h3>
-          <p class="text-gray-700">₹1,500 – ₹1,800 / sq.ft.</p>
-        </div>
-        <div class="bg-white p-6 rounded-lg shadow card">
-          <h3 class="text-lg font-semibold mb-2">Standard Range</h3>
-          <p class="text-gray-700">₹1,900 – ₹2,500 / sq.ft.</p>
-        </div>
-        <div class="bg-white p-6 rounded-lg shadow card">
-          <h3 class="text-lg font-semibold mb-2">Luxury Range</h3>
-          <p class="text-gray-700">₹2,600 – ₹4,000+ / sq.ft.</p>
-        </div>
-      </div>
-
-      <div class="mt-8 overflow-x-auto bg-white rounded-lg shadow">
-        <table class="min-w-full">
-          <thead>
-            <tr class="bg-[color:var(--brand)] text-white">
-              <th class="py-3 px-4 text-left">Example</th>
-              <th class="py-3 px-4 text-left">Indicative Cost</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="spec-row"><td class="py-3 px-4">Average cost to build a 2 bedroom bungalow</td><td class="py-3 px-4">₹25–35 Lakhs</td></tr>
-            <tr class="spec-row"><td class="py-3 px-4">Cost of building a 3 bedroom bungalow</td><td class="py-3 px-4">₹40–60 Lakhs</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
 
   <!-- Process -->
   <section class="py-16 bg-white">

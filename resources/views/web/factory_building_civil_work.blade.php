@@ -44,8 +44,8 @@
 {{-- Content Section --}}
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <div class="max-w-4xl mx-auto text-center">
-            <p class="text-xl text-gray-800 font-semibold mb-6">
+        <div class="max-w-8xl mx-auto text-center">
+            <p class="text-xl text-yellow-500 font-semibold mb-6">
                 Turnkey Civil Work for Factory Buildings in Maharashtra
             </p>
             
@@ -67,118 +67,162 @@
 </section>
 
 
-<!-- Types of Factory Buildings -->
-<section class="py-16 bg-white">
+<!-- Combined Section: Types + Technical Specifications -->
+<section class="py-20 bg-white">
     <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <div class="text-center mb-10">
-            <h2 class="section-title">Types of Factory Buildings We Construct</h2>
-            <div class="section-underline"></div>
+
+        <!-- Heading -->
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900">
+                Factory Building Types & Technical Specifications
+            </h2>
+            <div class="w-20 h-1 bg-yellow-600 mx-auto mt-4 rounded"></div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="card p-6">
-                <h3 class="text-lg font-semibold mb-3">Load-Bearing Factory Structures</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li>Economical for small-scale industries</li>
-                    <li>Made using brick masonry and RCC slabs</li>
-                </ul>
+
+        <!-- 2 Column Layout -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+
+            <!-- LEFT COLUMN - TYPES OF FACTORY BUILDINGS -->
+            <div>
+                <h3 class="text-2xl font-semibold text-gray-800 mb-6">
+                    Types of Factory Buildings We Construct
+                </h3>
+
+                <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-6">
+
+                    <div class="card p-6">
+                        <h3 class="text-lg font-semibold mb-3">Load-Bearing Factory Structures</h3>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>Economical for small-scale industries</li>
+                            <li>Made using brick masonry and RCC slabs</li>
+                        </ul>
+                    </div>
+
+                    <div class="card p-6">
+                        <h3 class="text-lg font-semibold mb-3">Steel Frame Structures (PEB or Hybrid)</h3>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>Ideal for fast-track industrial construction</li>
+                            <li>Suitable for heavy machinery and warehousing</li>
+                        </ul>
+                    </div>
+
+                    <div class="card p-6">
+                        <h3 class="text-lg font-semibold mb-3">Reinforced Concrete Frame Buildings</h3>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>Preferred where high load and thermal control are required</li>
+                            <li>Better fire resistance and durability</li>
+                        </ul>
+                    </div>
+
+                    <div class="card p-6">
+                        <h3 class="text-lg font-semibold mb-3">Factory Sheds with Office Blocks</h3>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>Integrated production units with admin zones</li>
+                        </ul>
+                    </div>
+
+                    <div class="card p-6">
+                        <h3 class="text-lg font-semibold mb-3">Multi-Storey Factory Buildings</h3>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>Designed for urban and land-constrained industries</li>
+                        </ul>
+                    </div>
+
+                    <div class="card p-6">
+                        <h3 class="text-lg font-semibold mb-3">Factory Expansion & Retrofitting</h3>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>Vertical and lateral expansion of existing structures</li>
+                        </ul>
+                    </div>
+
+                </div>
             </div>
-            <div class="card p-6">
-                <h3 class="text-lg font-semibold mb-3">Steel Frame Structures (PEB or Hybrid)</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li>Ideal for fast-track industrial construction</li>
-                    <li>Suitable for heavy machinery and warehousing</li>
-                </ul>
+
+            <!-- RIGHT COLUMN - TECHNICAL SPECIFICATIONS -->
+            <div>
+                <h3 class="text-2xl font-semibold text-gray-800 mb-6">
+                    Technical Specifications – Factory Building Construction
+                </h3>
+
+                <div class="overflow-x-auto bg-white rounded-lg shadow-md">
+                    <table class="min-w-full">
+                        <thead>
+                            <tr class="bg-yellow-600 text-white">
+                                <th class="py-3 px-4 text-left">Specification Category</th>
+                                <th class="py-3 px-4 text-left">Details</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Structure Type</td><td class="py-3 px-4">RCC Frame / Steel Frame / Hybrid</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Foundation Type</td><td class="py-3 px-4">Isolated / Raft / Pile (as per soil)</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Height</td><td class="py-3 px-4">6 to 12 meters (customizable)</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Roofing</td><td class="py-3 px-4">Color Coated GI Sheets / RCC / Polycarbonate</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Cladding</td><td class="py-3 px-4">Cement Sheets / PUF Panels / Steel Cladding</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Flooring</td><td class="py-3 px-4">Trimix / VDF / Epoxy Finish</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Electrical & Plumbing</td><td class="py-3 px-4">As per industrial load & utility plan</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Mezzanine Floors</td><td class="py-3 px-4">Optional – Steel Deck or RCC</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Ventilation</td><td class="py-3 px-4">Natural Louvers / Ridge Vents / Mechanical</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Load-Bearing Capacity</td><td class="py-3 px-4">As per IS 456 & IS 875 Codes</td></tr>
+                            <tr class="spec-row"><td class="py-3 px-4 font-medium">Fire Safety</td><td class="py-3 px-4">Hydrant points, extinguishers, NBC norms</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
             </div>
-            <div class="card p-6">
-                <h3 class="text-lg font-semibold mb-3">Reinforced Concrete Frame Buildings</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li>Preferred where high load and thermal control are required</li>
-                    <li>Better fire resistance and durability</li>
-                </ul>
-            </div>
-            <div class="card p-6">
-                <h3 class="text-lg font-semibold mb-3">Factory Sheds with Office Blocks</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li>Integrated production units with admin zones</li>
-                </ul>
-            </div>
-            <div class="card p-6">
-                <h3 class="text-lg font-semibold mb-3">Multi-Storey Factory Buildings</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li>Designed for urban and land-constrained industries</li>
-                </ul>
-            </div>
-            <div class="card p-6">
-                <h3 class="text-lg font-semibold mb-3">Factory Expansion & Retrofitting</h3>
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li>Vertical and lateral expansion of existing structures</li>
-                </ul>
-            </div>
+
         </div>
+
     </div>
 </section>
 
-<!-- Technical Specifications -->
-<section class="py-16 bg-gray-50">
+<!-- Combined Section: Plan Approval Support + Why Choose -->
+<section class="py-20 bg-white">
     <div class="container mx-auto px-4 md:px-6 lg:px-8">
-        <div class="text-center mb-10">
-            <h2 class="section-title">Technical Specifications – Factory Building Construction</h2>
-            <div class="section-underline"></div>
+
+        <!-- Main Heading -->
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900">
+                Factory Building Support & Advantages
+            </h2>
+            <div class="w-20 h-1 bg-yellow-600 mx-auto mt-4 rounded"></div>
         </div>
-        <div class="overflow-x-auto bg-white rounded-lg shadow-md">
-            <table class="min-w-full">
-                <thead>
-                    <tr class="bg-yellow-600 text-white">
-                        <th class="py-3 px-4 text-left">Specification Category</th>
-                        <th class="py-3 px-4 text-left">Details</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Structure Type</td><td class="py-3 px-4">RCC Frame / Steel Frame / Hybrid</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Foundation Type</td><td class="py-3 px-4">Isolated / Raft / Pile (as per soil)</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Height</td><td class="py-3 px-4">6 to 12 meters (customizable)</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Roofing</td><td class="py-3 px-4">Color Coated GI Sheets / RCC / Polycarbonate</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Cladding</td><td class="py-3 px-4">Cement Sheets / PUF Panels / Steel Cladding</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Flooring</td><td class="py-3 px-4">Trimix / VDF / Epoxy Finish</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Electrical & Plumbing</td><td class="py-3 px-4">As per industrial load & utility plan</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Mezzanine Floors</td><td class="py-3 px-4">Optional – Steel Deck or RCC</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Ventilation</td><td class="py-3 px-4">Natural Louvers / Ridge Vents / Mechanical</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Load-Bearing Capacity</td><td class="py-3 px-4">As per IS 456 & IS 875 Codes</td></tr>
-                    <tr class="spec-row"><td class="py-3 px-4 font-medium">Fire Safety</td><td class="py-3 px-4">Hydrant points, extinguishers, NBC norms</td></tr>
-                </tbody>
-            </table>
+
+        <!-- Grid Layout -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+
+            <!-- LEFT COLUMN — PLAN APPROVAL SUPPORT -->
+            <div class="bg-gray-50 p-8 rounded-xl shadow-sm">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-4">
+                    Factory Building Plan Approval Support
+                </h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-3">
+                    <li>MIDC, MMRDA, PMRDA, or local authority approvals</li>
+                    <li>Fire Department NOCs</li>
+                    <li>Environmental clearances (if applicable)</li>
+                    <li>Structural safety and stability certifications</li>
+                </ul>
+                <p class="mt-6 text-gray-700 leading-relaxed">
+                    We ensure compliance with the Factory Act, Industrial Safety Regulations,
+                    and GRIHA/Green Building norms if required.
+                </p>
+            </div>
+
+            <!-- RIGHT COLUMN — WHY CHOOSE -->
+            <div class="bg-gray-50 p-8 rounded-xl shadow-sm">
+                <h3 class="text-2xl font-semibold text-gray-800 mb-4">
+                    Why Choose Shreeyash Construction?
+                </h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-3">
+                    <li>Over 20 years of experience in industrial-grade construction</li>
+                    <li>End-to-end support from layout to occupancy</li>
+                    <li>Expertise in IS Codes, MoRTH, NBC, and local bylaws</li>
+                    <li>Cost-effective, timely, and high-quality execution</li>
+                </ul>
+            </div>
+
         </div>
+
     </div>
 </section>
 
-<!-- Plan Approval Support -->
-<section class="py-16 bg-white">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8 text-center">
-        <h2 class="section-title">Factory Building Plan Approval Support</h2>
-        <div class="section-underline"></div>
-        <ul class="list-disc list-inside text-gray-700 space-y-2 max-w-3xl mx-auto">
-            <li>MIDC, MMRDA, PMRDA, or local authority approvals</li>
-            <li>Fire Department NOCs</li>
-            <li>Environmental clearances (if applicable)</li>
-            <li>Structural safety and stability certifications</li>
-        </ul>
-        <p class="mt-6 text-gray-700 max-w-4xl mx-auto">
-            We ensure compliance with Factory Act, Industrial Safety Regulations, and GRIHA/Green Building norms if required.
-        </p>
-    </div>
-</section>
-
-<!-- Why Choose -->
-<section class="py-16 bg-gray-50">
-    <div class="container mx-auto px-4 md:px-6 lg:px-8 text-center">
-        <h2 class="section-title">Why Choose Shreeyash Construction for Factory Work Jobs?</h2>
-        <div class="section-underline"></div>
-        <ul class="list-disc list-inside text-gray-700 space-y-2 max-w-4xl mx-auto">
-            <li>Over 20 years of experience in industrial-grade construction</li>
-            <li>End-to-end support from layout to occupancy</li>
-            <li>Compliance with IS Codes, MoRTH, NBC, and local bylaws</li>
-            <li>Cost-effective, timely, and high-quality execution</li>
-        </ul>
-    </div>
-</section>
 @endsection

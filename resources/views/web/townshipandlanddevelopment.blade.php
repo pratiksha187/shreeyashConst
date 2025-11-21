@@ -109,149 +109,179 @@
 </div>
 
 </section>
-{{-- =============== SERVICES WE DELIVER SECTION =============== --}}
-<section class="py-16 bg-white">
+<section class="py-20 bg-white">
   <div class="container mx-auto px-6 lg:px-10">
-    <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">
-      What We Deliver in Township & Land Development
+
+    <!-- MAIN HEADING -->
+    <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
+      Township & Land Development – What We Deliver & Key Components
     </h2>
+    <div class="w-20 h-1 bg-yellow-600 mx-auto mb-12"></div>
 
-    <div class="grid md:grid-cols-3 gap-8">
-      <div class="card p-6">
-        <h3 class="text-xl font-semibold mb-3">Land Planning & Layout Design</h3>
-        <p class="text-gray-600">End-to-end master planning, zoning, road layout, utility planning, and integration of regulatory norms.</p>
+    <!-- GRID WRAPPER -->
+    <div class="grid md:grid-cols-2 gap-12">
+
+      <!-- LEFT SIDE – WHAT WE DELIVER -->
+      <div>
+        <h3 class="text-2xl font-bold text-gray-800 mb-6">What We Deliver</h3>
+
+        <div class="space-y-6">
+
+          <div class="card p-6 border border-gray-200 rounded-lg shadow-sm">
+            <h4 class="text-xl font-semibold mb-2">Land Planning & Layout Design</h4>
+            <p class="text-gray-600">
+              Master planning, zoning, road network design, utility integration, and compliance with development regulations.
+            </p>
+          </div>
+
+          <div class="card p-6 border border-gray-200 rounded-lg shadow-sm">
+            <h4 class="text-xl font-semibold mb-2">Infrastructure Development</h4>
+            <p class="text-gray-600">
+              Roads, drainage, water supply, sewer lines, street lighting, and essential civic amenities.
+            </p>
+          </div>
+
+          <div class="card p-6 border border-gray-200 rounded-lg shadow-sm">
+            <h4 class="text-xl font-semibold mb-2">Site Execution & Construction</h4>
+            <p class="text-gray-600">
+              Earthwork, levelling, retaining walls, compound walls, residential & commercial building works.
+            </p>
+          </div>
+
+        </div>
       </div>
 
-      <div class="card p-6">
-        <h3 class="text-xl font-semibold mb-3">Infrastructure Development</h3>
-        <p class="text-gray-600">Roads, drainage, water supply, sewer lines, street lighting, footpaths, and basic civic services.</p>
+      <!-- RIGHT SIDE – KEY COMPONENTS -->
+      <div>
+        <h3 class="text-2xl font-bold text-gray-800 mb-6">Key Components</h3>
+
+        <div class="grid grid-cols-1 gap-6">
+
+          <ul class="space-y-3 text-gray-700 text-lg">
+            <li>✔ Land clearing, grading & earthwork</li>
+            <li>✔ Internal & external road development</li>
+            <li>✔ Drainage & stormwater management</li>
+            <li>✔ Sewerage system & STP planning</li>
+            <li>✔ Water supply distribution lines</li>
+          </ul>
+
+          <ul class="space-y-3 text-gray-700 text-lg">
+            <li>✔ Electrical and street lighting network</li>
+            <li>✔ Plot demarcation & boundary survey</li>
+            <li>✔ Open spaces, green zones & amenities</li>
+            <li>✔ Security, gates & compound wall</li>
+            <li>✔ Documentation, approvals & NA assistance</li>
+          </ul>
+
+        </div>
       </div>
 
-      <div class="card p-6">
-        <h3 class="text-xl font-semibold mb-3">Site Execution & Construction</h3>
-        <p class="text-gray-600">Earthwork, levelling, retaining walls, compound walls, and construction of residential or commercial structures.</p>
-      </div>
     </div>
+
   </div>
 </section>
 
 
-{{-- =============== KEY COMPONENTS SECTION =============== --}}
-<section class="py-16 bg-gray-50">
+<section class="py-20 bg-white">
   <div class="container mx-auto px-6 lg:px-10">
-    <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">
-      Key Components of Township & Large-Scale Land Development
+
+    <!-- MAIN HEADING -->
+    <h2 class="text-4xl font-bold text-center text-gray-800 mb-6">
+      Township & Land Development – Why Choose Us, Process & Project Types
     </h2>
+    <div class="w-24 h-1 bg-yellow-600 mx-auto mb-12"></div>
 
-    <div class="grid md:grid-cols-2 gap-8">
-      <ul class="space-y-3 text-gray-700">
-        <li>✔ Land clearing, grading & earthwork</li>
-        <li>✔ Internal & external road development</li>
-        <li>✔ Drainage & stormwater management systems</li>
-        <li>✔ Sewerage network & STP provision</li>
-        <li>✔ Water supply distribution network</li>
-      </ul>
+    <!-- ================= WHY CHOOSE US ================= -->
+    <div class="mb-16">
+      <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">
+        Why Choose Shreeyash Construction?
+      </h3>
 
-      <ul class="space-y-3 text-gray-700">
-        <li>✔ Electrical infrastructure & street lighting</li>
-        <li>✔ Plot demarcation & boundary surveying</li>
-        <li>✔ Green zones, open spaces & amenities</li>
-        <li>✔ Security, entry gates & compound wall</li>
-        <li>✔ Documentation, approvals & NA assistance</li>
-      </ul>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="card p-6 shadow-sm border border-gray-200">
+          <h4 class="text-xl font-semibold mb-2">End-to-End Service</h4>
+          <p class="text-gray-600">
+            From land planning to infrastructure execution, we manage everything under one roof.
+          </p>
+        </div>
+
+        <div class="card p-6 shadow-sm border border-gray-200">
+          <h4 class="text-xl font-semibold mb-2">Experienced Engineering Team</h4>
+          <p class="text-gray-600">
+            Civil engineers, project managers, and site experts ensure quality-driven work.
+          </p>
+        </div>
+
+        <div class="card p-6 shadow-sm border border-gray-200">
+          <h4 class="text-xl font-semibold mb-2">On-Time & Accurate Execution</h4>
+          <p class="text-gray-600">
+            Systematic planning ensures fast approvals and timely work completion.
+          </p>
+        </div>
+      </div>
     </div>
+
+    <!-- ================= DEVELOPMENT PROCESS ================= -->
+    <div class="mb-16">
+      <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">
+        Our Township Development Process
+      </h3>
+
+      <div class="grid md:grid-cols-4 gap-8 text-center">
+        <div class="card p-6 shadow-sm border border-gray-200">
+          <h4 class="font-bold text-lg mb-2">1. Land Survey & Planning</h4>
+          <p class="text-gray-600">Detailed land study, contouring, and initial project layout.</p>
+        </div>
+
+        <div class="card p-6 shadow-sm border border-gray-200">
+          <h4 class="font-bold text-lg mb-2">2. Approvals & Compliance</h4>
+          <p class="text-gray-600">NA documents, government permissions, and legal support.</p>
+        </div>
+
+        <div class="card p-6 shadow-sm border border-gray-200">
+          <h4 class="font-bold text-lg mb-2">3. Infrastructure Development</h4>
+          <p class="text-gray-600">Roads, drainage, water, electrical & amenities execution.</p>
+        </div>
+
+        <div class="card p-6 shadow-sm border border-gray-200">
+          <h4 class="font-bold text-lg mb-2">4. Handover & Final Completion</h4>
+          <p class="text-gray-600">Plot marking, as-built drawings, and township readiness.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= TYPES OF PROJECTS ================= -->
+    <div>
+      <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">
+        Types of Township & Land Development Projects We Undertake
+      </h3>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="card p-6 shadow-sm border border-gray-200 text-center">
+          <h4 class="font-semibold text-lg">Residential Townships</h4>
+        </div>
+        <div class="card p-6 shadow-sm border border-gray-200 text-center">
+          <h4 class="font-semibold text-lg">Industrial Layouts & MIDC Plots</h4>
+        </div>
+        <div class="card p-6 shadow-sm border border-gray-200 text-center">
+          <h4 class="font-semibold text-lg">Farmhouse & Agro-Tourism Layouts</h4>
+        </div>
+        <div class="card p-6 shadow-sm border border-gray-200 text-center">
+          <h4 class="font-semibold text-lg">Mixed-Use Urban Development</h4>
+        </div>
+        <div class="card p-6 shadow-sm border border-gray-200 text-center">
+          <h4 class="font-semibold text-lg">Resort & Villa Layouts</h4>
+        </div>
+        <div class="card p-6 shadow-sm border border-gray-200 text-center">
+          <h4 class="font-semibold text-lg">Affordable Housing Layouts</h4>
+        </div>
+      </div>
+
+    </div>
+
   </div>
 </section>
 
-
-{{-- =============== WHY CHOOSE US SECTION =============== --}}
-<section class="py-16 bg-white">
-  <div class="container mx-auto px-6 lg:px-10">
-    <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">
-      Why Choose Shreeyash Construction?
-    </h2>
-
-    <div class="grid md:grid-cols-3 gap-8">
-      <div class="card p-6">
-        <h3 class="text-xl font-semibold mb-2">End-to-End Service</h3>
-        <p class="text-gray-600">From land planning to infrastructure execution, we manage everything under one roof.</p>
-      </div>
-
-      <div class="card p-6">
-        <h3 class="text-xl font-semibold mb-2">Experienced Engineering Team</h3>
-        <p class="text-gray-600">Civil engineers, project managers, and site experts ensure quality-driven work.</p>
-      </div>
-
-      <div class="card p-6">
-        <h3 class="text-xl font-semibold mb-2">On-Time & Accurate Execution</h3>
-        <p class="text-gray-600">Systematic planning ensures fast approvals and timely work completion.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-{{-- =============== DEVELOPMENT PROCESS SECTION =============== --}}
-<section class="py-16 bg-gray-50">
-  <div class="container mx-auto px-6 lg:px-10">
-    <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">
-      Our Township Development Process
-    </h2>
-
-    <div class="grid md:grid-cols-4 gap-8 text-center">
-      <div class="card p-6">
-        <h3 class="font-bold text-lg mb-2">1. Land Survey & Planning</h3>
-        <p class="text-gray-600">Detailed land study, contouring, and initial project layout.</p>
-      </div>
-
-      <div class="card p-6">
-        <h3 class="font-bold text-lg mb-2">2. Approvals & Compliance</h3>
-        <p class="text-gray-600">NA documents, government permissions, and legal support.</p>
-      </div>
-
-      <div class="card p-6">
-        <h3 class="font-bold text-lg mb-2">3. Infrastructure Development</h3>
-        <p class="text-gray-600">Roads, drainage, water, electrical & amenities execution.</p>
-      </div>
-
-      <div class="card p-6">
-        <h3 class="font-bold text-lg mb-2">4. Handover & Final Completion</h3>
-        <p class="text-gray-600">Plot marking, as-built drawings, and township readiness.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-{{-- =============== TYPES OF PROJECTS SECTION =============== --}}
-<section class="py-16 bg-white">
-  <div class="container mx-auto px-6 lg:px-10">
-    <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">
-      Types of Township & Land Development Projects We Undertake
-    </h2>
-
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <div class="card p-6 text-center">
-        <h3 class="font-semibold text-lg">Residential Townships</h3>
-      </div>
-      <div class="card p-6 text-center">
-        <h3 class="font-semibold text-lg">Industrial Layouts & MIDC Plots</h3>
-      </div>
-      <div class="card p-6 text-center">
-        <h3 class="font-semibold text-lg">Farmhouse & Agro-Tourism Layouts</h3>
-      </div>
-      <div class="card p-6 text-center">
-        <h3 class="font-semibold text-lg">Mixed-Use Urban Development</h3>
-      </div>
-      <div class="card p-6 text-center">
-        <h3 class="font-semibold text-lg">Resort & Villa Layouts</h3>
-      </div>
-      <div class="card p-6 text-center">
-        <h3 class="font-semibold text-lg">Affordable Housing Layouts</h3>
-      </div>
-    </div>
-  </div>
-</section>
 
 <section class="bg-yellow-600 py-10">
   <div class="container mx-auto text-center text-white">

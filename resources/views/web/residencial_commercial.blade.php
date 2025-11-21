@@ -112,16 +112,16 @@
 
 <!-- ================= INTRO SECTION ================= -->
 <section class="py-16 bg-gray-50">
-  <div class="max-w-5xl mx-auto px-6 text-center">
-    <h2 class="text-3xl font-bold text-gray-800 mb-6">Why Shreeyash Construction?</h2>
+  <div class="max-w-8xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold text-yellow-500 mb-6">Why Shreeyash Construction?</h2>
     <p class="text-lg text-gray-700 mb-4 leading-relaxed">
-      Shreeyash Construction is a trusted name for **residential and commercial civil works** in Khopoli, Karjat,
-      Patalganga MIDC, and nearby regions. We deliver **high-quality, cost-effective construction** with a focus on
+      Shreeyash Construction is a trusted name for <strong>residential and commercial civil works</strong> in Khopoli, Karjat,
+      Patalganga MIDC, and nearby regions. We deliver <strong>high-quality, cost-effective construction</strong> with a focus on
       durability, space optimization, and modern design.
     </p>
     <p class="text-gray-600">
-      From **bungalow construction** to **commercial buildings and renovations**, our experienced team ensures
-      **precision, quality, and timely execution** for every project.
+      From <strong>bungalow construction</strong> to <strong>commercial buildings and renovations</strong> our experienced team ensures
+      <strong>precision, quality, and timely execution</strong> for every project.
     </p>
   </div>
 </section>
