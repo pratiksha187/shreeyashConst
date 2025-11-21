@@ -550,10 +550,10 @@
         </div>
       </div>
     </div>
-<nav class="bg-white shadow"
+    <nav class="bg-white shadow"
          x-data="{ servicesOpen: false, roadOpen: false, infraOpen: false, landOpen: false, waterOpen: false, compoundOpen: false, residentialOpen: false, retrofitOpen: false }"
          @click.outside="servicesOpen = false; roadOpen = false; infraOpen = false; landOpen = false; waterOpen = false; compoundOpen = false; residentialOpen = false; retrofitOpen = false;">
-      <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
 
         <!-- Logo -->
         <a href="{{ url('/') }}" class="flex items-center space-x-3">

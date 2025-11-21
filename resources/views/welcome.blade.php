@@ -9,7 +9,18 @@
 
 <!-- Meta Description for SEO -->
 <meta name="description" content="Shreeyash Construction is one of the best real estate builders & construction companies in Maharashtra, delivering quality residential, commercial & industrial projects since 2000.">
+<style>
+@keyframes scrollSlow {
+    0%   { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+}
 
+.animate-scrollSlow {
+    animation: scrollSlow 40s linear infinite;
+    white-space: nowrap;
+}
+
+</style>
 <!-- ✅ JSON-LD Structured Data for SEO -->
 <script type="application/ld+json">
 {
@@ -187,45 +198,65 @@
             Our Trusted Clients
         </p>
 
-        <div class="overflow-hidden relative">
+        <!-- <div class="overflow-hidden relative">
             <div class="flex items-center gap-12 animate-scrollSlow">
 
-                <!-- ⭐ Add your client logos here -->
                 <img src="{{ asset('storage/client/bhansali.jpg') }}" class="h-20 w-auto object-contain" />
                 <img src="{{ asset('storage/client/bharat.jpg') }}" class="h-20 w-auto object-contain" />
                 <img src="{{ asset('storage/client/cidco.png') }}" class="h-20 w-auto object-contain" />
                 <img src="{{ asset('storage/client/expat.png') }}" class="h-20 w-auto object-contain" />
                 <img src="{{ asset('storage/client/godrej.png') }}" class="h-20 w-auto object-contain" />
                 <img src="{{ asset('storage/client/hcc.png') }}" class="h-20 w-auto object-contain" />
-
-                <!-- Duplicate for smooth infinite effect -->
                 <img src="{{ asset('storage/client/indu.jpg') }}" class="h-20 w-auto object-contain" />
                 <img src="{{ asset('storage/client/irl.png') }}" class="h-20 w-auto object-contain" />
                 <img src="{{ asset('storage/client/isro.png') }}" class="h-20 w-auto object-contain" />
                 <img src="{{ asset('storage/client/John.png') }}" class="h-20 w-auto object-contain" />
                 <img src="{{ asset('storage/client/jsw.png') }}" class="h-20 w-auto object-contain" />
-
                 <img src="{{ asset('storage/client/kalptaru.png') }}" class="h-20 w-auto object-contain" />
                 <img src="{{ asset('storage/client/kalyan.jpg') }}" class="h-20 w-auto object-contain" />
                 <img src="{{ asset('storage/client/kanungo.jpg') }}" class="h-20 w-auto object-contain" />
                 <img src="{{ asset('storage/client/lakeside.png') }}" class="h-20 w-auto object-contain" />
                 <img src="{{ asset('storage/client/loda.png') }}" class="h-20 w-auto object-contain" />
                 <img src="{{ asset('storage/client/merck.png') }}" class="h-20 w-auto object-contain" />
-
                 <img src="{{ asset('storage/client/mfo.jpg') }}" class="h-20 w-auto object-contain" />
                 <img src="{{ asset('storage/client/nccc.jpg') }}" class="h-20 w-auto object-contain" />
                 <img src="{{ asset('storage/client/patil.jpg') }}" class="h-20 w-auto object-contain" />
                 <img src="{{ asset('storage/client/pendse.jpg') }}" class="h-20 w-auto object-contain" />
                 <img src="{{ asset('storage/client/pwd.jpg') }}" class="h-20 w-auto object-contain" />
                 <img src="{{ asset('storage/client/rcf.jpg') }}" class="h-20 w-auto object-contain" />
-
                 <img src="{{ asset('storage/client/supremeinfra-logo.jpg') }}" class="h-20 w-auto object-contain" />
                 <img src="{{ asset('storage/client/Surya.png') }}" class="h-20 w-auto object-contain" />
                 <img src="{{ asset('storage/client/xrbia.png') }}" class="h-20 w-auto object-contain" />
                 
 
             </div>
-        </div>
+        </div> -->
+        <div class="overflow-hidden relative w-full py-4">
+    <div class="flex items-center gap-12 animate-scrollSlow">
+
+        @php
+            $logos = [
+                'bhansali.jpg','bharat.jpg','cidco.png','expat.png','godrej.png','hcc.png',
+                'indu.jpg','irl.png','isro.png','John.png','jsw.png','kalptaru.png','kalyan.jpg',
+                'kanungo.jpg','lakeside.png','loda.png','merck.png','mfo.jpg','nccc.jpg',
+                'patil.jpg','pendse.jpg','pwd.jpg','rcf.jpg','supremeinfra-logo.jpg','Surya.png',
+                'xrbia.png'
+            ];
+        @endphp
+
+        <!-- First loop -->
+        @foreach($logos as $logo)
+            <img src="{{ asset('storage/client/' . $logo) }}" class="h-20 w-auto object-contain" />
+        @endforeach
+
+        <!-- Duplicate loop for smooth infinite scroll -->
+        @foreach($logos as $logo)
+            <img src="{{ asset('storage/client/' . $logo) }}" class="h-20 w-auto object-contain" />
+        @endforeach
+
+    </div>
+</div>
+
     </section>
 </div>
 
@@ -272,15 +303,6 @@
         </form>
     </div>
 </div>
-<style>
-@keyframes scrollSlow {
-    0%   { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
-}
 
-.animate-scrollSlow {
-    animation: scrollSlow 25s linear infinite;
-}
-</style>
 
 @endsection
