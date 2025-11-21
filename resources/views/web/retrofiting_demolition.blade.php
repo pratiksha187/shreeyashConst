@@ -72,6 +72,7 @@
     border-radius: 8px;
     font-weight: 600;
     font-size: 1rem;
+     --bs-btn-color: #ffffff;
     display: inline-flex;
     align-items: center;
     justify-content: center;

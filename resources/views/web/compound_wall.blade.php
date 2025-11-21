@@ -62,6 +62,7 @@
 }
 .btn {
   padding: 10px 20px;
+   --bs-btn-color: #ffffff;
   font-size: 16px;
   border-radius: 6px;
   border: none;

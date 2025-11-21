@@ -65,10 +65,12 @@
     align-content: flex-start;
     justify-content: center;
 }
+
 .btn {
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 6px;
+  --bs-btn-color: #ffffff;
   border: none;
   cursor: pointer;
   text-decoration: none;
